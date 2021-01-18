@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\bin\Debug\net5.0\Ages 01.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\bin\Debug\net5.0\Ages 01.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\bin\Debug\net5.0\Ages 01.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\bin\Debug\net5.0\Ages 01.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\bin\Debug\net5.0\Ages 01.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\bin\Debug\net5.0\ref\Ages 01.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\bin\Debug\net5.0\Ages 01.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\Ages 01.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\Ages 01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\Ages 01.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\Ages 01.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\Ages 01.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\Ages 01.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\ref\Ages 01.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\Ages 01.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Ages 01\obj\Debug\net5.0\Ages 01.genruntimeconfig.cache
