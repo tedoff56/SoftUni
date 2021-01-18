@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\bin\Debug\net5.0\Vacation 03.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\bin\Debug\net5.0\Vacation 03.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\bin\Debug\net5.0\Vacation 03.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\bin\Debug\net5.0\Vacation 03.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\bin\Debug\net5.0\Vacation 03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\bin\Debug\net5.0\ref\Vacation 03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\bin\Debug\net5.0\Vacation 03.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\Vacation 03.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\Vacation 03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\Vacation 03.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\Vacation 03.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\Vacation 03.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\Vacation 03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\ref\Vacation 03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\Vacation 03.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vacation 03\obj\Debug\net5.0\Vacation 03.genruntimeconfig.cache
