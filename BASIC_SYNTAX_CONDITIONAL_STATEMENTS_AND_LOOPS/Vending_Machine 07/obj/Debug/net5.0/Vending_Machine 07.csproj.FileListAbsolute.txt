@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\bin\Debug\net5.0\Vending_Machine 07.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\bin\Debug\net5.0\Vending_Machine 07.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\bin\Debug\net5.0\Vending_Machine 07.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\bin\Debug\net5.0\Vending_Machine 07.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\bin\Debug\net5.0\Vending_Machine 07.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\bin\Debug\net5.0\ref\Vending_Machine 07.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\bin\Debug\net5.0\Vending_Machine 07.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\Vending_Machine 07.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\Vending_Machine 07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\Vending_Machine 07.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\Vending_Machine 07.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\Vending_Machine 07.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\Vending_Machine 07.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\ref\Vending_Machine 07.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\Vending_Machine 07.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\BASIC_SYNTAX_CONDITIONAL_STATEMENTS_AND_LOOPS\Vending_Machine 07\obj\Debug\net5.0\Vending_Machine 07.genruntimeconfig.cache
