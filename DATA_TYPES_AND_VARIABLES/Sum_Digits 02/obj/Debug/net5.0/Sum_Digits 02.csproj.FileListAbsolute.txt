@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\Sum_Digits 02.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\Sum_Digits 02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\Sum_Digits 02.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\Sum_Digits 02.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\Sum_Digits 02.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\bin\Debug\net5.0\Sum_Digits 02.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\bin\Debug\net5.0\Sum_Digits 02.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\bin\Debug\net5.0\Sum_Digits 02.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\bin\Debug\net5.0\Sum_Digits 02.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\bin\Debug\net5.0\Sum_Digits 02.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\bin\Debug\net5.0\ref\Sum_Digits 02.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\bin\Debug\net5.0\Sum_Digits 02.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\Sum_Digits 02.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\ref\Sum_Digits 02.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\Sum_Digits 02.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Sum_Digits 02\obj\Debug\net5.0\Sum_Digits 02.genruntimeconfig.cache
