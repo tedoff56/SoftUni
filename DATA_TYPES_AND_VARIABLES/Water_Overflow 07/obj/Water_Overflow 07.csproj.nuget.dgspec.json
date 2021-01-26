@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\2 DATA_TYPES_AND_VARIABLES\\Sum_of_Chars 04\\Sum_of_Chars 04.csproj": {}
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\DATA_TYPES_AND_VARIABLES\\Water_Overflow 07\\Water_Overflow 07.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\2 DATA_TYPES_AND_VARIABLES\\Sum_of_Chars 04\\Sum_of_Chars 04.csproj": {
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\DATA_TYPES_AND_VARIABLES\\Water_Overflow 07\\Water_Overflow 07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\2 DATA_TYPES_AND_VARIABLES\\Sum_of_Chars 04\\Sum_of_Chars 04.csproj",
-        "projectName": "Sum_of_Chars 04",
-        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\2 DATA_TYPES_AND_VARIABLES\\Sum_of_Chars 04\\Sum_of_Chars 04.csproj",
+        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\DATA_TYPES_AND_VARIABLES\\Water_Overflow 07\\Water_Overflow 07.csproj",
+        "projectName": "Water_Overflow 07",
+        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\DATA_TYPES_AND_VARIABLES\\Water_Overflow 07\\Water_Overflow 07.csproj",
         "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\2 DATA_TYPES_AND_VARIABLES\\Sum_of_Chars 04\\obj\\",
+        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\DATA_TYPES_AND_VARIABLES\\Water_Overflow 07\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tedof\\AppData\\Roaming\\NuGet\\NuGet.Config"
