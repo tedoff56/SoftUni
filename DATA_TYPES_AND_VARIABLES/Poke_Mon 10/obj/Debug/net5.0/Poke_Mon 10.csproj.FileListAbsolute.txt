@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\Poke_Mon 10.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\Poke_Mon 10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\Poke_Mon 10.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\Poke_Mon 10.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\Poke_Mon 10.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\bin\Debug\net5.0\Poke_Mon 10.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\bin\Debug\net5.0\Poke_Mon 10.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\bin\Debug\net5.0\Poke_Mon 10.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\bin\Debug\net5.0\Poke_Mon 10.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\bin\Debug\net5.0\Poke_Mon 10.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\bin\Debug\net5.0\ref\Poke_Mon 10.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\bin\Debug\net5.0\Poke_Mon 10.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\Poke_Mon 10.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\ref\Poke_Mon 10.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\Poke_Mon 10.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Poke_Mon 10\obj\Debug\net5.0\Poke_Mon 10.genruntimeconfig.cache
