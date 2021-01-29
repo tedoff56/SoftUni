@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\bin\Debug\net5.0\Snowballs 11.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\bin\Debug\net5.0\Snowballs 11.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\bin\Debug\net5.0\Snowballs 11.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\bin\Debug\net5.0\Snowballs 11.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\bin\Debug\net5.0\Snowballs 11.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\bin\Debug\net5.0\ref\Snowballs 11.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\bin\Debug\net5.0\Snowballs 11.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\Snowballs 11.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\Snowballs 11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\Snowballs 11.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\Snowballs 11.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\Snowballs 11.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\Snowballs 11.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\ref\Snowballs 11.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\Snowballs 11.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\DATA_TYPES_AND_VARIABLES\Snowballs 11\obj\Debug\net5.0\Snowballs 11.genruntimeconfig.cache
