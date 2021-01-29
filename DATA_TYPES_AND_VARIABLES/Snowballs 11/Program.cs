@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace Snowballs_11
 {
@@ -12,14 +13,14 @@ namespace Snowballs_11
             int highestSnowballSnow = 0;
             int highestSnowballTime = 0;
             int highestSnowballQuality = 0;
-            double highestSnowballValue = int.MinValue;
+            BigInteger highestSnowballValue = int.MinValue;
 
             for (int i = 0; i < totalSnowballsN; i++)
             {
                 int snowballSnow = int.Parse(Console.ReadLine());
                 int snowballTime = int.Parse(Console.ReadLine());
                 int snowballQuality = int.Parse(Console.ReadLine());
-                double snowballValue = Math.Pow((double)snowballSnow / snowballTime, snowballQuality);
+                BigInteger snowballValue =  BigInteger.Pow(snowballSnow / snowballTime, snowballQuality);
                 
                 if (snowballValue > highestSnowballValue)
                 {
