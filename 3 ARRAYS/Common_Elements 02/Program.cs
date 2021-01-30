@@ -11,8 +11,8 @@ namespace Common_Elements_02
             string second = Console.ReadLine();
             string first = Console.ReadLine();
             
-            string[] firstArr = first.Split();
-            string[] secondArr = second.Split();
+            string[] firstArr = first.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            string[] secondArr = second.Split(' ', StringSplitOptions.RemoveEmptyEntries);
             
             
                 for (int i = 0; i < firstArr.Length; i++)
