@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Zig_Zag_Arrays_03
 {
@@ -12,21 +13,22 @@ namespace Zig_Zag_Arrays_03
             int[] secondArr = new int[n];
 
             for (var i = 0; i < n; i++)
-            { 
-                string numbersRead = Console.ReadLine();
-                string[] numbers = numbersRead.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            {
+                int[] numbers = Console.ReadLine()
+                    .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse).ToArray();
                 
                         if(i % 2 == 0)
                         {
-                            firstArr[i] = int.Parse(numbers[0]);
-                            secondArr[i] = int.Parse(numbers[1]);
+                            firstArr[i] = numbers[0];
+                            secondArr[i] = numbers[1];
                         }
                         else
                         {
-                            firstArr[i] = int.Parse(numbers[1]);
-                            secondArr[i] = int.Parse(numbers[0]);
+                            firstArr[i] = numbers[1];
+                            secondArr[i] = numbers[0];
                         }
-                        
+                
             }
             
             for (var i = 0; i < firstArr.Length; i++)

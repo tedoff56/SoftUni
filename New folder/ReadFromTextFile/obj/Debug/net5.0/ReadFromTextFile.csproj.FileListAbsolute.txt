@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\bin\Debug\net5.0\ReadFromTextFile.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\bin\Debug\net5.0\ReadFromTextFile.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\bin\Debug\net5.0\ReadFromTextFile.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\bin\Debug\net5.0\ReadFromTextFile.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\bin\Debug\net5.0\ReadFromTextFile.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\bin\Debug\net5.0\ref\ReadFromTextFile.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\bin\Debug\net5.0\ReadFromTextFile.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ReadFromTextFile.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ReadFromTextFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ReadFromTextFile.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ReadFromTextFile.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ReadFromTextFile.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ReadFromTextFile.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ref\ReadFromTextFile.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ReadFromTextFile.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\ReadFromTextFile\obj\Debug\net5.0\ReadFromTextFile.genruntimeconfig.cache
