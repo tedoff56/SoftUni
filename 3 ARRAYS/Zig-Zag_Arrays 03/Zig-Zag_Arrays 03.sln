@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zig-Zag_Arrays 03", "Zig-Zag_Arrays 03.csproj", "{2E2CCCCA-A43B-40DE-A6AD-A14F45CCD31D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E2CCCCA-A43B-40DE-A6AD-A14F45CCD31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2CCCCA-A43B-40DE-A6AD-A14F45CCD31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2CCCCA-A43B-40DE-A6AD-A14F45CCD31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2CCCCA-A43B-40DE-A6AD-A14F45CCD31D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
