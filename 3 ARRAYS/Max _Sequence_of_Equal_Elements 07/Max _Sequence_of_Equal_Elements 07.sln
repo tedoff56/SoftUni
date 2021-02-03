@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max _Sequence_of_Equal_Elements 07", "Max _Sequence_of_Equal_Elements 07.csproj", "{5662E09F-21B6-4C08-A463-8FE16DCC2071}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5662E09F-21B6-4C08-A463-8FE16DCC2071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5662E09F-21B6-4C08-A463-8FE16DCC2071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5662E09F-21B6-4C08-A463-8FE16DCC2071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5662E09F-21B6-4C08-A463-8FE16DCC2071}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
