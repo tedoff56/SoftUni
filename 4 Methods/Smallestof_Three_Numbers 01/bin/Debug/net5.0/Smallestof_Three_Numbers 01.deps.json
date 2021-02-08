@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Smallestof_Three_Numbers 01/1.0.0": {
+        "runtime": {
+          "Smallestof_Three_Numbers 01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Smallestof_Three_Numbers 01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
