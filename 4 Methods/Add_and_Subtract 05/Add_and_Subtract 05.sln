@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add_and_Subtract 05", "Add_and_Subtract 05.csproj", "{5895DFF0-7944-4B23-B88D-1DA37DF68A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5895DFF0-7944-4B23-B88D-1DA37DF68A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5895DFF0-7944-4B23-B88D-1DA37DF68A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5895DFF0-7944-4B23-B88D-1DA37DF68A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5895DFF0-7944-4B23-B88D-1DA37DF68A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
