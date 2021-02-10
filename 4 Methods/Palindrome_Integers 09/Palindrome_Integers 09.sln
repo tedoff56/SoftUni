@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome_Integers 09", "Palindrome_Integers 09.csproj", "{A379077D-B004-49EC-8235-07FC3F3DEF3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A379077D-B004-49EC-8235-07FC3F3DEF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A379077D-B004-49EC-8235-07FC3F3DEF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A379077D-B004-49EC-8235-07FC3F3DEF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A379077D-B004-49EC-8235-07FC3F3DEF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

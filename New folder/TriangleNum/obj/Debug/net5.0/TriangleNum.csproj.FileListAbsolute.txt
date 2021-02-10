@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\bin\Debug\net5.0\TriangleNum.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\bin\Debug\net5.0\TriangleNum.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\bin\Debug\net5.0\TriangleNum.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\bin\Debug\net5.0\TriangleNum.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\bin\Debug\net5.0\TriangleNum.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\bin\Debug\net5.0\ref\TriangleNum.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\bin\Debug\net5.0\TriangleNum.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\TriangleNum.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\TriangleNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\TriangleNum.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\TriangleNum.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\TriangleNum.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\TriangleNum.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\ref\TriangleNum.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\TriangleNum.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\New folder\TriangleNum\obj\Debug\net5.0\TriangleNum.genruntimeconfig.cache
