@@ -6,22 +6,23 @@ namespace Vowels_Count
     {
         static void Main(string[] args)
         {
-            VowelsCount();
+            string str = Console.ReadLine().ToLower();
+            
+            PrintVowelsInString(str);
+
         }
 
-        static void VowelsCount()
+        static void PrintVowelsInString(string str)
         {
             int vowelsCnt = 0;
-            string str = Console.ReadLine().ToLower();
-            for (int i = 0; i < str.Length; i++)
+            foreach (char letter in str)
             {
-                if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || 
-                    str[i] == 'o' || str[i] == 'u')
-                {
-                    vowelsCnt++;
-                }
+                if (letter == 'a' || letter == 'e' || letter == 'i' || 
+                    letter == 'o' || letter == 'u')
+                    {
+                        vowelsCnt++;
+                    }
             }
-
             Console.WriteLine(vowelsCnt);
         }
     }
