@@ -6,63 +6,65 @@ namespace Password_Validator_04
     {
         static void Main(string[] args)
         {
-            PasswordValidator();
-        }
-
-        static void PasswordValidator()
-        {
             string password = Console.ReadLine();
             
-            bool totalSizeValid = password.Length >= 6 && password.Length <= 10;
-            bool digAndLetValid = HasOnlyDigitsAndLeters(password);
-            bool atleastTwoDigits = AtleastTwoDigits(password);
-
-            bool passwordIsValid = totalSizeValid && digAndLetValid && atleastTwoDigits;
-
-            if (passwordIsValid)
+            if (TotalSizeValid(password) && 
+                HasOnlyDigitsAndLeters(password) && 
+                AtleastTwoDigits(password))
             {
                 Console.WriteLine("Password is valid");
             }
-            if(!totalSizeValid)
-                Console.WriteLine("Password must be between 6 and 10 characters");
-            if(!digAndLetValid)
-                Console.WriteLine("Password must consist only of letters and digits");
-            if(!atleastTwoDigits)
-                Console.WriteLine("Password must have at least 2 digits");
             
-
+            if(!TotalSizeValid(password))
+            {
+                Console.WriteLine("Password must be between 6 and 10 characters");
+            }
+            
+            if(!HasOnlyDigitsAndLeters(password))
+            {
+                Console.WriteLine("Password must consist only of letters and digits");
+            }
+            
+            if(!AtleastTwoDigits(password))
+            {
+                Console.WriteLine("Password must have at least 2 digits");
+            }
         }
 
+        static bool TotalSizeValid(string password)
+        {
+            if (password.Length >= 6 && password.Length <= 10)
+            {
+                return true;
+            }
+
+            return false;
+        }
         static bool HasOnlyDigitsAndLeters(string password)
         {
             int cnt = 0;
-            bool hasOnlyDigAndLet = false;
-            for (int i = 0; i < password.Length; i++)
+            foreach (var symbol in password)
             {
-                if ((char) password[i] >= 48 && (char) password[i] <= 57 || 
-                    (char) password[i] >= 65 && (char) password[i] <= 90 || 
-                    (char) password[i] >= 97 && (char) password[i] <= 122)
-                {
-                    cnt++;
-                }
-                
+                if (char.IsLetterOrDigit(symbol))
+                    {
+                        cnt++;
+                    }
             }
 
             if (cnt == password.Length)
             {
-                hasOnlyDigAndLet = true;
+                return true;
             }
 
-            return hasOnlyDigAndLet;
+            return false;
         }
 
         static bool AtleastTwoDigits(string password)
         {
-            bool hasAtleastTwoDigits = false;
             int totalDigits = 0;
-            for (int i = 0; i < password.Length; i++)
+            foreach (var digit in password)
             {
-                if (password[i] >= 48 && password[i] <= 57)
+                if (digit >= 48 && digit <= 57)
                 {
                     totalDigits++;
                 }
@@ -70,10 +72,10 @@ namespace Password_Validator_04
 
             if (totalDigits >= 2)
             {
-                hasAtleastTwoDigits = true;
+                return true;
             }
 
-            return hasAtleastTwoDigits;
+            return false;
         }
     }
 }

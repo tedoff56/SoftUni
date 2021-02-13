@@ -6,13 +6,15 @@ namespace Characters_in_Range_03
     {
         static void Main(string[] args)
         {
-            CharsInRange();
-        }
-
-        static void CharsInRange()
-        {
             char from = Char.Parse(Console.ReadLine());
             char to = Char.Parse(Console.ReadLine());
+
+            CharsInRange(from, to);
+        }
+
+        static void CharsInRange(char from, char to)
+        {
+
             if (from > to)
             {
                 for (int i = to+1; i < from; i++)
