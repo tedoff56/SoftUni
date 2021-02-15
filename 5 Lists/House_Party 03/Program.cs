@@ -33,13 +33,7 @@ namespace House_Party_03
                 {
                     if (namesWhitelist.Contains(name))
                     {
-                        for (int j = 0; j < namesWhitelist.Count; j++)
-                        {
-                            if (namesWhitelist[j] == name)
-                            {
-                                namesWhitelist.RemoveAt(j);
-                            }
-                        }
+                        namesWhitelist.RemoveAt(namesWhitelist.IndexOf(name));
                     }
                     else
                     {

@@ -29,7 +29,7 @@ namespace Train_01
                 {
                     break;
                 }
-                else if (command.Equals("Add") && int.Parse(input[1]) >= 0)
+                else if (command.Equals("Add"))
                 {
                     train.Add(int.Parse(input[1]));
                 }
