@@ -11,6 +11,7 @@ namespace Top_Number_10
             
             for (int i = 0; i < number; i++)
             {
+                
                 isTopNumber = DigitsSumDivByEight(i.ToString()) && HasOddDigit(i.ToString());
                 if (isTopNumber)
                 {
@@ -23,28 +24,26 @@ namespace Top_Number_10
         static bool DigitsSumDivByEight(string num)
         {
             int sum = 0;
-            
-            for (int i = 0; i < num.Length; i++)
+
+            foreach (char digit in num)
             {
-                sum += num[i];
+                sum += digit;
             }
 
             if (sum % 8 == 0)
             {
                 return true;
             }
-            else
-            {
-                return false;
-            }
+            
+            return false;
         }
 
         static bool HasOddDigit(string num)
         {
-            
-            for (int i = 0; i < num.Length; i++)
+
+            foreach (char digit in num)
             {
-                if (num[i] % 2 != 0)
+                if (digit % 2 != 0)
                 {
                     return true;
                 }

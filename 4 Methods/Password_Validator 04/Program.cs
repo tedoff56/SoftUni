@@ -64,7 +64,7 @@ namespace Password_Validator_04
             int totalDigits = 0;
             foreach (var digit in password)
             {
-                if (digit >= 48 && digit <= 57)
+                if (char.IsDigit(digit))
                 {
                     totalDigits++;
                 }

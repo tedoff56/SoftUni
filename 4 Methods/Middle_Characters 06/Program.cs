@@ -7,20 +7,20 @@ namespace Middle_Characters_06
         static void Main(string[] args)
         {
             string str = Console.ReadLine();
-            MiddleChar(str);
+
+            Console.WriteLine(MiddleChar(str));
         }
 
-        static void MiddleChar(string input)
+        static string MiddleChar(string input)
         {
-            if (input.Length % 2 == 0)
+            int center = input.Length / 2;
+            if (input.Length % 2 == 0) 
             {
-                Console.Write(input[(input.Length/2) - 1]);
-                Console.Write(input[input.Length/2]);
+                return $"{input[center - 1]}{input[center]}";
+
             }
-            else
-            {
-                Console.WriteLine(input[(input.Length/2)]);
-            }
+            
+            return $"{input[center]}";
         }
     }
 }

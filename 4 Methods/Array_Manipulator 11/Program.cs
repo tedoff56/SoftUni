@@ -7,10 +7,22 @@ namespace Array_Manipulator_11
     {
         static void Main(string[] args)
         {
-            int[] numbersArr = Console.ReadLine()
+            string[] command = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
                 .ToArray();
+            
+            if (command[0].Equals("exchange"))
+            {
+                Console.WriteLine("exchange");
+            }
+            else if(command[0].Equals("max"))
+            {
+                string evenOdd = command[1];
+            }
+            else if (command[0].Equals("min"))
+            {
+                string evenOdd = command[1];
+            }
         }
 
         static void exchange(int[] arr)
