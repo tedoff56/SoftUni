@@ -29,13 +29,7 @@ namespace Change_List_02
 
                 if (command == "Delete")
                 {
-                    for (int i = 0; i < number.Count; i++)
-                    {
-                        if (number[i] == parameter)
-                        {
-                            number.RemoveAt(i);
-                        }
-                    }
+                    number.RemoveAll(n => n == parameter);
                 }
                 if (command == "Insert")
                 {
