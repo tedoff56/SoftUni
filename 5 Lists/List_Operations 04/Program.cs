@@ -48,7 +48,7 @@ namespace List_Operations_04
                 {
                     int index = int.Parse(parts[1]);
                     
-                    if (index < numbersList.Count && index >= 00)
+                    if (index < numbersList.Count && index >= 0)
                     {
                         numbersList.RemoveAt(index);
                     }
