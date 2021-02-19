@@ -9,7 +9,7 @@ namespace Inventory_03
         static void Main(string[] args)
         {
             List<string> items = Console.ReadLine()
-                .Split(",", StringSplitOptions.TrimEntries)
+                .Split(", ", StringSplitOptions.RemoveEmptyEntries)
                 .ToList();
 
             while (true)
@@ -20,7 +20,7 @@ namespace Inventory_03
                     break;
                 }
 
-                string[] commands = line.Split("-", StringSplitOptions.TrimEntries);
+                string[] commands = line.Split(" - ", StringSplitOptions.RemoveEmptyEntries);
 
                 string action = commands[0];
                 string item = commands[1];
@@ -38,11 +38,11 @@ namespace Inventory_03
                 }
                 else if (action == "Combine Items")
                 {
-                    string[] parameters = item.Split(":", StringSplitOptions.TrimEntries).ToArray();
+                    string[] parameters = item.Split(":", StringSplitOptions.RemoveEmptyEntries).ToArray();
 
                     string oldItem = parameters[0];
                     string newItem = parameters[1];
-                    
+
                     if (items.Contains(oldItem))
                     {
                         items.Insert(items.IndexOf(oldItem) + 1, newItem);
@@ -56,11 +56,9 @@ namespace Inventory_03
                         items.Remove(item);
                     }
                 }
-
             }
 
             Console.WriteLine(string.Join(", ", items));
-
         }
     }
 }
