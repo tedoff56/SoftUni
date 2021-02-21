@@ -16,14 +16,14 @@ namespace Shopping_List_02
             while (true)
             {
                 string line = Console.ReadLine();
-
-                string[] commands = line.Split(" ", StringSplitOptions.RemoveEmptyEntries);
-
-                string command = commands[0];
                 if (line == "Go Shopping!")
                 {
+                    Console.WriteLine(string.Join(", ", shoppingList));
                     break;
                 }
+                
+                string[] commands = line.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                string command = commands[0];
                 string item = commands[1];
 
                 if (command == "Urgent")
@@ -44,23 +44,24 @@ namespace Shopping_List_02
                 {
                     string oldItem = item;
                     string newItem = commands[2];
+                    int oldItemIndex = shoppingList.IndexOf(item);
+                    
                     if (shoppingList.Contains(oldItem))
                     {
-                        shoppingList.Insert(shoppingList.IndexOf(oldItem), newItem);
-                        shoppingList.Remove(oldItem);
+                        shoppingList.Remove(oldItem);   
+                        shoppingList.Insert(oldItemIndex, newItem);
                     }
                 }
                 else if (command == "Rearrage")
                 {
                     if (shoppingList.Contains(item))
                     {
+                        shoppingList.Remove(item);  
                         shoppingList.Add(item);
-                        shoppingList.Remove(item);
                     }
                 }
             }
-
-            Console.WriteLine(string.Join(", ", shoppingList));
+            
         }
     }
 }
