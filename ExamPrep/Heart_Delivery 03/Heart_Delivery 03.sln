@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heart_Delivery 0", "Heart_Delivery 0.csproj", "{510F0719-FF9D-4F49-84FA-8010327A7086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{510F0719-FF9D-4F49-84FA-8010327A7086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510F0719-FF9D-4F49-84FA-8010327A7086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510F0719-FF9D-4F49-84FA-8010327A7086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510F0719-FF9D-4F49-84FA-8010327A7086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\bin\Debug\net5.0\Heart_Delivery 0.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\bin\Debug\net5.0\Heart_Delivery 0.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\bin\Debug\net5.0\Heart_Delivery 0.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\bin\Debug\net5.0\Heart_Delivery 0.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\bin\Debug\net5.0\Heart_Delivery 0.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\bin\Debug\net5.0\ref\Heart_Delivery 0.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\bin\Debug\net5.0\Heart_Delivery 0.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\Heart_Delivery 0.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\Heart_Delivery 0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\Heart_Delivery 0.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\Heart_Delivery 0.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\Heart_Delivery 0.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\Heart_Delivery 0.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\ref\Heart_Delivery 0.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\Heart_Delivery 0.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\ExamPrep\Heart_Delivery 03\obj\Debug\net5.0\Heart_Delivery 0.genruntimeconfig.cache
