@@ -52,7 +52,7 @@ namespace Shopping_List_02
                         shoppingList.Insert(oldItemIndex, newItem);
                     }
                 }
-                else if (command == "Rearrage")
+                else if (command == "Rearrange")
                 {
                     if (shoppingList.Contains(item))
                     {
