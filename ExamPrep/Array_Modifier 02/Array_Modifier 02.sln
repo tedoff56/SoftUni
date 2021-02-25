@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Modifier 02", "Array_Modifier 02.csproj", "{FA3B4D32-E02D-443A-938C-B2A9E2E4E844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA3B4D32-E02D-443A-938C-B2A9E2E4E844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3B4D32-E02D-443A-938C-B2A9E2E4E844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3B4D32-E02D-443A-938C-B2A9E2E4E844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3B4D32-E02D-443A-938C-B2A9E2E4E844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
