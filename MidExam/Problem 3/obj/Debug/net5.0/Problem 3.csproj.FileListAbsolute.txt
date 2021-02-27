@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\bin\Debug\net5.0\Problem 3.exe
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\bin\Debug\net5.0\Problem 3.deps.json
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\bin\Debug\net5.0\Problem 3.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\bin\Debug\net5.0\Problem 3.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\bin\Debug\net5.0\Problem 3.dll
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\bin\Debug\net5.0\ref\Problem 3.dll
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\bin\Debug\net5.0\Problem 3.pdb
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\Problem 3.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\Problem 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\Problem 3.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\Problem 3.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\Problem 3.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\Problem 3.dll
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\ref\Problem 3.dll
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\Problem 3.pdb
+C:\Users\tedof\Documents\GitHub\MidExam\Problem 3\obj\Debug\net5.0\Problem 3.genruntimeconfig.cache
