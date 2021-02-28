@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\bin\Debug\net5.0\Students 04.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\bin\Debug\net5.0\Students 04.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\bin\Debug\net5.0\Students 04.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\bin\Debug\net5.0\Students 04.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\bin\Debug\net5.0\Students 04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\bin\Debug\net5.0\ref\Students 04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\bin\Debug\net5.0\Students 04.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\Students 04.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\Students 04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\Students 04.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\Students 04.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\Students 04.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\Students 04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\ref\Students 04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\Students 04.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Students 04\obj\Debug\net5.0\Students 04.genruntimeconfig.cache

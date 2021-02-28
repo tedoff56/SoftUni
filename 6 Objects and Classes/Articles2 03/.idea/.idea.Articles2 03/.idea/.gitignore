@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.Articles2 03.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\tedof\Documents\GitHub\SoftUni\6 Objects and Classes\Articles2 03\.idea\.idea.Articles2 03\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
