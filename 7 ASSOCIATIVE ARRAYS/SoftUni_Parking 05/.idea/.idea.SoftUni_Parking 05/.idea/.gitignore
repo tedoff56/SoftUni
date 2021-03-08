@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/.idea.SoftUni_Parking 05.iml
+/contentModel.xml
+/projectSettingsUpdater.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\SoftUni_Parking 05\.idea\.idea.SoftUni_Parking 05\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

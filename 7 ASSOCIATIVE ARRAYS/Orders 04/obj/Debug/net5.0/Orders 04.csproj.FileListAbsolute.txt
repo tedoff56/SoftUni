@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\bin\Debug\net5.0\Orders 04.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\bin\Debug\net5.0\Orders 04.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\bin\Debug\net5.0\Orders 04.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\bin\Debug\net5.0\Orders 04.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\bin\Debug\net5.0\Orders 04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\bin\Debug\net5.0\ref\Orders 04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\bin\Debug\net5.0\Orders 04.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\Orders 04.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\Orders 04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\Orders 04.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\Orders 04.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\Orders 04.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\Orders 04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\ref\Orders 04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\Orders 04.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\7 ASSOCIATIVE ARRAYS\Orders 04\obj\Debug\net5.0\Orders 04.genruntimeconfig.cache
