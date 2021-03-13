@@ -10,38 +10,33 @@ namespace Student_Academy_07
         {
             int n = int.Parse(Console.ReadLine());
 
-            Dictionary<string, List<double>> studentsGrades = new Dictionary<string, List<double>>();
+            Dictionary<string, List<double>> gradesByStudent = new Dictionary<string, List<double>>();
             for (int i = 0; i < n; i++)
             {
                 string name = Console.ReadLine();
                 double grade = double.Parse(Console.ReadLine());
 
-                if (!studentsGrades.ContainsKey(name))
+                if (!gradesByStudent.ContainsKey(name))
                 {
-                    studentsGrades.Add(name, new List<double>(){grade});
-                }
-                else
-                {
-                    studentsGrades[name].Add(grade);
-                }
-            }
-
-            foreach (var student in studentsGrades
-                .Where(n =>
-            {
-                foreach (var grade in n.Value)
-                {
-                    if (grade >= 4.5)
-                    {
-                        return true;
-                    }
+                    gradesByStudent.Add(name, new List<double>());
                 }
                 
-                return false;
-            })
-                .OrderByDescending(n => n.Value.Average()))
+                gradesByStudent[name].Add(grade);
+                
+            }
+
+            Dictionary<string, List<double>> result = gradesByStudent
+                .OrderByDescending(n => n.Value.Average())
+                .ToDictionary(x => x.Key, x => x.Value);
+
+            foreach (var kvp in result)
             {
-                Console.WriteLine($"{student.Key} -> {student.Value.Average():F2}");
+                string student = kvp.Key;
+                double averageGrade = kvp.Value.Average();
+                if (averageGrade >= 4.5)
+                {
+                    Console.WriteLine($"{student} -> {averageGrade:F2}");
+                }
             }
 
         }
