@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Legendary_Farming 03/1.0.0": {
+        "runtime": {
+          "Legendary_Farming 03.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Legendary_Farming 03/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
