@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidUsernames01", "ValidUsernames01.csproj", "{ACA06435-47C2-4F47-92CF-FE8EB77D455A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA06435-47C2-4F47-92CF-FE8EB77D455A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA06435-47C2-4F47-92CF-FE8EB77D455A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA06435-47C2-4F47-92CF-FE8EB77D455A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA06435-47C2-4F47-92CF-FE8EB77D455A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

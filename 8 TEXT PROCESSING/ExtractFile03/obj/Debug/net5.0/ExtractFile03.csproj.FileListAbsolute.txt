@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\bin\Debug\net5.0\ExtractFile03.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\bin\Debug\net5.0\ExtractFile03.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\bin\Debug\net5.0\ExtractFile03.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\bin\Debug\net5.0\ExtractFile03.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\bin\Debug\net5.0\ExtractFile03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\bin\Debug\net5.0\ref\ExtractFile03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\bin\Debug\net5.0\ExtractFile03.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ExtractFile03.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ExtractFile03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ExtractFile03.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ExtractFile03.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ExtractFile03.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ExtractFile03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ref\ExtractFile03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ExtractFile03.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\ExtractFile03\obj\Debug\net5.0\ExtractFile03.genruntimeconfig.cache

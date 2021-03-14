@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\CaesarCipher04.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\CaesarCipher04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\CaesarCipher04.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\CaesarCipher04.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\CaesarCipher04.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\bin\Debug\net5.0\CaesarCipher04.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\bin\Debug\net5.0\CaesarCipher04.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\bin\Debug\net5.0\CaesarCipher04.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\bin\Debug\net5.0\CaesarCipher04.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\bin\Debug\net5.0\CaesarCipher04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\bin\Debug\net5.0\ref\CaesarCipher04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\bin\Debug\net5.0\CaesarCipher04.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\CaesarCipher04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\ref\CaesarCipher04.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\CaesarCipher04.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\CaesarCipher04\obj\Debug\net5.0\CaesarCipher04.genruntimeconfig.cache

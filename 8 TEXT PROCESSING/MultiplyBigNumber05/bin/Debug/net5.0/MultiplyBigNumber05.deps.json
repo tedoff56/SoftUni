@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MultiplyBigNumber05/1.0.0": {
+        "runtime": {
+          "MultiplyBigNumber05.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MultiplyBigNumber05/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
