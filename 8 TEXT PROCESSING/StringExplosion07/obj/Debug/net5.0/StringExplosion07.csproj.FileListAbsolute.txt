@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\bin\Debug\net5.0\StringExplosion07.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\bin\Debug\net5.0\StringExplosion07.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\bin\Debug\net5.0\StringExplosion07.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\bin\Debug\net5.0\StringExplosion07.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\bin\Debug\net5.0\StringExplosion07.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\bin\Debug\net5.0\ref\StringExplosion07.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\bin\Debug\net5.0\StringExplosion07.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\StringExplosion07.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\StringExplosion07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\StringExplosion07.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\StringExplosion07.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\StringExplosion07.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\StringExplosion07.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\ref\StringExplosion07.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\StringExplosion07.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\8 TEXT PROCESSING\StringExplosion07\obj\Debug\net5.0\StringExplosion07.genruntimeconfig.cache

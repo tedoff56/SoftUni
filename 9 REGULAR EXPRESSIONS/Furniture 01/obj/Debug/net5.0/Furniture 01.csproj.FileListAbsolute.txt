@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\bin\Debug\net5.0\Furniture 01.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\bin\Debug\net5.0\Furniture 01.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\bin\Debug\net5.0\Furniture 01.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\bin\Debug\net5.0\Furniture 01.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\bin\Debug\net5.0\Furniture 01.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\bin\Debug\net5.0\ref\Furniture 01.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\bin\Debug\net5.0\Furniture 01.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\Furniture 01.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\Furniture 01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\Furniture 01.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\Furniture 01.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\Furniture 01.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\Furniture 01.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\ref\Furniture 01.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\Furniture 01.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\obj\Debug\net5.0\Furniture 01.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.Furniture 01.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\Furniture 01\.idea\.idea.Furniture 01\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
