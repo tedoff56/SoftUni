@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\bin\Debug\net5.0\SoftUniBarIncome03.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\bin\Debug\net5.0\SoftUniBarIncome03.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\bin\Debug\net5.0\SoftUniBarIncome03.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\bin\Debug\net5.0\SoftUniBarIncome03.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\bin\Debug\net5.0\SoftUniBarIncome03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\bin\Debug\net5.0\ref\SoftUniBarIncome03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\bin\Debug\net5.0\SoftUniBarIncome03.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\SoftUniBarIncome03.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\SoftUniBarIncome03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\SoftUniBarIncome03.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\SoftUniBarIncome03.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\SoftUniBarIncome03.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\SoftUniBarIncome03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\ref\SoftUniBarIncome03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\SoftUniBarIncome03.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\SoftUniBarIncome03\obj\Debug\net5.0\SoftUniBarIncome03.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\bin\Debug\net5.0\ExtractEmails 06.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\bin\Debug\net5.0\ExtractEmails 06.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\bin\Debug\net5.0\ExtractEmails 06.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\bin\Debug\net5.0\ExtractEmails 06.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\bin\Debug\net5.0\ExtractEmails 06.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\bin\Debug\net5.0\ref\ExtractEmails 06.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\bin\Debug\net5.0\ExtractEmails 06.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ExtractEmails 06.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ExtractEmails 06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ExtractEmails 06.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ExtractEmails 06.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ExtractEmails 06.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ExtractEmails 06.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ref\ExtractEmails 06.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ExtractEmails 06.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\9 REGULAR EXPRESSIONS\ExtractEmails 06\obj\Debug\net5.0\ExtractEmails 06.genruntimeconfig.cache
