@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EmojiDetector 02/1.0.0": {
+        "runtime": {
+          "EmojiDetector 02.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmojiDetector 02/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
