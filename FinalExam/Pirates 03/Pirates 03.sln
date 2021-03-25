@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pirates 03", "Pirates 03.csproj", "{C37918D3-8CC2-41DF-8E5D-CD4E91CF7357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C37918D3-8CC2-41DF-8E5D-CD4E91CF7357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37918D3-8CC2-41DF-8E5D-CD4E91CF7357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37918D3-8CC2-41DF-8E5D-CD4E91CF7357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37918D3-8CC2-41DF-8E5D-CD4E91CF7357}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
