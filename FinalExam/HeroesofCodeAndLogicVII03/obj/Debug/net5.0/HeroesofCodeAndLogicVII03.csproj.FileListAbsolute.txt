@@ -1,0 +1,16 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\bin\Debug\net5.0\HeroesofCodeAndLogicVII03.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\bin\Debug\net5.0\HeroesofCodeAndLogicVII03.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\bin\Debug\net5.0\HeroesofCodeAndLogicVII03.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\bin\Debug\net5.0\HeroesofCodeAndLogicVII03.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\bin\Debug\net5.0\HeroesofCodeAndLogicVII03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\bin\Debug\net5.0\ref\HeroesofCodeAndLogicVII03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\bin\Debug\net5.0\HeroesofCodeAndLogicVII03.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\HeroesofCodeAndLogicVII03.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\HeroesofCodeAndLogicVII03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\HeroesofCodeAndLogicVII03.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\HeroesofCodeAndLogicVII03.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\HeroesofCodeAndLogicVII03.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\HeroesofCodeAndLogicVII03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\ref\HeroesofCodeAndLogicVII03.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\HeroesofCodeAndLogicVII03.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\HeroesofCodeAndLogicVII03\obj\Debug\net5.0\HeroesofCodeAndLogicVII03.genruntimeconfig.cache
