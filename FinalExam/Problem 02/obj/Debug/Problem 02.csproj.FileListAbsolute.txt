@@ -1,0 +1,6 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\Problem 02\bin\Debug\Problem_02.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\Problem 02\bin\Debug\Problem_02.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\Problem 02\obj\Debug\Problem 02.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\Problem 02\obj\Debug\Problem 02.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\Problem 02\obj\Debug\Problem_02.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\FinalExam\Problem 02\obj\Debug\Problem_02.pdb
