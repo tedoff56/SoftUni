@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DragonArmy 05/1.0.0": {
+        "runtime": {
+          "DragonArmy 05.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DragonArmy 05/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
