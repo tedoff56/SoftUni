@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04FastFood", "_04FastFood\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05FashionBoutique", "_05FashionBoutique\_05FashionBoutique.csproj", "{4CCA50DC-3BFC-4CD5-AF3A-79A91607BC42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06SongsQueue", "_06SongsQueue\_06SongsQueue.csproj", "{27332E42-D357-485D-9A63-E74FE8BFC539}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{4CCA50DC-3BFC-4CD5-AF3A-79A91607BC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CCA50DC-3BFC-4CD5-AF3A-79A91607BC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CCA50DC-3BFC-4CD5-AF3A-79A91607BC42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27332E42-D357-485D-9A63-E74FE8BFC539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27332E42-D357-485D-9A63-E74FE8BFC539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27332E42-D357-485D-9A63-E74FE8BFC539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27332E42-D357-485D-9A63-E74FE8BFC539}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -6,6 +6,7 @@
     <projectFile>_03MaximumAndMinimumElement/_03MaximumAndMinimumElement.csproj</projectFile>
     <projectFile>_04FastFood/_04FastFood.csproj</projectFile>
     <projectFile>_05FashionBoutique/_05FashionBoutique.csproj</projectFile>
+    <projectFile>_06SongsQueue/_06SongsQueue.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee874e3-e098-4bf0-a8d6-c48e17b37f14" name="Default Changelist" comment="" />
@@ -14,11 +15,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/_01BasicStackOperations/Program.cs" />
@@ -26,6 +22,7 @@
       <option value="$PROJECT_DIR$/_03MaximumAndMinimumElement/Program.cs" />
       <option value="$PROJECT_DIR$/_04FastFood/Program.cs" />
       <option value="$PROJECT_DIR$/_05FashionBoutique/Program.cs" />
+      <option value="$PROJECT_DIR$/_06SongsQueue/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sZbbi1eSjHpRNu8ZBot5AfvAlY" />
@@ -43,7 +40,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._05FashionBoutique">
+  <component name="RunManager" selected=".NET Project._06SongsQueue">
     <configuration name="_01BasicStackOperation" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/_01BasicStackOperations/bin/Debug/netcoreapp3.1/_01BasicStackOperations.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -134,12 +131,31 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_06SongsQueue" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_06SongsQueue/_06SongsQueue.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue=".NET Project._01BasicStackOperation" />
       <item itemvalue=".NET Project._02BasicQueueOperations" />
       <item itemvalue=".NET Project._03MaximumAndMinimumElement" />
       <item itemvalue=".NET Project._04FastFood" />
       <item itemvalue=".NET Project._05FashionBoutique" />
+      <item itemvalue=".NET Project._06SongsQueue" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -152,7 +168,8 @@
       <updated>1621083134938</updated>
       <workItem from="1621083142181" duration="1638000" />
       <workItem from="1621099875224" duration="595000" />
-      <workItem from="1621104700947" duration="3711000" />
+      <workItem from="1621104700947" duration="3948000" />
+      <workItem from="1621166230986" duration="780000" />
     </task>
     <servers />
   </component>
