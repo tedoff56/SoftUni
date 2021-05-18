@@ -8,6 +8,8 @@
     <projectFile>_05FashionBoutique/_05FashionBoutique.csproj</projectFile>
     <projectFile>_06SongsQueue/_06SongsQueue.csproj</projectFile>
     <projectFile>_07TruckTour/_07TruckTour.csproj</projectFile>
+    <projectFile>_08BalancedParentheses/_08BalancedParentheses.csproj</projectFile>
+    <projectFile>_09SimpleTextEditor/_09SimpleTextEditor.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee874e3-e098-4bf0-a8d6-c48e17b37f14" name="Default Changelist" comment="" />
@@ -28,6 +30,8 @@
       <option value="$PROJECT_DIR$/_05FashionBoutique/Program.cs" />
       <option value="$PROJECT_DIR$/_06SongsQueue/Program.cs" />
       <option value="$PROJECT_DIR$/_07TruckTour/Program.cs" />
+      <option value="$PROJECT_DIR$/_08BalancedParentheses/Program.cs" />
+      <option value="$PROJECT_DIR$/_09SimpleTextEditor/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sZbbi1eSjHpRNu8ZBot5AfvAlY" />
@@ -46,7 +50,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._07TruckTour">
+  <component name="RunManager" selected=".NET Project._09SimpleTextEditor">
     <configuration name="_01BasicStackOperation" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/_01BasicStackOperations/bin/Debug/netcoreapp3.1/_01BasicStackOperations.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -191,6 +195,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_09SimpleTextEditor" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_09SimpleTextEditor/_09SimpleTextEditor.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue=".NET Project._01BasicStackOperation" />
       <item itemvalue=".NET Project._02BasicQueueOperations" />
@@ -200,6 +222,7 @@
       <item itemvalue=".NET Project._06SongsQueue" />
       <item itemvalue=".NET Project._07TruckTour" />
       <item itemvalue=".NET Project._08BalancedParentheses" />
+      <item itemvalue=".NET Project._09SimpleTextEditor" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -216,6 +239,7 @@
       <workItem from="1621166230986" duration="780000" />
       <workItem from="1621167179777" duration="1663000" />
       <workItem from="1621187117040" duration="3155000" />
+      <workItem from="1621271667405" duration="1957000" />
     </task>
     <servers />
   </component>
