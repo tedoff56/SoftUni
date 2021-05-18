@@ -36,14 +36,7 @@ namespace _08BalancedParentheses
                     }
                 }
 
-            if (isValid)
-            {
-                Console.WriteLine("YES");
-            }
-            else
-            {
-                Console.WriteLine("NO");
-            }
+            Console.WriteLine(isValid ? "YES" : "NO");
         }
     }
 }

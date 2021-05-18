@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_09SimpleTextEditor\\_09SimpleTextEditor.csproj",
+      "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_09SimpleTextEditor\\_09SimpleTextEditor.csproj",
       "projectName": "_09SimpleTextEditor",
-      "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_09SimpleTextEditor\\_09SimpleTextEditor.csproj",
+      "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_09SimpleTextEditor\\_09SimpleTextEditor.csproj",
       "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_09SimpleTextEditor\\obj\\",
+      "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_09SimpleTextEditor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tedof\\AppData\\Roaming\\NuGet\\NuGet.Config"

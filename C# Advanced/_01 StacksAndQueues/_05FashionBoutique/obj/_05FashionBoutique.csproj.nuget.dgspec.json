@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_05FashionBoutique\\_05FashionBoutique.csproj": {}
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_05FashionBoutique\\_05FashionBoutique.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_05FashionBoutique\\_05FashionBoutique.csproj": {
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_05FashionBoutique\\_05FashionBoutique.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_05FashionBoutique\\_05FashionBoutique.csproj",
+        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_05FashionBoutique\\_05FashionBoutique.csproj",
         "projectName": "_05FashionBoutique",
-        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_05FashionBoutique\\_05FashionBoutique.csproj",
+        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_05FashionBoutique\\_05FashionBoutique.csproj",
         "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_05FashionBoutique\\obj\\",
+        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_05FashionBoutique\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tedof\\AppData\\Roaming\\NuGet\\NuGet.Config"

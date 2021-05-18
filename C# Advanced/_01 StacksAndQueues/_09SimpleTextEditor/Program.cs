@@ -8,47 +8,42 @@ namespace _09SimpleTextEditor
     {
         static void Main(string[] args)
         {
-            int totalCommands = int.Parse(Console.ReadLine());
-
-            Queue<string> commands = new Queue<string>();
+            int n = int.Parse(Console.ReadLine());
+            
+            Stack<string> textLog = new Stack<string>();
             
             StringBuilder text = new StringBuilder();
-
-            for (int i = 0; i < totalCommands; i++)
+            
+            for (int i = 0; i < n; i++)
             {
-                commands.Enqueue(Console.ReadLine());
-            }
+                string command = Console.ReadLine();
+                
+                int commandName = command[0] - '0';
 
-            for (int i = 0; i < totalCommands; i++)
-            {
-                string command = commands.Dequeue();
-
-                if (command.Length < 3) 
+                if (commandName == 4 && textLog.Count > 0)
                 {
+                    text = new StringBuilder(textLog.Pop());
                     continue;
                 }
                 
-                string str = command.Substring(2);
-
-                if (command[0] == '1')
+                string argument = command.Substring(2);
+                
+                if (commandName == 1)
                 {
-                    text.Append(str);
+                    textLog.Push(text.ToString());
+                    text.Append(string.Join("", argument.Split()));
                 }
-                else if (command[0] == '2')
+                else if (commandName == 2)
                 {
-                    text.Remove(text.Length - int.Parse(command.Substring(2)), text.Length);
+                    textLog.Push(text.ToString());
+                    text.Remove(text.Length - int.Parse(argument), int.Parse(argument));
                 }
-                else if (command[0] == '3')
+                else if (commandName == 3)
                 {
-                    Console.WriteLine(text[int.Parse(str)]);
+                    Console.WriteLine(text[int.Parse(argument) - 1]);
                 }
-                else if(command[0] == '4')
-                {
-                    
-                }
+                
             }
-            
-            
         }
     }
 }

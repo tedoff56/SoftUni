@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_08BalancedParentheses\\_08BalancedParentheses.csproj",
+      "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_08BalancedParentheses\\_08BalancedParentheses.csproj",
       "projectName": "_08BalancedParentheses",
-      "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_08BalancedParentheses\\_08BalancedParentheses.csproj",
+      "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_08BalancedParentheses\\_08BalancedParentheses.csproj",
       "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_08BalancedParentheses\\obj\\",
+      "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_08BalancedParentheses\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tedof\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_06SongsQueue\\_06SongsQueue.csproj",
+      "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_06SongsQueue\\_06SongsQueue.csproj",
       "projectName": "_06SongsQueue",
-      "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_06SongsQueue\\_06SongsQueue.csproj",
+      "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_06SongsQueue\\_06SongsQueue.csproj",
       "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_06SongsQueue\\obj\\",
+      "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_06SongsQueue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tedof\\AppData\\Roaming\\NuGet\\NuGet.Config"

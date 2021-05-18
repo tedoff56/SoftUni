@@ -20,7 +20,6 @@ namespace _03MaximumAndMinimumElement
                 {
                     numbersStack.Push(tokens[1]);
                     continue;
-                    ;
                 }
 
                 if (numbersStack.Count == 0)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_01BasicStackOperations\\_01BasicStackOperations.csproj": {}
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_01BasicStackOperations\\_01BasicStackOperations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_01BasicStackOperations\\_01BasicStackOperations.csproj": {
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_01BasicStackOperations\\_01BasicStackOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_01BasicStackOperations\\_01BasicStackOperations.csproj",
+        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_01BasicStackOperations\\_01BasicStackOperations.csproj",
         "projectName": "_01BasicStackOperations",
-        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_01BasicStackOperations\\_01BasicStackOperations.csproj",
+        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_01BasicStackOperations\\_01BasicStackOperations.csproj",
         "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_01BasicStackOperations\\obj\\",
+        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_01BasicStackOperations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tedof\\AppData\\Roaming\\NuGet\\NuGet.Config"

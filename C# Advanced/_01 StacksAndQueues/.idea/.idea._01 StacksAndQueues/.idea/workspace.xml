@@ -19,17 +19,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C870CA06-9021-47A9-A402-5993CEEFDC2D/A8/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD0177A8-8E99-4642-BF76-619670E23C99/D/Queue.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/_01BasicStackOperations/Program.cs" />
       <option value="$PROJECT_DIR$/_02BasicQueueOperations/Program.cs" />
-      <option value="$PROJECT_DIR$/_03MaximumAndMinimumElement/Program.cs" />
       <option value="$PROJECT_DIR$/_04FastFood/Program.cs" />
       <option value="$PROJECT_DIR$/_05FashionBoutique/Program.cs" />
       <option value="$PROJECT_DIR$/_06SongsQueue/Program.cs" />
       <option value="$PROJECT_DIR$/_07TruckTour/Program.cs" />
+      <option value="$PROJECT_DIR$/_01BasicStackOperations/Program.cs" />
+      <option value="$PROJECT_DIR$/_03MaximumAndMinimumElement/Program.cs" />
       <option value="$PROJECT_DIR$/_08BalancedParentheses/Program.cs" />
       <option value="$PROJECT_DIR$/_09SimpleTextEditor/Program.cs" />
     </changedPaths>
@@ -240,6 +241,7 @@
       <workItem from="1621167179777" duration="1663000" />
       <workItem from="1621187117040" duration="3155000" />
       <workItem from="1621271667405" duration="1957000" />
+      <workItem from="1621362832172" duration="4786000" />
     </task>
     <servers />
   </component>

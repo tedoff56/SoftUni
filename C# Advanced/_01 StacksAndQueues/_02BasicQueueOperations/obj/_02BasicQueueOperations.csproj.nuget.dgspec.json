@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_02BasicQueueOperations\\_02BasicQueueOperations.csproj": {}
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_02BasicQueueOperations\\_02BasicQueueOperations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_02BasicQueueOperations\\_02BasicQueueOperations.csproj": {
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_02BasicQueueOperations\\_02BasicQueueOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_02BasicQueueOperations\\_02BasicQueueOperations.csproj",
+        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_02BasicQueueOperations\\_02BasicQueueOperations.csproj",
         "projectName": "_02BasicQueueOperations",
-        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_02BasicQueueOperations\\_02BasicQueueOperations.csproj",
+        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_02BasicQueueOperations\\_02BasicQueueOperations.csproj",
         "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\Old Courses\\_01 StacksAndQueues\\_02BasicQueueOperations\\obj\\",
+        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_01 StacksAndQueues\\_02BasicQueueOperations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tedof\\AppData\\Roaming\\NuGet\\NuGet.Config"
