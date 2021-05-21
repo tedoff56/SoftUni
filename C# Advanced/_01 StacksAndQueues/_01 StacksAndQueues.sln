@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_08BalancedParentheses", "_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_09SimpleTextEditor", "_09SimpleTextEditor\_09SimpleTextEditor.csproj", "{19D6070C-5A50-470E-BA97-A5E96111EE41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10Crossroads", "_10Crossroads\_10Crossroads.csproj", "{9AE9860D-599F-40CB-AE94-3A29A2724DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11KeyRevolver", "_11KeyRevolver\_11KeyRevolver.csproj", "{8427F644-CE60-4B6C-9787-2A9B95AFA5CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{19D6070C-5A50-470E-BA97-A5E96111EE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D6070C-5A50-470E-BA97-A5E96111EE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D6070C-5A50-470E-BA97-A5E96111EE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE9860D-599F-40CB-AE94-3A29A2724DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE9860D-599F-40CB-AE94-3A29A2724DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE9860D-599F-40CB-AE94-3A29A2724DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE9860D-599F-40CB-AE94-3A29A2724DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8427F644-CE60-4B6C-9787-2A9B95AFA5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8427F644-CE60-4B6C-9787-2A9B95AFA5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8427F644-CE60-4B6C-9787-2A9B95AFA5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8427F644-CE60-4B6C-9787-2A9B95AFA5CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
