@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01DiagonalDifference", "_0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_2X2SquaresInMatrix", "_02_2X2SquaresInMatrix\_02_2X2SquaresInMatrix.csproj", "{06FA1E42-E792-4506-AE84-285B3C5EDC95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03MaximalSum", "_03MaximalSum\_03MaximalSum.csproj", "{43FD4C32-F34A-4A68-9649-DAB113A7D8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04MatrixShuffling", "_04MatrixShuffling\_04MatrixShuffling.csproj", "{DE00636B-5A79-4F0A-A1F9-2C5D0BCE07EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{06FA1E42-E792-4506-AE84-285B3C5EDC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06FA1E42-E792-4506-AE84-285B3C5EDC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06FA1E42-E792-4506-AE84-285B3C5EDC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43FD4C32-F34A-4A68-9649-DAB113A7D8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FD4C32-F34A-4A68-9649-DAB113A7D8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FD4C32-F34A-4A68-9649-DAB113A7D8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FD4C32-F34A-4A68-9649-DAB113A7D8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE00636B-5A79-4F0A-A1F9-2C5D0BCE07EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE00636B-5A79-4F0A-A1F9-2C5D0BCE07EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE00636B-5A79-4F0A-A1F9-2C5D0BCE07EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE00636B-5A79-4F0A-A1F9-2C5D0BCE07EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

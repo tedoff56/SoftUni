@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\bin\Debug\netcoreapp3.1\_03MaximalSum.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\bin\Debug\netcoreapp3.1\_03MaximalSum.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\bin\Debug\netcoreapp3.1\_03MaximalSum.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\bin\Debug\netcoreapp3.1\_03MaximalSum.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\bin\Debug\netcoreapp3.1\_03MaximalSum.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\bin\Debug\netcoreapp3.1\_03MaximalSum.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\obj\Debug\netcoreapp3.1\_03MaximalSum.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\obj\Debug\netcoreapp3.1\_03MaximalSum.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\obj\Debug\netcoreapp3.1\_03MaximalSum.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\obj\Debug\netcoreapp3.1\_03MaximalSum.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\obj\Debug\netcoreapp3.1\_03MaximalSum.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\obj\Debug\netcoreapp3.1\_03MaximalSum.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_03MaximalSum\obj\Debug\netcoreapp3.1\_03MaximalSum.genruntimeconfig.cache

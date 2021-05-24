@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\bin\Debug\netcoreapp3.1\_04MatrixShuffling.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\bin\Debug\netcoreapp3.1\_04MatrixShuffling.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\bin\Debug\netcoreapp3.1\_04MatrixShuffling.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\bin\Debug\netcoreapp3.1\_04MatrixShuffling.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\bin\Debug\netcoreapp3.1\_04MatrixShuffling.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\bin\Debug\netcoreapp3.1\_04MatrixShuffling.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\obj\Debug\netcoreapp3.1\_04MatrixShuffling.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\obj\Debug\netcoreapp3.1\_04MatrixShuffling.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\obj\Debug\netcoreapp3.1\_04MatrixShuffling.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\obj\Debug\netcoreapp3.1\_04MatrixShuffling.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\obj\Debug\netcoreapp3.1\_04MatrixShuffling.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\obj\Debug\netcoreapp3.1\_04MatrixShuffling.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_04MatrixShuffling\obj\Debug\netcoreapp3.1\_04MatrixShuffling.genruntimeconfig.cache
