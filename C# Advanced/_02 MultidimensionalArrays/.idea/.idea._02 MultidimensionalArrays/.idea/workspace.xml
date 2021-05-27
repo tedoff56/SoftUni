@@ -6,6 +6,7 @@
     <projectFile>_03MaximalSum/_03MaximalSum.csproj</projectFile>
     <projectFile>_04MatrixShuffling/_04MatrixShuffling.csproj</projectFile>
     <projectFile>_05SnakeMoves/_05SnakeMoves.csproj</projectFile>
+    <projectFile>_06JaggedArrayManipulator/_06JaggedArrayManipulator.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1e23e60-4d82-4e51-b7a5-e2b502823b4a" name="Default Changelist" comment="" />
@@ -24,6 +25,7 @@
       <option value="$PROJECT_DIR$/_01DiagonalDifference/Program.cs" />
       <option value="$PROJECT_DIR$/_04MatrixShuffling/Program.cs" />
       <option value="$PROJECT_DIR$/_05SnakeMoves/Program.cs" />
+      <option value="$PROJECT_DIR$/_06JaggedArrayManipulator/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ssqigIBuc0EQ59fQ2LDbgADKTa" />
@@ -39,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._05SnakeMoves">
+  <component name="RunManager" selected=".NET Project._06JaggedArrayManipulator">
     <configuration name="_01DiagonalDifference" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -130,6 +132,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_06JaggedArrayManipulator" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_06JaggedArrayManipulator/_06JaggedArrayManipulator.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -144,7 +164,7 @@
       <workItem from="1621680013594" duration="6409000" />
       <workItem from="1621860274066" duration="8063000" />
       <workItem from="1622105029173" duration="86000" />
-      <workItem from="1622107059761" duration="6710000" />
+      <workItem from="1622107059761" duration="9661000" />
     </task>
     <servers />
   </component>
