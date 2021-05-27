@@ -18,9 +18,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/_01DiagonalDifference/Program.cs" />
       <option value="$PROJECT_DIR$/_02_2X2SquaresInMatrix/Program.cs" />
       <option value="$PROJECT_DIR$/_03MaximalSum/Program.cs" />
+      <option value="$PROJECT_DIR$/_01DiagonalDifference/Program.cs" />
       <option value="$PROJECT_DIR$/_04MatrixShuffling/Program.cs" />
     </changedPaths>
   </component>
@@ -122,7 +122,9 @@
       <workItem from="1621671782834" duration="32000" />
       <workItem from="1621671867396" duration="24000" />
       <workItem from="1621680013594" duration="6409000" />
-      <workItem from="1621860274066" duration="4905000" />
+      <workItem from="1621860274066" duration="8063000" />
+      <workItem from="1622105029173" duration="86000" />
+      <workItem from="1622107059761" duration="2160000" />
     </task>
     <servers />
   </component>
