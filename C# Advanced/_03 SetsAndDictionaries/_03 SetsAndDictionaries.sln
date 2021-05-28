@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02SetsOfElements", "_02Set
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03PeriodicTable", "_03PeriodicTable\_03PeriodicTable.csproj", "{11A39EDF-02D6-489F-892B-D9795D8036E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04EvenTimes", "_04EvenTimes\_04EvenTimes.csproj", "{EB7BC90F-C226-4A58-BDA5-2EC27E5D03F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05CountSymbols", "_05CountSymbols\_05CountSymbols.csproj", "{36F23B39-CFA9-430E-AA3A-366C4075D60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06Wardrobe", "_06Wardrobe\_06Wardrobe.csproj", "{9F2B37B7-3DB6-4768-9D04-41E5009BD820}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{11A39EDF-02D6-489F-892B-D9795D8036E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11A39EDF-02D6-489F-892B-D9795D8036E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11A39EDF-02D6-489F-892B-D9795D8036E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7BC90F-C226-4A58-BDA5-2EC27E5D03F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7BC90F-C226-4A58-BDA5-2EC27E5D03F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7BC90F-C226-4A58-BDA5-2EC27E5D03F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7BC90F-C226-4A58-BDA5-2EC27E5D03F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F23B39-CFA9-430E-AA3A-366C4075D60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F23B39-CFA9-430E-AA3A-366C4075D60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F23B39-CFA9-430E-AA3A-366C4075D60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F23B39-CFA9-430E-AA3A-366C4075D60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2B37B7-3DB6-4768-9D04-41E5009BD820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2B37B7-3DB6-4768-9D04-41E5009BD820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2B37B7-3DB6-4768-9D04-41E5009BD820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2B37B7-3DB6-4768-9D04-41E5009BD820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
