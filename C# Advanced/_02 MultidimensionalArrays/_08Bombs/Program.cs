@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 
-
 namespace _08Bombs
 {
     class Program
