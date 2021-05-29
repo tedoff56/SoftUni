@@ -8,6 +8,7 @@
     <projectFile>_05CountSymbols/_05CountSymbols.csproj</projectFile>
     <projectFile>_06Wardrobe/_06Wardrobe.csproj</projectFile>
     <projectFile>_07TheV-Logger/_07TheV-Logger.csproj</projectFile>
+    <projectFile>_08Ranking/_08Ranking.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51469d15-0737-4126-9915-4852483e993a" name="Default Changelist" comment="" />
@@ -25,6 +26,7 @@
       <option value="$PROJECT_DIR$/_06Wardrobe/Program.cs" />
       <option value="$PROJECT_DIR$/_04EvenTimes/Program.cs" />
       <option value="$PROJECT_DIR$/_07TheV-Logger/Program.cs" />
+      <option value="$PROJECT_DIR$/_08Ranking/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1t9vhI2vD1gyCiVGIx2zzIGFLcW" />
@@ -40,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._07TheV-Logger">
+  <component name="RunManager" selected=".NET Project._08Ranking">
     <configuration name="_01UniqueUsernames" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -167,6 +169,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_08Ranking" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_08Ranking/_08Ranking.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -177,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622194236644</updated>
       <workItem from="1622194241762" duration="13963000" />
-      <workItem from="1622307969633" duration="1154000" />
+      <workItem from="1622307969633" duration="5804000" />
     </task>
     <servers />
   </component>
@@ -186,5 +206,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/_08Ranking/Program.cs</url>
+          <line>30</line>
+          <properties documentPath="C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_03 SetsAndDictionaries\_08Ranking\Program.cs" initialLine="30" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="984" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1004" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

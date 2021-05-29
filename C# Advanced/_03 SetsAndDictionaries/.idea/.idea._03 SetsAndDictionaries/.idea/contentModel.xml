@@ -89,6 +89,18 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="_08Ranking" t="IncludeRecursive">
+        <e p="_08Ranking.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_08Ranking.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
