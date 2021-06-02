@@ -197,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622194236644</updated>
       <workItem from="1622194241762" duration="13963000" />
-      <workItem from="1622307969633" duration="5804000" />
+      <workItem from="1622307969633" duration="6290000" />
     </task>
     <servers />
   </component>
@@ -206,24 +206,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/_08Ranking/Program.cs</url>
-          <line>30</line>
-          <properties documentPath="C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_03 SetsAndDictionaries\_08Ranking\Program.cs" initialLine="30" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="984" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1004" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
