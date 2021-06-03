@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="text.txt">
+      <None Update="copyMe.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>

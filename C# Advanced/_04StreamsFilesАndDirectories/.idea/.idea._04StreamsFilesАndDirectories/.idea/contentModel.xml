@@ -30,7 +30,46 @@
         <e p="Program.cs" t="Include" />
         <e p="text.txt" t="Include" />
       </e>
+      <e p="_03WordCount" t="IncludeRecursive">
+        <e p="_03WordCount.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_03WordCount.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="text.txt" t="Include" />
+        <e p="words.txt" t="Include" />
+      </e>
+      <e p="_04CopyBinaryFile" t="IncludeRecursive">
+        <e p="_04CopyBinaryFile.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="copyMe.png" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_04CopyBinaryFile.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="_04StreamsFilesАndDirectories.sln" t="IncludeFlat" />
+      <e p="_05DirectoryTraversal" t="IncludeRecursive">
+        <e p="_05DirectoryTraversal.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_05DirectoryTraversal.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

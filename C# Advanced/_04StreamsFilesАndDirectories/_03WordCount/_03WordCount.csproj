@@ -6,6 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Update="words.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="text.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

@@ -7,11 +7,11 @@ namespace _02LineNumbers
     {
         static async Task Main(string[] args)
         {
-            string[] file = await File.ReadAllLinesAsync("text.txt");
+            string[] fileLines = await File.ReadAllLinesAsync("text.txt");
             
-            for (int i = 0; i < file.Length; i++)
+            for (int i = 0; i < fileLines.Length; i++)
             {
-                string line = file[i];
+                string line = fileLines[i];
 
                 int letters = 0;
                 int punctuationMarks = 0;
@@ -25,10 +25,10 @@ namespace _02LineNumbers
                         letters++;
                     
                 }
-                file[i] = $"Line {i + 1}: {file[i]} ({letters})({punctuationMarks})";
+                fileLines[i] = $"Line {i + 1}: {fileLines[i]} ({letters})({punctuationMarks})";
             }
 
-            await File.WriteAllLinesAsync("result.txt", file);
+            await File.WriteAllLinesAsync("../../../result.txt", fileLines);
 
         }
     }
