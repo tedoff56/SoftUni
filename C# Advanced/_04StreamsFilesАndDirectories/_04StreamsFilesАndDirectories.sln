@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04CopyBinaryFile", "_04Cop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05DirectoryTraversal", "_05DirectoryTraversal\_05DirectoryTraversal.csproj", "{D132B1DB-102C-4369-B725-DFE181DE8188}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06ZipAndExtract", "_06ZipAndExtract\_06ZipAndExtract.csproj", "{DFAA4450-33C1-46C5-8091-B0C01D0B77A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D132B1DB-102C-4369-B725-DFE181DE8188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D132B1DB-102C-4369-B725-DFE181DE8188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D132B1DB-102C-4369-B725-DFE181DE8188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAA4450-33C1-46C5-8091-B0C01D0B77A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAA4450-33C1-46C5-8091-B0C01D0B77A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAA4450-33C1-46C5-8091-B0C01D0B77A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAA4450-33C1-46C5-8091-B0C01D0B77A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
