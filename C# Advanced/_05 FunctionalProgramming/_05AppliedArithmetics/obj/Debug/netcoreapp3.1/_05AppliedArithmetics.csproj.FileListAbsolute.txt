@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\bin\Debug\netcoreapp3.1\_05AppliedArithmetics.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\bin\Debug\netcoreapp3.1\_05AppliedArithmetics.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\bin\Debug\netcoreapp3.1\_05AppliedArithmetics.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\bin\Debug\netcoreapp3.1\_05AppliedArithmetics.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\bin\Debug\netcoreapp3.1\_05AppliedArithmetics.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\bin\Debug\netcoreapp3.1\_05AppliedArithmetics.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\obj\Debug\netcoreapp3.1\_05AppliedArithmetics.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\obj\Debug\netcoreapp3.1\_05AppliedArithmetics.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\obj\Debug\netcoreapp3.1\_05AppliedArithmetics.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\obj\Debug\netcoreapp3.1\_05AppliedArithmetics.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\obj\Debug\netcoreapp3.1\_05AppliedArithmetics.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\obj\Debug\netcoreapp3.1\_05AppliedArithmetics.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_05AppliedArithmetics\obj\Debug\netcoreapp3.1\_05AppliedArithmetics.genruntimeconfig.cache

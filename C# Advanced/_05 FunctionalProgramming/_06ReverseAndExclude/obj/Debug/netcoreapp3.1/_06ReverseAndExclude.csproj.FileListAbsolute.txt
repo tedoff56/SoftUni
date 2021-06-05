@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\bin\Debug\netcoreapp3.1\_06ReverseAndExclude.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\bin\Debug\netcoreapp3.1\_06ReverseAndExclude.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\bin\Debug\netcoreapp3.1\_06ReverseAndExclude.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\bin\Debug\netcoreapp3.1\_06ReverseAndExclude.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\bin\Debug\netcoreapp3.1\_06ReverseAndExclude.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\bin\Debug\netcoreapp3.1\_06ReverseAndExclude.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\obj\Debug\netcoreapp3.1\_06ReverseAndExclude.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\obj\Debug\netcoreapp3.1\_06ReverseAndExclude.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\obj\Debug\netcoreapp3.1\_06ReverseAndExclude.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\obj\Debug\netcoreapp3.1\_06ReverseAndExclude.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\obj\Debug\netcoreapp3.1\_06ReverseAndExclude.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\obj\Debug\netcoreapp3.1\_06ReverseAndExclude.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_06ReverseAndExclude\obj\Debug\netcoreapp3.1\_06ReverseAndExclude.genruntimeconfig.cache

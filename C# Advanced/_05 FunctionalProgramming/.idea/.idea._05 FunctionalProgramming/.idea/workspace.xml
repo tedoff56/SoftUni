@@ -4,6 +4,9 @@
     <projectFile>_01ActionPoint/_01ActionPoint.csproj</projectFile>
     <projectFile>_02KnightsOfHonor/_02KnightsOfHonor.csproj</projectFile>
     <projectFile>_03CustomMinFunction/_03CustomMinFunction.csproj</projectFile>
+    <projectFile>_04FindEvensOrOdds/_04FindEvensOrOdds.csproj</projectFile>
+    <projectFile>_05AppliedArithmetics/_05AppliedArithmetics.csproj</projectFile>
+    <projectFile>_06ReverseAndExclude/_06ReverseAndExclude.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44fd77dc-54ab-40ee-9814-adc8686af34c" name="Default Changelist" comment="" />
@@ -17,6 +20,9 @@
       <option value="$PROJECT_DIR$/_01ActionPoint/Program.cs" />
       <option value="$PROJECT_DIR$/_02KnightsOfHonor/Program.cs" />
       <option value="$PROJECT_DIR$/_03CustomMinFunction/Program.cs" />
+      <option value="$PROJECT_DIR$/_04FindEvensOrOdds/Program.cs" />
+      <option value="$PROJECT_DIR$/_06ReverseAndExclude/Program.cs" />
+      <option value="$PROJECT_DIR$/_05AppliedArithmetics/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tUqTB21HCsun7tcGpTKSck6GvV" />
@@ -25,12 +31,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._03CustomMinFunction">
+  <component name="RunManager" selected=".NET Project._06ReverseAndExclude">
     <configuration name="_01ActionPoint" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -85,6 +93,60 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_04FindEvensOrOdds" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_04FindEvensOrOdds/_04FindEvensOrOdds.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="_05AppliedArithmetics" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_05AppliedArithmetics/_05AppliedArithmetics.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="_06ReverseAndExclude" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_06ReverseAndExclude/_06ReverseAndExclude.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,7 +157,8 @@
       <option name="presentableId" value="Default" />
       <updated>1622834022860</updated>
       <workItem from="1622834028960" duration="1182000" />
-      <workItem from="1622881944755" duration="2046000" />
+      <workItem from="1622881944755" duration="5140000" />
+      <workItem from="1622895912252" duration="1115000" />
     </task>
     <servers />
   </component>

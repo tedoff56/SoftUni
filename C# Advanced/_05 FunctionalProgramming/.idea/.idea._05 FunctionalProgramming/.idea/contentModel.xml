@@ -40,7 +40,43 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="_04FindEvensOrOdds" t="IncludeRecursive">
+        <e p="_04FindEvensOrOdds.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_04FindEvensOrOdds.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="_05 FunctionalProgramming.sln" t="IncludeFlat" />
+      <e p="_05AppliedArithmetics" t="IncludeRecursive">
+        <e p="_05AppliedArithmetics.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_05AppliedArithmetics.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="_06ReverseAndExclude" t="IncludeRecursive">
+        <e p="_06ReverseAndExclude.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_06ReverseAndExclude.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

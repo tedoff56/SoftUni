@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\bin\Debug\netcoreapp3.1\_03CustomMinFunction.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\bin\Debug\netcoreapp3.1\_03CustomMinFunction.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\bin\Debug\netcoreapp3.1\_03CustomMinFunction.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\bin\Debug\netcoreapp3.1\_03CustomMinFunction.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\bin\Debug\netcoreapp3.1\_03CustomMinFunction.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\bin\Debug\netcoreapp3.1\_03CustomMinFunction.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\obj\Debug\netcoreapp3.1\_03CustomMinFunction.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\obj\Debug\netcoreapp3.1\_03CustomMinFunction.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\obj\Debug\netcoreapp3.1\_03CustomMinFunction.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\obj\Debug\netcoreapp3.1\_03CustomMinFunction.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\obj\Debug\netcoreapp3.1\_03CustomMinFunction.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\obj\Debug\netcoreapp3.1\_03CustomMinFunction.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_05 FunctionalProgramming\_03CustomMinFunction\obj\Debug\netcoreapp3.1\_03CustomMinFunction.genruntimeconfig.cache
