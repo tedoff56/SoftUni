@@ -12,6 +12,7 @@
     <projectFile>_09ListOfPredicates/_09ListOfPredicates.csproj</projectFile>
     <projectFile>_10PredicateParty/_10PredicateParty.csproj</projectFile>
     <projectFile>_11PartyReservationFilterModule/_11PartyReservationFilterModule.csproj</projectFile>
+    <projectFile>_12TriFunction/_12TriFunction.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44fd77dc-54ab-40ee-9814-adc8686af34c" name="Default Changelist" comment="" />
@@ -33,6 +34,7 @@
       <option value="$PROJECT_DIR$/_09ListOfPredicates/Program.cs" />
       <option value="$PROJECT_DIR$/_10PredicateParty/Program.cs" />
       <option value="$PROJECT_DIR$/_11PartyReservationFilterModule/Program.cs" />
+      <option value="$PROJECT_DIR$/_12TriFunction/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tUqTB21HCsun7tcGpTKSck6GvV" />
@@ -48,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._11PartyReservationFilterModule">
+  <component name="RunManager" selected=".NET Project._12TriFunction">
     <configuration name="_01ActionPoint" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -247,6 +249,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_12TriFunction" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_12TriFunction/_12TriFunction.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -259,7 +279,7 @@
       <workItem from="1622834028960" duration="1182000" />
       <workItem from="1622881944755" duration="5140000" />
       <workItem from="1622895912252" duration="5812000" />
-      <workItem from="1622971894490" duration="8000000" />
+      <workItem from="1622971894490" duration="9425000" />
     </task>
     <servers />
   </component>
