@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\bin\Debug\netcoreapp3.1\_07RawData.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\bin\Debug\netcoreapp3.1\_07RawData.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\bin\Debug\netcoreapp3.1\_07RawData.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\bin\Debug\netcoreapp3.1\_07RawData.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\bin\Debug\netcoreapp3.1\_07RawData.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\bin\Debug\netcoreapp3.1\_07RawData.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\obj\Debug\netcoreapp3.1\_07RawData.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\obj\Debug\netcoreapp3.1\_07RawData.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\obj\Debug\netcoreapp3.1\_07RawData.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\obj\Debug\netcoreapp3.1\_07RawData.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\obj\Debug\netcoreapp3.1\_07RawData.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\obj\Debug\netcoreapp3.1\_07RawData.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses\_07RawData\obj\Debug\netcoreapp3.1\_07RawData.genruntimeconfig.cache
