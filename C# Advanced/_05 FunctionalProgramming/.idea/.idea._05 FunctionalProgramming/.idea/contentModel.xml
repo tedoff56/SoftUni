@@ -113,6 +113,18 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="_10PredicateParty" t="IncludeRecursive">
+        <e p="_10PredicateParty.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_10PredicateParty.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
