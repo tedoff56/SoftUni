@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\__06 DefiningClasses.-505873596.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_06 DefiningClasses" t="IncludeFlat">
+      <e p="_05DateModifier" t="IncludeRecursive">
+        <e p="_05DateModifier.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DateModifier.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_05DateModifier.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="_06 DefiningClasses.sln" t="IncludeFlat" />
+      <e p="_06SpeedRacing" t="IncludeRecursive">
+        <e p="_06SpeedRacing.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Car.cs" t="Include" />
+        <e p="Car.zip" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_06SpeedRacing.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="DefiningClasses" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DefiningClasses.csproj" t="IncludeRecursive" />
+        <e p="Family.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DefiningClasses.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Person.cs" t="Include" />
+        <e p="StartUp.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

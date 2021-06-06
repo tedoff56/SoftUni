@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses", "DefiningClasses\DefiningClasses.csproj", "{39918657-326D-4233-B3A0-2FBF3E5AF6A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05DateModifier", "_05DateModifier\_05DateModifier.csproj", "{5EE5BA72-4242-4C1B-AFFC-AB678C2EA1FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06SpeedRacing", "_06SpeedRacing\_06SpeedRacing.csproj", "{216983C3-FBD6-407F-97F3-A7320319564B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39918657-326D-4233-B3A0-2FBF3E5AF6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39918657-326D-4233-B3A0-2FBF3E5AF6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39918657-326D-4233-B3A0-2FBF3E5AF6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39918657-326D-4233-B3A0-2FBF3E5AF6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE5BA72-4242-4C1B-AFFC-AB678C2EA1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE5BA72-4242-4C1B-AFFC-AB678C2EA1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE5BA72-4242-4C1B-AFFC-AB678C2EA1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE5BA72-4242-4C1B-AFFC-AB678C2EA1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216983C3-FBD6-407F-97F3-A7320319564B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216983C3-FBD6-407F-97F3-A7320319564B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216983C3-FBD6-407F-97F3-A7320319564B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216983C3-FBD6-407F-97F3-A7320319564B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
