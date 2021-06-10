@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06SpeedRacing", "_06SpeedR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_07RawData", "_07RawData\_07RawData.csproj", "{4BD1F612-10FD-4A90-B1B6-A78F28ED53DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_08CarSalesman", "_08CarSalesman\_08CarSalesman.csproj", "{7324F4D8-12E8-48D3-BB58-FF21390ED08C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{4BD1F612-10FD-4A90-B1B6-A78F28ED53DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BD1F612-10FD-4A90-B1B6-A78F28ED53DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BD1F612-10FD-4A90-B1B6-A78F28ED53DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7324F4D8-12E8-48D3-BB58-FF21390ED08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7324F4D8-12E8-48D3-BB58-FF21390ED08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7324F4D8-12E8-48D3-BB58-FF21390ED08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7324F4D8-12E8-48D3-BB58-FF21390ED08C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

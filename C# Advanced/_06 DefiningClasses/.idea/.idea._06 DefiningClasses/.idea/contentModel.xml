@@ -47,6 +47,20 @@
         <e p="Program.cs" t="Include" />
         <e p="Tire.cs" t="Include" />
       </e>
+      <e p="_08CarSalesman" t="IncludeRecursive">
+        <e p="_08CarSalesman.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Car.cs" t="Include" />
+        <e p="Engine.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_08CarSalesman.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StartUp.cs" t="Include" />
+      </e>
       <e p="DefiningClasses" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="DefiningClasses.csproj" t="IncludeRecursive" />
