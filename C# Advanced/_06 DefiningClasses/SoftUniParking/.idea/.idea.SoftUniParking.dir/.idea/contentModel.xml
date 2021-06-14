@@ -15,6 +15,7 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Parking.cs" t="Include" />
+      <e p="Parking.zip" t="Include" />
       <e p="SoftUniParking.csproj" t="IncludeRecursive" />
       <e p="StartUp.cs" t="Include" />
     </e>

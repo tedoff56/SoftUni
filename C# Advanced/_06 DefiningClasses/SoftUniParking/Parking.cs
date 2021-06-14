@@ -7,13 +7,15 @@ namespace SoftUniParking
     {
         private List<Car> _cars;
         private int _capacity;
-        
+
         public Parking(int capacity)
         {
             _cars = new List<Car>();
             _capacity = capacity;
         }
 
+        public int Capacity => _capacity;
+        
         public int Count => _cars.Count;
 
         public string AddCar(Car car)

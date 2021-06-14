@@ -72,7 +72,6 @@
           </e>
         </e>
         <e p="Pokemon.cs" t="Include" />
-        <e p="Pokemon.zip" t="Include" />
         <e p="StartUp.cs" t="Include" />
         <e p="Trainer.cs" t="Include" />
       </e>

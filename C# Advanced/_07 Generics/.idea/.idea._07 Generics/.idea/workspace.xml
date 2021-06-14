@@ -4,6 +4,8 @@
     <projectFile>_01GenericBoxOfString/_01GenericBoxOfString.csproj</projectFile>
     <projectFile>_02GenericBoxOfInteger/_02GenericBoxOfInteger.csproj</projectFile>
     <projectFile>_03GenericSwapMethodStrings/_03GenericSwapMethodStrings.csproj</projectFile>
+    <projectFile>_04GenericSwapMethodInteger/_04GenericSwapMethodInteger.csproj</projectFile>
+    <projectFile>_05GenericCountMethodStrings/_05GenericCountMethodStrings.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91554a70-5f05-4866-8207-30d64571dd42" name="Default Changelist" comment="" />
@@ -23,6 +25,14 @@
       <option value="$PROJECT_DIR$/_03GenericSwapMethodStrings/Program.cs" />
       <option value="$PROJECT_DIR$/_03GenericSwapMethodStrings/StartUp.cs" />
       <option value="$PROJECT_DIR$/_03GenericSwapMethodStrings/Swaper.cs" />
+      <option value="$PROJECT_DIR$/_04GenericSwapMethodInteger/Program.cs" />
+      <option value="$PROJECT_DIR$/_04GenericSwapMethodInteger/Swaper.cs" />
+      <option value="$PROJECT_DIR$/_04GenericSwapMethodInteger/StartUp.cs" />
+      <option value="$PROJECT_DIR$/_05GenericCountMethodStrings/Program.cs" />
+      <option value="$PROJECT_DIR$/_05GenericCountMethodStrings/Box.cs" />
+      <option value="$PROJECT_DIR$/_05GenericCountMethodStrings/StartUp.cs" />
+      <option value="$PROJECT_DIR$/_06GenericCountMethodDoubles/Program.cs" />
+      <option value="$PROJECT_DIR$/_06GenericCountMethodDoubles/StartUp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tr80Abi6jZhP0aXiFMlTcWAUr3" />
@@ -36,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._04GenericSwapMethodInteger">
+  <component name="RunManager" selected=".NET Project._05GenericCountMethodStrings">
     <configuration name="_01GenericBoxOfString" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -109,6 +119,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_05GenericCountMethodStrings" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_05GenericCountMethodStrings/_05GenericCountMethodStrings.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -119,7 +147,9 @@
       <option name="presentableId" value="Default" />
       <updated>1623515624105</updated>
       <workItem from="1623515631448" duration="741000" />
-      <workItem from="1623516403402" duration="1001000" />
+      <workItem from="1623516403402" duration="1414000" />
+      <workItem from="1623684618277" duration="10000" />
+      <workItem from="1623686421038" duration="1272000" />
     </task>
     <servers />
   </component>
