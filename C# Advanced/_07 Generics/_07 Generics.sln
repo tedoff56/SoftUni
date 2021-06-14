@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05GenericCountMethodString
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06GenericCountMethodDoubles", "_06GenericCountMethodDoubles\_06GenericCountMethodDoubles.csproj", "{8953BFBB-DB15-40E7-A2F8-AC71C9FE01EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_07Tuple", "_07Tuple\_07Tuple.csproj", "{804F99C8-0D63-4F6E-AE3A-3ED9EDD4FA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_08Threeuple", "_08Threeuple\_08Threeuple.csproj", "{B92CFD84-809C-4106-8708-549733226395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{8953BFBB-DB15-40E7-A2F8-AC71C9FE01EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8953BFBB-DB15-40E7-A2F8-AC71C9FE01EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8953BFBB-DB15-40E7-A2F8-AC71C9FE01EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804F99C8-0D63-4F6E-AE3A-3ED9EDD4FA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804F99C8-0D63-4F6E-AE3A-3ED9EDD4FA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804F99C8-0D63-4F6E-AE3A-3ED9EDD4FA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804F99C8-0D63-4F6E-AE3A-3ED9EDD4FA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92CFD84-809C-4106-8708-549733226395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92CFD84-809C-4106-8708-549733226395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92CFD84-809C-4106-8708-549733226395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92CFD84-809C-4106-8708-549733226395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
