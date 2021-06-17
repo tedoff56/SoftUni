@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Linq;
 
-namespace _01ListyIterator
+namespace _02Collection
 {
     class StartUp
     {
         static void Main(string[] args)
         {
-
             string[] tokens = Console.ReadLine().Split().Skip(1).ToArray();
             
             ListyIterator<string> listy = new ListyIterator<string>(tokens);
@@ -26,6 +25,9 @@ namespace _01ListyIterator
                         break;
                     case "HasNext":
                         Console.WriteLine(listy.HasNext());
+                        break;
+                    case "PrintAll":
+                        listy.PrintAll();
                         break;
                 }
                 

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01ListyIterator", "_01ListyIterator\_01ListyIterator.csproj", "{E6F74B2A-73CB-4CD6-A027-F2B3AC74A31F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02Collection", "_02Collection\_02Collection.csproj", "{7879CFF4-6A01-4744-BB91-9369A22CC97D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E6F74B2A-73CB-4CD6-A027-F2B3AC74A31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6F74B2A-73CB-4CD6-A027-F2B3AC74A31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6F74B2A-73CB-4CD6-A027-F2B3AC74A31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7879CFF4-6A01-4744-BB91-9369A22CC97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7879CFF4-6A01-4744-BB91-9369A22CC97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7879CFF4-6A01-4744-BB91-9369A22CC97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7879CFF4-6A01-4744-BB91-9369A22CC97D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

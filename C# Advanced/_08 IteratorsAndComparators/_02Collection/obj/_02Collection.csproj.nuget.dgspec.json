@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08IteratorsAndComparators\\_01ListyIterator\\_01ListyIterator.csproj": {}
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08 IteratorsAndComparators\\_02Collection\\_02Collection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08IteratorsAndComparators\\_01ListyIterator\\_01ListyIterator.csproj": {
+    "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08 IteratorsAndComparators\\_02Collection\\_02Collection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08IteratorsAndComparators\\_01ListyIterator\\_01ListyIterator.csproj",
-        "projectName": "_01ListyIterator",
-        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08IteratorsAndComparators\\_01ListyIterator\\_01ListyIterator.csproj",
+        "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08 IteratorsAndComparators\\_02Collection\\_02Collection.csproj",
+        "projectName": "_02Collection",
+        "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08 IteratorsAndComparators\\_02Collection\\_02Collection.csproj",
         "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08IteratorsAndComparators\\_01ListyIterator\\obj\\",
+        "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# Advanced\\_08 IteratorsAndComparators\\_02Collection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tedof\\AppData\\Roaming\\NuGet\\NuGet.Config"
