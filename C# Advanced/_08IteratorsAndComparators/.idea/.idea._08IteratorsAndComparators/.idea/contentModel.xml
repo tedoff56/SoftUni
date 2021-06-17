@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\__08IteratorsAndComparators.186066262.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_08IteratorsAndComparators" t="IncludeFlat">
+      <e p="_01ListyIterator" t="IncludeRecursive">
+        <e p="_01ListyIterator.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ListyIterator.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_01ListyIterator.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StartUp.cs" t="Include" />
+      </e>
+      <e p="_08IteratorsAndComparators.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

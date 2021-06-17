@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\bin\Debug\netcoreapp3.1\_07KnightGame.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\bin\Debug\netcoreapp3.1\_07KnightGame.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\bin\Debug\netcoreapp3.1\_07KnightGame.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\bin\Debug\netcoreapp3.1\_07KnightGame.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\bin\Debug\netcoreapp3.1\_07KnightGame.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\bin\Debug\netcoreapp3.1\_07KnightGame.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\obj\Debug\netcoreapp3.1\_07KnightGame.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\obj\Debug\netcoreapp3.1\_07KnightGame.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\obj\Debug\netcoreapp3.1\_07KnightGame.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\obj\Debug\netcoreapp3.1\_07KnightGame.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\obj\Debug\netcoreapp3.1\_07KnightGame.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\obj\Debug\netcoreapp3.1\_07KnightGame.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\obj\Debug\netcoreapp3.1\_07KnightGame.genruntimeconfig.cache

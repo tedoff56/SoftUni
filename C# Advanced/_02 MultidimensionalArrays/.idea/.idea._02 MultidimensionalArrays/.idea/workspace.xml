@@ -8,6 +8,7 @@
     <projectFile>_05SnakeMoves/_05SnakeMoves.csproj</projectFile>
     <projectFile>_06JaggedArrayManipulator/_06JaggedArrayManipulator.csproj</projectFile>
     <projectFile>_08Bombs/_08Bombs.csproj</projectFile>
+    <projectFile>_07KnightGame/_07KnightGame.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1e23e60-4d82-4e51-b7a5-e2b502823b4a" name="Default Changelist" comment="" />
@@ -18,6 +19,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C870CA06-9021-47A9-A402-5993CEEFDC2D/A8/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C870CA06-9021-47A9-A402-5993CEEFDC2D/84/IndexOutOfRangeException.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -28,6 +30,7 @@
       <option value="$PROJECT_DIR$/_05SnakeMoves/Program.cs" />
       <option value="$PROJECT_DIR$/_06JaggedArrayManipulator/Program.cs" />
       <option value="$PROJECT_DIR$/_08Bombs/Program.cs" />
+      <option value="$PROJECT_DIR$/_07KnightGame/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ssqigIBuc0EQ59fQ2LDbgADKTa" />
@@ -43,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._08Bombs">
+  <component name="RunManager" selected=".NET Project._07KnightGame">
     <configuration name="_01DiagonalDifference" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -152,6 +155,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="_07KnightGame" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/_07KnightGame/_07KnightGame.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="_08Bombs" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -186,6 +207,7 @@
       <workItem from="1622105029173" duration="86000" />
       <workItem from="1622107059761" duration="12141000" />
       <workItem from="1622190109068" duration="4094000" />
+      <workItem from="1623692302797" duration="4928000" />
     </task>
     <servers />
   </component>
@@ -194,5 +216,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/_07KnightGame/Program.cs</url>
+          <line>11</line>
+          <properties documentPath="C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\Program.cs" initialLine="11" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="217" />
+            </startOffsets>
+            <endOffsets>
+              <option value="251" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

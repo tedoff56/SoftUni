@@ -77,6 +77,18 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="_07KnightGame" t="IncludeRecursive">
+        <e p="_07KnightGame.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_07KnightGame.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="_08Bombs" t="IncludeRecursive">
         <e p="_08Bombs.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
