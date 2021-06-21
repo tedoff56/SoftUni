@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Linq;
 
 namespace _07KnightGame
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int size = int.Parse(Console.ReadLine() ?? string.Empty);
 
@@ -13,76 +12,87 @@ namespace _07KnightGame
 
             for (int i = 0; i < size; i++)
             {
-                string row = Console.ReadLine();
-
-                board[i] = row.ToArray();
+                board[i] = Console.ReadLine()?.ToCharArray();
             }
 
-            int minimumKnights = int.MaxValue;
-            
-            for (int i = 0; i < size; i++)
+            int removedKnights = 0;
+            while (true)
             {
-                for (int j = 0; j < size; j++)
+                int knightRow = -1;
+                int knightCol = -1;
+                int maxAttacks = 0;
+                
+                for (int i = 0; i < size; i++)
                 {
-                    int toBeRemoved = 0;
-                    
-                    if (board[i][j] == '0')
+                    for (int j = 0; j < size; j++)
                     {
-                        continue;
-                    }
+                        if (board[i][j] == '0')
+                        {
+                            continue;
+                        }
 
-                    if (isKnight(i - 1, j + 2, board))
-                    {
-                        toBeRemoved++;
+                        int attacks = CountAttacks(i, j, board);
+                        if (attacks > maxAttacks)
+                        {
+                            maxAttacks = attacks;
+                            knightRow = i;
+                            knightCol = j;
+                        }
                     }
-                    else if (isKnight(i + 1, j + 2, board))
-                    {
-                        toBeRemoved++;
-                    }
-                    else if (isKnight(i - 1, j - 2, board))
-                    {
-                        toBeRemoved++;
-                    }
-                    else if (isKnight(i + 1, j - 2, board))
-                    {
-                        toBeRemoved++;
-                    }
-                    else if (isKnight(i - 2, j + 1, board))
-                    {
-                        toBeRemoved++;
-                    }
-                    else if (isKnight(i + 2, j + 1, board))
-                    {
-                        toBeRemoved++;
-                    }
-                    else if (isKnight(i - 2, j - 1, board))
-                    {
-                        toBeRemoved++;
-                    }
-                    else if (isKnight(i + 2, j - 1, board))
-                    {
-                        toBeRemoved++;
-                    }
+                }
 
-                    if (toBeRemoved < minimumKnights)
-                    {
-                        minimumKnights = toBeRemoved;
-                    }
+                if (maxAttacks > 0)
+                {
+                    board[knightRow][knightCol] = '0';
+                    removedKnights++;
+                }
+                else
+                {
+                    break;
                 }
             }
 
-            Console.WriteLine(minimumKnights);
-            
+            Console.WriteLine(removedKnights);
+
         }
         
-        private static bool isKnight(int row, int col, char[][] board)
+        private static int CountAttacks(int row, int col, char[][] board)
         {
-            bool isIndexValid = row >= 0 && row < board.GetLength(0) && 
-                                col >= 0 && col < board.GetLength(1);
+            int attacks = 0;
             
-            return isIndexValid && board[row][col] == 'K';
+            if (IsKnight(row - 1, col + 2, board))
+                attacks++;
+            
+            if (IsKnight(row + 1, col + 2, board))
+                attacks++;
+
+            if (IsKnight(row - 1, col - 2, board))
+                attacks++;
+
+            if (IsKnight(row + 1, col - 2, board))
+                attacks++;
+
+            if (IsKnight(row - 2, col + 1, board))
+                attacks++;
+
+            if (IsKnight(row + 2, col + 1, board))
+                attacks++;
+
+            if (IsKnight(row - 2, col - 1, board))
+                attacks++;
+
+            if (IsKnight(row + 2, col - 1, board))
+                attacks++;
+
+            return attacks;
         }
 
+        private static bool IsKnight(int row, int col, char[][] board)
+        {
+            return row >= 0 && row < board.GetLength(0) && 
+                   col >= 0 && col < board.GetLength(0) && 
+                   board[row][col] == 'K';
+        }
 
     }
 }

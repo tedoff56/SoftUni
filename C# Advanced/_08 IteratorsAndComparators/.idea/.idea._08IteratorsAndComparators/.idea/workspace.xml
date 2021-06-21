@@ -5,6 +5,7 @@
     <projectFile>_02Collection/_02Collection.csproj</projectFile>
     <projectFile>_03Stack/_03Stack.csproj</projectFile>
     <projectFile>_04Froggy/_04Froggy.csproj</projectFile>
+    <projectFile>_05ComparingObjects/_05ComparingObjects.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c5ca337-142f-43e6-b332-345f3505f0c5" name="Default Changelist" comment="" />
@@ -14,8 +15,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa9044.16489/StartUp.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa9044.16395/Lake.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3600.40086/Person.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3600.37441/StartUp.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -35,6 +36,11 @@
       <option value="$PROJECT_DIR$/_04Froggy/Lake.cs" />
       <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa9044.16489/StartUp.cs" />
       <option value="$PROJECT_DIR$/_04Froggy/StartUp.cs" />
+      <option value="$PROJECT_DIR$/_05ComparingObjects/Program.cs" />
+      <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa3600.37441/StartUp.cs" />
+      <option value="$PROJECT_DIR$/_05ComparingObjects/StartUp.cs" />
+      <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa3600.40086/Person.cs" />
+      <option value="$PROJECT_DIR$/_05ComparingObjects/Person.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1u5SEuqmKEs74nt3X2zXhm4bK4i" />
@@ -151,7 +157,7 @@
       <workItem from="1623953859993" duration="1284000" />
       <workItem from="1623955402944" duration="545000" />
       <workItem from="1623956014196" duration="897000" />
-      <workItem from="1624294164235" duration="336000" />
+      <workItem from="1624294164235" duration="514000" />
     </task>
     <servers />
   </component>

@@ -208,6 +208,7 @@
       <workItem from="1622107059761" duration="12141000" />
       <workItem from="1622190109068" duration="4094000" />
       <workItem from="1623692302797" duration="4928000" />
+      <workItem from="1624294708386" duration="4841000" />
     </task>
     <servers />
   </component>
@@ -216,24 +217,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/_07KnightGame/Program.cs</url>
-          <line>11</line>
-          <properties documentPath="C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\_02 MultidimensionalArrays\_07KnightGame\Program.cs" initialLine="11" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="217" />
-            </startOffsets>
-            <endOffsets>
-              <option value="251" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
