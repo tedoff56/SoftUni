@@ -7,15 +7,15 @@ namespace _06ReverseAndExclude
     {
         static void Main(string[] args)
         {
-            int[] numbers = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse).ToArray();
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var n = int.Parse(Console.ReadLine());
+
+            Func<int, bool> predicate = num => num % n != 0;
             
-            int divideBy = int.Parse(Console.ReadLine());
+            var result = numbers.Where(predicate).Reverse();
 
-            Func<int, int, bool> isDivisible = (n, d) => n % d == 0;
-
-            Console.WriteLine(string.Join(' ', numbers.Where(n => !isDivisible(n, divideBy)).Reverse()));
-
+            Console.WriteLine(string.Join(' ', result));
+            
         }
     }
 }

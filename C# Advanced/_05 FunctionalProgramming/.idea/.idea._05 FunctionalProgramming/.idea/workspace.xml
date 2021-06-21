@@ -28,13 +28,13 @@
       <option value="$PROJECT_DIR$/_03CustomMinFunction/Program.cs" />
       <option value="$PROJECT_DIR$/_04FindEvensOrOdds/Program.cs" />
       <option value="$PROJECT_DIR$/_05AppliedArithmetics/Program.cs" />
-      <option value="$PROJECT_DIR$/_06ReverseAndExclude/Program.cs" />
       <option value="$PROJECT_DIR$/_07PredicateForNames/Program.cs" />
       <option value="$PROJECT_DIR$/_08CustomComparator/Program.cs" />
       <option value="$PROJECT_DIR$/_09ListOfPredicates/Program.cs" />
       <option value="$PROJECT_DIR$/_10PredicateParty/Program.cs" />
       <option value="$PROJECT_DIR$/_11PartyReservationFilterModule/Program.cs" />
       <option value="$PROJECT_DIR$/_12TriFunction/Program.cs" />
+      <option value="$PROJECT_DIR$/_06ReverseAndExclude/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tUqTB21HCsun7tcGpTKSck6GvV" />
@@ -50,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project._12TriFunction">
+  <component name="RunManager" selected=".NET Project._06ReverseAndExclude">
     <configuration name="_01ActionPoint" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -280,6 +280,7 @@
       <workItem from="1622881944755" duration="5140000" />
       <workItem from="1622895912252" duration="5812000" />
       <workItem from="1622971894490" duration="9587000" />
+      <workItem from="1624300369902" duration="318000" />
     </task>
     <servers />
   </component>
