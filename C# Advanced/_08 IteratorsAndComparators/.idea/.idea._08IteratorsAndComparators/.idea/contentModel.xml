@@ -44,6 +44,32 @@
         </e>
         <e p="StartUp.cs" t="Include" />
       </e>
+      <e p="_04Froggy" t="IncludeRecursive">
+        <e p="_04Froggy.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Lake.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_04Froggy.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StartUp.cs" t="Include" />
+      </e>
+      <e p="_05ComparingObjects" t="IncludeRecursive">
+        <e p="_05ComparingObjects.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="_05ComparingObjects.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Person.cs" t="Include" />
+        <e p="StartUp.cs" t="Include" />
+      </e>
       <e p="_08IteratorsAndComparators.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
