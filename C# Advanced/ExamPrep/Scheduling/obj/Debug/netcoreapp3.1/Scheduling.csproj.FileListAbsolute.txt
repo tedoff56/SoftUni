@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\bin\Debug\netcoreapp3.1\Scheduling.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\bin\Debug\netcoreapp3.1\Scheduling.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\bin\Debug\netcoreapp3.1\Scheduling.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\bin\Debug\netcoreapp3.1\Scheduling.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\bin\Debug\netcoreapp3.1\Scheduling.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\bin\Debug\netcoreapp3.1\Scheduling.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\obj\Debug\netcoreapp3.1\Scheduling.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\obj\Debug\netcoreapp3.1\Scheduling.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\obj\Debug\netcoreapp3.1\Scheduling.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\obj\Debug\netcoreapp3.1\Scheduling.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\obj\Debug\netcoreapp3.1\Scheduling.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\obj\Debug\netcoreapp3.1\Scheduling.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Scheduling\obj\Debug\netcoreapp3.1\Scheduling.genruntimeconfig.cache
