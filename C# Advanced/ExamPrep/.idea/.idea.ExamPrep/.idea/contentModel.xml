@@ -4,7 +4,34 @@
     <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_ExamPrep.1149242838.00" t="ExcludeRecursive" />
     <e p="C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep" t="IncludeFlat">
+      <e p="ClassroomProject" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Classroom.cs" t="Include" />
+        <e p="ClassroomProject.csproj" t="IncludeRecursive" />
+        <e p="ClassroomProject.zip" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ClassroomProject.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StartUp.cs" t="Include" />
+        <e p="Student.cs" t="Include" />
+      </e>
       <e p="ExamPrep.sln" t="IncludeFlat" />
+      <e p="Garden" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Garden.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Garden.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StartUp.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Scheduling" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

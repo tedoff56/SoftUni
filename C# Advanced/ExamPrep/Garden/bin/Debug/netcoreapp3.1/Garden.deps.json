@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Scheduling/1.0.0": {
+      "Garden/1.0.0": {
         "runtime": {
-          "Scheduling.dll": {}
+          "Garden.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Scheduling/1.0.0": {
+    "Garden/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
