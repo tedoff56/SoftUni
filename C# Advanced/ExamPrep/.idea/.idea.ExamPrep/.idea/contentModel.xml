@@ -32,6 +32,21 @@
         </e>
         <e p="StartUp.cs" t="Include" />
       </e>
+      <e p="Guild" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Guild.cs" t="Include" />
+        <e p="Guild.csproj" t="IncludeRecursive" />
+        <e p="Guild.zip" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Guild.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Player.cs" t="Include" />
+        <e p="StartUp.cs" t="Include" />
+      </e>
       <e p="LootBox" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="LootBox.csproj" t="IncludeRecursive" />
