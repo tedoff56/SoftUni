@@ -5,6 +5,9 @@
     <projectFile>Classroom/Classroom.csproj</projectFile>
     <projectFile>ClassroomProject/ClassroomProject.csproj</projectFile>
     <projectFile>Garden/Garden.csproj</projectFile>
+    <projectFile>TheFightForGondor/TheFightForGondor.csproj</projectFile>
+    <projectFile>Warships/Warships.csproj</projectFile>
+    <projectFile>Bee/Bee.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de8a47d-2a8b-49a4-b75b-d5e4103ba262" name="Default Changelist" comment="" />
@@ -26,6 +29,12 @@
       <option value="$PROJECT_DIR$/ClassroomProject/Classroom.cs" />
       <option value="$PROJECT_DIR$/Garden/Program.cs" />
       <option value="$PROJECT_DIR$/Garden/StartUp.cs" />
+      <option value="$PROJECT_DIR$/Warships/Program.cs" />
+      <option value="$PROJECT_DIR$/Warships/StartUp.cs" />
+      <option value="$PROJECT_DIR$/Bee/Program.cs" />
+      <option value="$PROJECT_DIR$/Bee/StartUp.cs" />
+      <option value="$PROJECT_DIR$/TheFightForGondor/Program.cs" />
+      <option value="$PROJECT_DIR$/TheFightForGondor/StartUp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uGod9SVpzmEK6YAkWDBjVmc5yA" />
@@ -41,7 +50,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Garden">
+  <component name="RunManager" selected=".NET Project.TheFightForGondor">
+    <configuration name="Bee" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Bee/Bee.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Classroom" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -114,6 +141,42 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TheFightForGondor" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TheFightForGondor/TheFightForGondor.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Warships" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Warships/Warships.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,7 +189,9 @@
       <workItem from="1624301380419" duration="2062000" />
       <workItem from="1624303484870" duration="57000" />
       <workItem from="1624303570135" duration="3191000" />
-      <workItem from="1624464531511" duration="3886000" />
+      <workItem from="1624464531511" duration="14178000" />
+      <workItem from="1624548007413" duration="63000" />
+      <workItem from="1624548477851" duration="1973000" />
     </task>
     <servers />
   </component>
