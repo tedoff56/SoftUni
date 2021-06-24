@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootBox", "LootBox\LootBox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guild", "Guild\Guild.csproj", "{2F94AE41-6686-4483-8D31-770C101A7103}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarmWinter", "WarmWinter\WarmWinter.csproj", "{1ADB32BE-42FB-4537-9BE4-030D38D51D7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{2F94AE41-6686-4483-8D31-770C101A7103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F94AE41-6686-4483-8D31-770C101A7103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F94AE41-6686-4483-8D31-770C101A7103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADB32BE-42FB-4537-9BE4-030D38D51D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADB32BE-42FB-4537-9BE4-030D38D51D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADB32BE-42FB-4537-9BE4-030D38D51D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADB32BE-42FB-4537-9BE4-030D38D51D7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
