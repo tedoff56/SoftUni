@@ -81,6 +81,7 @@ namespace Re_Volt
                     playerCol = posData[1];
 
                 }
+                
             }
             
             matrix[playerRow, playerCol] = 'f';

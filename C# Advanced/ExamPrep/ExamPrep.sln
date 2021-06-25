@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocktailParty", "CocktailPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Re-Volt", "Re-Volt\Re-Volt.csproj", "{F8134EB4-DD83-4948-9B51-B0F625064FE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMario", "SuperMario\SuperMario.csproj", "{05739334-1CC3-4D48-ADEA-6957E164A589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{F8134EB4-DD83-4948-9B51-B0F625064FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8134EB4-DD83-4948-9B51-B0F625064FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8134EB4-DD83-4948-9B51-B0F625064FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05739334-1CC3-4D48-ADEA-6957E164A589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05739334-1CC3-4D48-ADEA-6957E164A589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05739334-1CC3-4D48-ADEA-6957E164A589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05739334-1CC3-4D48-ADEA-6957E164A589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
