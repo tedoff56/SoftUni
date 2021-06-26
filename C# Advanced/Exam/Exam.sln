@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterchef", "Masterchef\Masterchef.csproj", "{8DBCCCC7-B4C0-4726-8287-A1FC5014CEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental", "SkiRental\SkiRental.csproj", "{AA7A34BF-4F5A-44FF-A8E8-7AC4D0807ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survivor", "Survivor\Survivor.csproj", "{750E971C-EEA2-4CE5-A4F3-A7B722400DB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DBCCCC7-B4C0-4726-8287-A1FC5014CEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBCCCC7-B4C0-4726-8287-A1FC5014CEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBCCCC7-B4C0-4726-8287-A1FC5014CEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBCCCC7-B4C0-4726-8287-A1FC5014CEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7A34BF-4F5A-44FF-A8E8-7AC4D0807ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7A34BF-4F5A-44FF-A8E8-7AC4D0807ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7A34BF-4F5A-44FF-A8E8-7AC4D0807ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7A34BF-4F5A-44FF-A8E8-7AC4D0807ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750E971C-EEA2-4CE5-A4F3-A7B722400DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750E971C-EEA2-4CE5-A4F3-A7B722400DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750E971C-EEA2-4CE5-A4F3-A7B722400DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750E971C-EEA2-4CE5-A4F3-A7B722400DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

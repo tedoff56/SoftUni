@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Exam.-814553930.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam" t="IncludeFlat">
+      <e p="Exam.sln" t="IncludeFlat" />
+      <e p="Masterchef" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Masterchef.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Masterchef.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StartUp.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SkiRental" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SkiRental.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Ski.cs" t="Include" />
+        <e p="SkiRental.cs" t="Include" />
+        <e p="SkiRental.csproj" t="IncludeRecursive" />
+        <e p="SkiRental.zip" t="Include" />
+        <e p="StartUp.cs" t="Include" />
+      </e>
+      <e p="Survivor" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Survivor.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StartUp.cs" t="Include" />
+        <e p="Survivor.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
