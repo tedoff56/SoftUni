@@ -22,6 +22,20 @@
       <option value="$PROJECT_DIR$/Person/StartUp.cs" />
       <option value="$PROJECT_DIR$/Zoo/Animal.cs" />
       <option value="$PROJECT_DIR$/Zoo/Reptile.cs" />
+      <option value="$PROJECT_DIR$/Zoo/Mammal.cs" />
+      <option value="$PROJECT_DIR$/Zoo/Lizard.cs" />
+      <option value="$PROJECT_DIR$/Zoo/Snake.cs" />
+      <option value="$PROJECT_DIR$/Zoo/Gorilla.cs" />
+      <option value="$PROJECT_DIR$/Zoo/Bear.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/Hero.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/Elf.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/MuseElf.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/Wizard.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/DarkWizard.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/SoulMaster.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/Knight.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/DarkKnight.cs" />
+      <option value="$PROJECT_DIR$/PlayersAndMonsters/BladeKnight.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uah75hQqhOjWGAMCxQaNrLJyyG" />
@@ -153,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624909440146</updated>
-      <workItem from="1624909445781" duration="312000" />
+      <workItem from="1624909445781" duration="914000" />
     </task>
     <servers />
   </component>
