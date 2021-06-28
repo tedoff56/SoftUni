@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\bin\Debug\netcoreapp3.1\Person.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\bin\Debug\netcoreapp3.1\Person.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\bin\Debug\netcoreapp3.1\Person.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\bin\Debug\netcoreapp3.1\Person.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\bin\Debug\netcoreapp3.1\Person.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\bin\Debug\netcoreapp3.1\Person.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\obj\Debug\netcoreapp3.1\Person.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\obj\Debug\netcoreapp3.1\Person.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\obj\Debug\netcoreapp3.1\Person.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\obj\Debug\netcoreapp3.1\Person.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\obj\Debug\netcoreapp3.1\Person.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\obj\Debug\netcoreapp3.1\Person.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Person\obj\Debug\netcoreapp3.1\Person.genruntimeconfig.cache

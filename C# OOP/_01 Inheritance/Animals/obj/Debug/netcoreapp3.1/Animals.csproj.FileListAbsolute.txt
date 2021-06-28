@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\bin\Debug\netcoreapp3.1\Animals.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\bin\Debug\netcoreapp3.1\Animals.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\bin\Debug\netcoreapp3.1\Animals.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\bin\Debug\netcoreapp3.1\Animals.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\bin\Debug\netcoreapp3.1\Animals.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\bin\Debug\netcoreapp3.1\Animals.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\obj\Debug\netcoreapp3.1\Animals.csprojAssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\obj\Debug\netcoreapp3.1\Animals.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\obj\Debug\netcoreapp3.1\Animals.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\obj\Debug\netcoreapp3.1\Animals.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\obj\Debug\netcoreapp3.1\Animals.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\obj\Debug\netcoreapp3.1\Animals.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\obj\Debug\netcoreapp3.1\Animals.genruntimeconfig.cache
