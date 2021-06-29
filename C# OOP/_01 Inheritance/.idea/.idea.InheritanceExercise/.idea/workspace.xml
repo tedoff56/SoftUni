@@ -36,6 +36,15 @@
       <option value="$PROJECT_DIR$/PlayersAndMonsters/Knight.cs" />
       <option value="$PROJECT_DIR$/PlayersAndMonsters/DarkKnight.cs" />
       <option value="$PROJECT_DIR$/PlayersAndMonsters/BladeKnight.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/Motorcycle.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/RaceMotorcycle.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/CrossMotorcycle.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/Case.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/Car.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/FamilyCar.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/StartUp.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/Vehicle.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/SportCar.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uah75hQqhOjWGAMCxQaNrLJyyG" />
@@ -49,7 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.PlayersAndMonsters">
+  <component name="RunManager" selected=".NET Project.NeedForSpeed">
     <configuration name="Animals" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -167,7 +176,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624909440146</updated>
-      <workItem from="1624909445781" duration="914000" />
+      <workItem from="1624909445781" duration="2028000" />
+      <workItem from="1624989998490" duration="311000" />
     </task>
     <servers />
   </component>
