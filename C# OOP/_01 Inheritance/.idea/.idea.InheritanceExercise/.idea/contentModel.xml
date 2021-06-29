@@ -73,7 +73,16 @@
         <e p="Wizard.cs" t="Include" />
       </e>
       <e p="Restaurant" t="IncludeRecursive">
+        <e p="Beverage.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Cake.cs" t="Include" />
+        <e p="Coffee.cs" t="Include" />
+        <e p="ColdBeverage.cs" t="Include" />
+        <e p="Dessert.cs" t="Include" />
+        <e p="Fish.cs" t="Include" />
+        <e p="Food.cs" t="Include" />
+        <e p="HotBeverage.cs" t="Include" />
+        <e p="MainDish.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -81,8 +90,12 @@
             </e>
           </e>
         </e>
+        <e p="Product.cs" t="Include" />
         <e p="Restaurant.csproj" t="IncludeRecursive" />
+        <e p="Soup.cs" t="Include" />
+        <e p="Starter.cs" t="Include" />
         <e p="StartUp.cs" t="Include" />
+        <e p="Tea.cs" t="Include" />
       </e>
       <e p="Zoo" t="IncludeRecursive">
         <e p="Animal.cs" t="Include" />

@@ -37,14 +37,28 @@
       <option value="$PROJECT_DIR$/PlayersAndMonsters/DarkKnight.cs" />
       <option value="$PROJECT_DIR$/PlayersAndMonsters/BladeKnight.cs" />
       <option value="$PROJECT_DIR$/NeedForSpeed/Motorcycle.cs" />
-      <option value="$PROJECT_DIR$/NeedForSpeed/RaceMotorcycle.cs" />
       <option value="$PROJECT_DIR$/NeedForSpeed/CrossMotorcycle.cs" />
       <option value="$PROJECT_DIR$/NeedForSpeed/Case.cs" />
-      <option value="$PROJECT_DIR$/NeedForSpeed/Car.cs" />
       <option value="$PROJECT_DIR$/NeedForSpeed/FamilyCar.cs" />
       <option value="$PROJECT_DIR$/NeedForSpeed/StartUp.cs" />
       <option value="$PROJECT_DIR$/NeedForSpeed/Vehicle.cs" />
       <option value="$PROJECT_DIR$/NeedForSpeed/SportCar.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/RaceMotorcycle.cs" />
+      <option value="$PROJECT_DIR$/NeedForSpeed/Car.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Beverages.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Food.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/MainDish.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Starter.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Tea.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Dessert.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Soup.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Cake.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Fish.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Product.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Coffee.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/Beverage.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/HotBeverage.cs" />
+      <option value="$PROJECT_DIR$/Restaurant/ColdBeverage.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uah75hQqhOjWGAMCxQaNrLJyyG" />
@@ -177,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624909440146</updated>
       <workItem from="1624909445781" duration="2028000" />
-      <workItem from="1624989998490" duration="311000" />
+      <workItem from="1624989998490" duration="1844000" />
     </task>
     <servers />
   </component>
