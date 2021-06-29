@@ -59,6 +59,13 @@
       <option value="$PROJECT_DIR$/Restaurant/Beverage.cs" />
       <option value="$PROJECT_DIR$/Restaurant/HotBeverage.cs" />
       <option value="$PROJECT_DIR$/Restaurant/ColdBeverage.cs" />
+      <option value="$PROJECT_DIR$/Animals/Dog.cs" />
+      <option value="$PROJECT_DIR$/Animals/Frog.cs" />
+      <option value="$PROJECT_DIR$/Animals/Cat.cs" />
+      <option value="$PROJECT_DIR$/Animals/Animal.cs" />
+      <option value="$PROJECT_DIR$/Animals/Kitten.cs" />
+      <option value="$PROJECT_DIR$/Animals/Tomcat.cs" />
+      <option value="$PROJECT_DIR$/Animals/StartUp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uah75hQqhOjWGAMCxQaNrLJyyG" />
@@ -67,12 +74,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.NeedForSpeed">
+  <component name="RunManager" selected=".NET Project.Animals">
     <configuration name="Animals" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -191,7 +200,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624909440146</updated>
       <workItem from="1624909445781" duration="2028000" />
-      <workItem from="1624989998490" duration="1844000" />
+      <workItem from="1624989998490" duration="5718000" />
     </task>
     <servers />
   </component>
@@ -200,5 +209,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Animals/StartUp.cs</url>
+          <line>13</line>
+          <properties documentPath="C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\StartUp.cs" initialLine="13" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="257" />
+            </startOffsets>
+            <endOffsets>
+              <option value="258" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

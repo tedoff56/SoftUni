@@ -5,8 +5,13 @@
     <e p="C:\Users\tedof\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_InheritanceExercise.-2130872514.00" t="ExcludeRecursive" />
     <e p="C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance" t="IncludeFlat">
       <e p="Animals" t="IncludeRecursive">
+        <e p="Animal.cs" t="Include" />
         <e p="Animals.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Cat.cs" t="Include" />
+        <e p="Dog.cs" t="Include" />
+        <e p="Frog.cs" t="Include" />
+        <e p="Kitten.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -15,6 +20,7 @@
           </e>
         </e>
         <e p="StartUp.cs" t="Include" />
+        <e p="Tomcat.cs" t="Include" />
       </e>
       <e p="InheritanceExercise.sln" t="IncludeFlat" />
       <e p="NeedForSpeed" t="IncludeRecursive">
