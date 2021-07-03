@@ -1,0 +1,26 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.genruntimeconfig.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\bin\Debug\netcoreapp3.1\ShoppingSpree.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_02 Encapsulation\ShoppingSpree\obj\Debug\netcoreapp3.1\ShoppingSpree.genruntimeconfig.cache
