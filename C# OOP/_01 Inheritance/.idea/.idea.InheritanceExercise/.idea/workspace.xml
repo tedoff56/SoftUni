@@ -59,13 +59,13 @@
       <option value="$PROJECT_DIR$/Restaurant/Beverage.cs" />
       <option value="$PROJECT_DIR$/Restaurant/HotBeverage.cs" />
       <option value="$PROJECT_DIR$/Restaurant/ColdBeverage.cs" />
+      <option value="$PROJECT_DIR$/Animals/Animal.cs" />
+      <option value="$PROJECT_DIR$/Animals/Kitten.cs" />
+      <option value="$PROJECT_DIR$/Animals/StartUp.cs" />
       <option value="$PROJECT_DIR$/Animals/Dog.cs" />
       <option value="$PROJECT_DIR$/Animals/Frog.cs" />
       <option value="$PROJECT_DIR$/Animals/Cat.cs" />
-      <option value="$PROJECT_DIR$/Animals/Animal.cs" />
-      <option value="$PROJECT_DIR$/Animals/Kitten.cs" />
       <option value="$PROJECT_DIR$/Animals/Tomcat.cs" />
-      <option value="$PROJECT_DIR$/Animals/StartUp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uah75hQqhOjWGAMCxQaNrLJyyG" />
@@ -200,7 +200,8 @@
       <option name="presentableId" value="Default" />
       <updated>1624909440146</updated>
       <workItem from="1624909445781" duration="2028000" />
-      <workItem from="1624989998490" duration="5718000" />
+      <workItem from="1624989998490" duration="6061000" />
+      <workItem from="1624996351074" duration="46000" />
     </task>
     <servers />
   </component>
@@ -209,24 +210,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Animals/StartUp.cs</url>
-          <line>13</line>
-          <properties documentPath="C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_01 Inheritance\Animals\StartUp.cs" initialLine="13" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="257" />
-            </startOffsets>
-            <endOffsets>
-              <option value="258" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
