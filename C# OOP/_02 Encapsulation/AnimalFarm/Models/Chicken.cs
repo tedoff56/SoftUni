@@ -21,7 +21,7 @@ namespace AnimalFarm.Models
             get => this.name;
             private set
             {
-                if(value == null || value == string.Empty || value == " ")
+                if(string.IsNullOrWhiteSpace(value))
                 {
                     throw new ArgumentException("Name cannot be empty.");
                 }
@@ -37,7 +37,7 @@ namespace AnimalFarm.Models
             {
                 if(value < MinAge || value > MaxAge)
                 {
-                    throw new ArgumentException("Age should be between 0 and 15.");
+                    throw new ArgumentException($"Age should be between {MinAge} and {MaxAge}.");
                 }
                 
                 this.age = value;   

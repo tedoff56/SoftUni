@@ -18,7 +18,7 @@ namespace ShoppingSpree
             {
                 try
                 {
-                    Person person = new Person(personData[0], decimal.Parse(personData[1]));
+                    var person = new Person(personData[0], decimal.Parse(personData[1]));
                     people.Add(person);
                 }
                 catch (Exception e)
@@ -32,7 +32,7 @@ namespace ShoppingSpree
             {
                 try
                 {
-                    Product product = new Product(productData[0], decimal.Parse(productData[1]));
+                    var product = new Product(productData[0], decimal.Parse(productData[1]));
                     products.Add(product);
                 }
                 catch (Exception e)

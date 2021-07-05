@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFarm", "AnimalFarm\An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingSpree", "ShoppingSpree\ShoppingSpree.csproj", "{5D4614B7-4C93-468A-9722-4FF516FCDD51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaCalories", "PizzaCalories\PizzaCalories.csproj", "{F815B381-08C7-4249-95FF-D2F3EB8A3361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{5D4614B7-4C93-468A-9722-4FF516FCDD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D4614B7-4C93-468A-9722-4FF516FCDD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D4614B7-4C93-468A-9722-4FF516FCDD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F815B381-08C7-4249-95FF-D2F3EB8A3361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F815B381-08C7-4249-95FF-D2F3EB8A3361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F815B381-08C7-4249-95FF-D2F3EB8A3361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F815B381-08C7-4249-95FF-D2F3EB8A3361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
