@@ -20,9 +20,11 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/DefineAnInterfaceIPerson/Program.cs" />
       <option value="$PROJECT_DIR$/DefineAnInterfaceIPerson/StartUp.cs" />
-      <option value="$PROJECT_DIR$/PersonInfo/IPerson.cs" />
       <option value="$PROJECT_DIR$/PersonInfo/Citizen.cs" />
       <option value="$PROJECT_DIR$/PersonInfo/StartUp.cs" />
+      <option value="$PROJECT_DIR$/PersonInfo/IPerson.cs" />
+      <option value="$PROJECT_DIR$/PersonInfo/IIdentifiable.cs" />
+      <option value="$PROJECT_DIR$/PersonInfo/IBirthable.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uuJgIDMEhygqxWYv2wAPV3xB5L" />
@@ -65,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625509649728</updated>
-      <workItem from="1625509651567" duration="327000" />
+      <workItem from="1625509651567" duration="455000" />
     </task>
     <servers />
   </component>
