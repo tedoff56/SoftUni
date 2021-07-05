@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# OOP\\_02 Encapsulation\\_03 InterfacesAndAbstraction\\PersonInfo\\PersonInfo.csproj",
+      "projectUniqueName": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# OOP\\_03 InterfacesAndAbstraction\\PersonInfo\\PersonInfo.csproj",
       "projectName": "PersonInfo",
-      "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# OOP\\_02 Encapsulation\\_03 InterfacesAndAbstraction\\PersonInfo\\PersonInfo.csproj",
+      "projectPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# OOP\\_03 InterfacesAndAbstraction\\PersonInfo\\PersonInfo.csproj",
       "packagesPath": "C:\\Users\\tedof\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# OOP\\_02 Encapsulation\\_03 InterfacesAndAbstraction\\PersonInfo\\obj\\",
+      "outputPath": "C:\\Users\\tedof\\Documents\\GitHub\\SoftUni\\C# OOP\\_03 InterfacesAndAbstraction\\PersonInfo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
