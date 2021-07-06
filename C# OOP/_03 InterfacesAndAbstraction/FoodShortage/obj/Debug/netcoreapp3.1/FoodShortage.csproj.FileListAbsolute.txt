@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\bin\Debug\netcoreapp3.1\FoodShortage.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\bin\Debug\netcoreapp3.1\FoodShortage.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\bin\Debug\netcoreapp3.1\FoodShortage.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\bin\Debug\netcoreapp3.1\FoodShortage.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\bin\Debug\netcoreapp3.1\FoodShortage.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\bin\Debug\netcoreapp3.1\FoodShortage.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\obj\Debug\netcoreapp3.1\FoodShortage.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\obj\Debug\netcoreapp3.1\FoodShortage.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\obj\Debug\netcoreapp3.1\FoodShortage.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\obj\Debug\netcoreapp3.1\FoodShortage.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\obj\Debug\netcoreapp3.1\FoodShortage.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\obj\Debug\netcoreapp3.1\FoodShortage.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\FoodShortage\obj\Debug\netcoreapp3.1\FoodShortage.genruntimeconfig.cache

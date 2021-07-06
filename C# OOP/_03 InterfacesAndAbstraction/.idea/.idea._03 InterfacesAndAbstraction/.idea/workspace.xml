@@ -5,6 +5,7 @@
     <projectFile>Telephony/Telephony.csproj</projectFile>
     <projectFile>BorderControl/BorderControl.csproj</projectFile>
     <projectFile>BirthdayCelebrations/BirthdayCelebrations.csproj</projectFile>
+    <projectFile>FoodShortage/FoodShortage.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -70,9 +71,15 @@
       <option value="$PROJECT_DIR$/BirthdayCelebrations/Models/Robot.cs" />
       <option value="$PROJECT_DIR$/BirthdayCelebrations/Interfaces/ICheckable.cs" />
       <option value="$PROJECT_DIR$/BirthdayCelebrations/Interfaces/IBirthday.cs" />
-      <option value="$PROJECT_DIR$/BirthdayCelebrations/Models/Citizen.cs" />
       <option value="$PROJECT_DIR$/BirthdayCelebrations/Models/Pet.cs" />
+      <option value="$PROJECT_DIR$/BirthdayCelebrations/Models/Citizen.cs" />
       <option value="$PROJECT_DIR$/BirthdayCelebrations/StartUp.cs" />
+      <option value="$PROJECT_DIR$/FoodShortage/Program.cs" />
+      <option value="$PROJECT_DIR$/FoodShortage/Models/Person.cs" />
+      <option value="$PROJECT_DIR$/FoodShortage/Models/Citizen.cs" />
+      <option value="$PROJECT_DIR$/FoodShortage/Models/Rebel.cs" />
+      <option value="$PROJECT_DIR$/FoodShortage/Interfaces/IBuyer.cs" />
+      <option value="$PROJECT_DIR$/FoodShortage/StartUp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uuKpgy0ICfp1KUavbqzbmtm8AD" />
@@ -90,7 +97,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.BirthdayCelebrations">
+  <component name="RunManager" selected=".NET Project.FoodShortage">
     <configuration name="BirthdayCelebrations" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -118,6 +125,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/BorderControl/BorderControl.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="FoodShortage" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FoodShortage/FoodShortage.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -174,7 +199,7 @@
       <updated>1625510220926</updated>
       <workItem from="1625510230182" duration="4123000" />
       <workItem from="1625590426229" duration="4372000" />
-      <workItem from="1625599305278" duration="4003000" />
+      <workItem from="1625599305278" duration="5622000" />
     </task>
     <servers />
   </component>
