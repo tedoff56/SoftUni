@@ -1,4 +1,6 @@
-﻿namespace BorderControl
+﻿using BirthdayCelebrations.Interfaces;
+
+namespace BirthdayCelebrations.Models
 {
     public class Robot : ICheckable
     {

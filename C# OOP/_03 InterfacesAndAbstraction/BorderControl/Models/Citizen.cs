@@ -1,4 +1,6 @@
-﻿namespace BorderControl
+﻿using BorderControl.Interfaces;
+
+namespace BorderControl.Models
 {
     public class Citizen : ICheckable
     {

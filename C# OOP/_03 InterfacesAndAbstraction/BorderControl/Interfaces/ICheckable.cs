@@ -1,4 +1,4 @@
-﻿namespace BorderControl
+﻿namespace BorderControl.Interfaces
 {
     public interface ICheckable
     {

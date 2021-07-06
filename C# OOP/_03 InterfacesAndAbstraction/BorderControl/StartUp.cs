@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using BorderControl.Interfaces;
+using BorderControl.Models;
 
 namespace BorderControl
 {

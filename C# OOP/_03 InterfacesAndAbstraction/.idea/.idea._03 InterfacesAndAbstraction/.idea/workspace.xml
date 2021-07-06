@@ -4,6 +4,7 @@
     <projectFile>PersonInfo/PersonInfo.csproj</projectFile>
     <projectFile>Telephony/Telephony.csproj</projectFile>
     <projectFile>BorderControl/BorderControl.csproj</projectFile>
+    <projectFile>BirthdayCelebrations/BirthdayCelebrations.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -18,10 +19,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Telephony/Exceptions/InvalidNumberException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Models/Phone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/8C/Int32.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Models/StationaryPhone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Exceptions/InvalidUrlException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/49/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Contracts/ICall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Contracts/IInternet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/7F/DateTimeParse.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -58,6 +62,17 @@
       <option value="$PROJECT_DIR$/BorderControl/Citizen.cs" />
       <option value="$PROJECT_DIR$/BorderControl/Robot.cs" />
       <option value="$PROJECT_DIR$/BorderControl/StartUp.cs" />
+      <option value="$PROJECT_DIR$/BorderControl/Interfaces/ICheckable.cs" />
+      <option value="$PROJECT_DIR$/BorderControl/Models/Citizen.cs" />
+      <option value="$PROJECT_DIR$/BorderControl/Models/Robot.cs" />
+      <option value="$PROJECT_DIR$/BorderControl/Models/Pet.cs" />
+      <option value="$PROJECT_DIR$/BirthdayCelebrations/Program.cs" />
+      <option value="$PROJECT_DIR$/BirthdayCelebrations/Models/Robot.cs" />
+      <option value="$PROJECT_DIR$/BirthdayCelebrations/Interfaces/ICheckable.cs" />
+      <option value="$PROJECT_DIR$/BirthdayCelebrations/Interfaces/IBirthday.cs" />
+      <option value="$PROJECT_DIR$/BirthdayCelebrations/Models/Citizen.cs" />
+      <option value="$PROJECT_DIR$/BirthdayCelebrations/Models/Pet.cs" />
+      <option value="$PROJECT_DIR$/BirthdayCelebrations/StartUp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uuKpgy0ICfp1KUavbqzbmtm8AD" />
@@ -71,10 +86,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.BorderControl">
+  <component name="RunManager" selected=".NET Project.BirthdayCelebrations">
+    <configuration name="BirthdayCelebrations" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BirthdayCelebrations/BirthdayCelebrations.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="BorderControl" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -140,7 +174,7 @@
       <updated>1625510220926</updated>
       <workItem from="1625510230182" duration="4123000" />
       <workItem from="1625590426229" duration="4372000" />
-      <workItem from="1625599305278" duration="2105000" />
+      <workItem from="1625599305278" duration="4003000" />
     </task>
     <servers />
   </component>
