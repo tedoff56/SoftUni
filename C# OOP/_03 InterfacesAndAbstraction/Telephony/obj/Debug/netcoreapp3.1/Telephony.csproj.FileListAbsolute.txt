@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\bin\Debug\netcoreapp3.1\Telephony.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\bin\Debug\netcoreapp3.1\Telephony.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\bin\Debug\netcoreapp3.1\Telephony.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\bin\Debug\netcoreapp3.1\Telephony.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\bin\Debug\netcoreapp3.1\Telephony.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\bin\Debug\netcoreapp3.1\Telephony.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\obj\Debug\netcoreapp3.1\Telephony.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\obj\Debug\netcoreapp3.1\Telephony.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\obj\Debug\netcoreapp3.1\Telephony.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\obj\Debug\netcoreapp3.1\Telephony.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\obj\Debug\netcoreapp3.1\Telephony.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\obj\Debug\netcoreapp3.1\Telephony.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_03 InterfacesAndAbstraction\Telephony\obj\Debug\netcoreapp3.1\Telephony.genruntimeconfig.cache
