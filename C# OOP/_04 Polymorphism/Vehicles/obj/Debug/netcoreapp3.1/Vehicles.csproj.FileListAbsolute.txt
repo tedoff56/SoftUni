@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\bin\Debug\netcoreapp3.1\Vehicles.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\bin\Debug\netcoreapp3.1\Vehicles.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\bin\Debug\netcoreapp3.1\Vehicles.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\bin\Debug\netcoreapp3.1\Vehicles.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\bin\Debug\netcoreapp3.1\Vehicles.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\bin\Debug\netcoreapp3.1\Vehicles.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\obj\Debug\netcoreapp3.1\Vehicles.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\obj\Debug\netcoreapp3.1\Vehicles.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\obj\Debug\netcoreapp3.1\Vehicles.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\obj\Debug\netcoreapp3.1\Vehicles.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\obj\Debug\netcoreapp3.1\Vehicles.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\obj\Debug\netcoreapp3.1\Vehicles.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\_04 Polymorphism\Vehicles\obj\Debug\netcoreapp3.1\Vehicles.genruntimeconfig.cache
