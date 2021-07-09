@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using Vehicles.Models;
+using System.Text;
 
 namespace Vehicles
 {
@@ -8,12 +8,14 @@ namespace Vehicles
     {
         private static void Main()
         {
-            //Car {fuel quantity} {liters per km}"
-            string[] carData = Console.ReadLine().Split().Skip(1).ToArray();
-            string[] truckData = Console.ReadLine().Split().Skip(1).ToArray();
+            
+            double[] carData = Console.ReadLine().Split().Skip(1).Select(double.Parse).ToArray();
+            double[] truckData = Console.ReadLine().Split().Skip(1).Select(double.Parse).ToArray();
+            double[] busData = Console.ReadLine().Split().Skip(1).Select(double.Parse).ToArray();
 
-            Vehicle car = new Car(double.Parse(carData[0]), double.Parse(carData[1]));
-            Vehicle truck = new Truck(double.Parse(truckData[0]), double.Parse(truckData[1]));
+            Vehicle car = new Car(carData[0], carData[1], carData[2]);
+            Vehicle truck = new Truck(truckData[0], truckData[1], truckData[2]);
+            Bus bus = new Bus(busData[0], busData[1], busData[2]);
             
             int totalCommands = int.Parse(Console.ReadLine());
             for (int i = 0; i < totalCommands; i++)
@@ -33,6 +35,10 @@ namespace Vehicles
                         {
                             Console.WriteLine(truck.Drive(double.Parse(commandData[2])));
                         }
+                        else if (vehicleType == "Bus")
+                        {
+                            Console.WriteLine(bus.Drive(double.Parse(commandData[2])));
+                        }
                         break;
                     
                     case "Refuel":
@@ -44,12 +50,26 @@ namespace Vehicles
                         {
                             truck.Refuel(double.Parse(commandData[2]));
                         }
+                        else if (vehicleType == "Bus")
+                        {
+                            bus.Refuel(double.Parse(commandData[2]));
+                        }
+                        break;
+                    
+                    case "DriveEmpty":
+                        bus.DriveEmpty = true;
+                        Console.WriteLine(bus.Drive(double.Parse(commandData[2])));
                         break;
                 }
+                
             }
-            
-            Console.WriteLine(car);
-            Console.WriteLine(truck);
+
+            StringBuilder sb = new StringBuilder()
+                .AppendLine($"{car}")
+                .AppendLine($"{truck}")
+                .AppendLine($"{bus}");
+
+            Console.WriteLine(sb.ToString().TrimEnd());
         }
     }
 }

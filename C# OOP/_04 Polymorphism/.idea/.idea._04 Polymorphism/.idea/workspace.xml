@@ -13,13 +13,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/72/Double.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Vehicles/Program.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Models/Car.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Interfaces.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Interfaces/IDrivable.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Models/Bus.cs" />
       <option value="$PROJECT_DIR$/Vehicles/Models/Truck.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/StartUp.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Models/Car.cs" />
       <option value="$PROJECT_DIR$/Vehicles/Models/Vehicle.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Car.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/StartUp.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Truck.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Bus.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Vehicle.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1v2kA9UTEObji6s5hJkYrT9TwTs" />
@@ -65,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625767427830</updated>
       <workItem from="1625767436775" duration="809000" />
-      <workItem from="1625768282459" duration="3731000" />
+      <workItem from="1625768282459" duration="5574000" />
+      <workItem from="1625850021128" duration="7687000" />
     </task>
     <servers />
   </component>
