@@ -20,18 +20,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Vehicles/Program.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Interfaces.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Interfaces/IDrivable.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Models/Bus.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Models/Truck.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Models/Car.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Models/Vehicle.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Car.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/StartUp.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Truck.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Bus.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Vehicle.cs" />
       <option value="$PROJECT_DIR$/Raiding/Program.cs" />
       <option value="$PROJECT_DIR$/Raiding/BaseHero.cs" />
       <option value="$PROJECT_DIR$/Raiding/Models/Rogue.cs" />
@@ -70,6 +58,19 @@
       <option value="$PROJECT_DIR$/WildFarm/Models/Animals/Mouse.cs" />
       <option value="$PROJECT_DIR$/WildFarm/Models/Animals/Cat.cs" />
       <option value="$PROJECT_DIR$/WildFarm/Models/Animals/Tiger.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Contracts/Vehicle.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Contracts/IDrivable.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Contracts/IRefuelable.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Contracts/IVehicle.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Models/Car.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Models/Truck.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Vehicles.csproj" />
+      <option value="$PROJECT_DIR$/Vehicles/Core/Contracts/IEngine.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Core/Енгине.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Core/Models/VehicleFactory.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Models/Vehicle.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Core/Engine.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/StartUp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1v2kA9UTEObji6s5hJkYrT9TwTs" />
@@ -87,7 +88,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.WildFarm">
+  <component name="RunManager" selected=".NET Project.Vehicles">
     <configuration name="Raiding" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -155,7 +156,7 @@
       <workItem from="1625768282459" duration="5574000" />
       <workItem from="1625850021128" duration="9276000" />
       <workItem from="1625925750301" duration="4029000" />
-      <workItem from="1625938323750" duration="6316000" />
+      <workItem from="1625938323750" duration="8465000" />
     </task>
     <servers />
   </component>
