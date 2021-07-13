@@ -69,8 +69,8 @@
       <option value="$PROJECT_DIR$/Vehicles/Core/Енгине.cs" />
       <option value="$PROJECT_DIR$/Vehicles/Core/Models/VehicleFactory.cs" />
       <option value="$PROJECT_DIR$/Vehicles/Models/Vehicle.cs" />
-      <option value="$PROJECT_DIR$/Vehicles/Core/Engine.cs" />
       <option value="$PROJECT_DIR$/Vehicles/StartUp.cs" />
+      <option value="$PROJECT_DIR$/Vehicles/Core/Engine.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1v2kA9UTEObji6s5hJkYrT9TwTs" />
@@ -156,7 +156,7 @@
       <workItem from="1625768282459" duration="5574000" />
       <workItem from="1625850021128" duration="9276000" />
       <workItem from="1625925750301" duration="4029000" />
-      <workItem from="1625938323750" duration="8465000" />
+      <workItem from="1625938323750" duration="9232000" />
     </task>
     <servers />
   </component>

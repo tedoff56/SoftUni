@@ -6,6 +6,7 @@
     <projectFile>BorderControl/BorderControl.csproj</projectFile>
     <projectFile>BirthdayCelebrations/BirthdayCelebrations.csproj</projectFile>
     <projectFile>FoodShortage/FoodShortage.csproj</projectFile>
+    <projectFile>MilitaryElite/MilitaryElite.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -20,8 +21,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Telephony/Exceptions/InvalidNumberException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Models/Phone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/38/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/A8/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/8C/Int32.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Models/StationaryPhone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/20/Enum.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Exceptions/InvalidUrlException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/49/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Contracts/ICall.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,28 +34,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/PersonInfo/IPerson.cs" />
-      <option value="$PROJECT_DIR$/PersonInfo/Contracts/IIdentifiable.cs" />
-      <option value="$PROJECT_DIR$/PersonInfo/Models/Citizen.cs" />
-      <option value="$PROJECT_DIR$/PersonInfo/Contracts/IBirthable.cs" />
-      <option value="$PROJECT_DIR$/PersonInfo/IBirthable.cs" />
-      <option value="$PROJECT_DIR$/PersonInfo/IIdentifiable.cs" />
-      <option value="$PROJECT_DIR$/PersonInfo/StartUp.cs" />
-      <option value="$PROJECT_DIR$/PersonInfo/Citizen.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Program.cs" />
-      <option value="$PROJECT_DIR$/Telephony/ICallable.cs" />
-      <option value="$PROJECT_DIR$/Telephony/IInternet.cs" />
-      <option value="$PROJECT_DIR$/Telephony/ICall.cs" />
-      <option value="$PROJECT_DIR$/Telephony/StationaryPhone.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Smartphone.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Contracts/ICall.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Phone.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Contracts/Phone.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Exceptions/InvalidUrlException.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Exceptions/InvalidNumberException.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Models/StationaryPhone.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Models/Smartphone.cs" />
-      <option value="$PROJECT_DIR$/Telephony/Contracts/IInternet.cs" />
       <option value="$PROJECT_DIR$/Telephony/Models/Phone.cs" />
       <option value="$PROJECT_DIR$/Telephony/StartUp.cs" />
       <option value="$PROJECT_DIR$/BorderControl/Program.cs" />
@@ -80,6 +62,29 @@
       <option value="$PROJECT_DIR$/FoodShortage/Models/Rebel.cs" />
       <option value="$PROJECT_DIR$/FoodShortage/Interfaces/IBuyer.cs" />
       <option value="$PROJECT_DIR$/FoodShortage/StartUp.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Program.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IPrivate.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ISoldier.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ILieutenantGeneral.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Enumerators/Corps.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Enumerators/CorpsEnum.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IEngineer.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IRepair.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Enumerators/StateEnum.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ISpy.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Soldier.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Spy.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Repair.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Private.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ISpecialisedSoldier.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IMission.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ICommando.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Commando.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Engineer.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/LieutenantGeneral.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Mission.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/SpecialisedSoldier.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/StartUp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uuKpgy0ICfp1KUavbqzbmtm8AD" />
@@ -97,7 +102,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.FoodShortage">
+  <component name="RunManager" selected=".NET Project.MilitaryElite">
     <configuration name="BirthdayCelebrations" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -143,6 +148,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/FoodShortage/FoodShortage.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="MilitaryElite" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MilitaryElite/MilitaryElite.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -200,6 +223,8 @@
       <workItem from="1625510230182" duration="4123000" />
       <workItem from="1625590426229" duration="4372000" />
       <workItem from="1625599305278" duration="5814000" />
+      <workItem from="1626113714615" duration="5429000" />
+      <workItem from="1626195129884" duration="5281000" />
     </task>
     <servers />
   </component>
@@ -208,5 +233,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/20/Enum.cs</url>
+          <line>427</line>
+          <properties documentPath="C:\Users\tedof\AppData\Roaming\JetBrains\Rider2021.1\resharper-host\SourcesCache\2DDB40B0-7380-4610-8973-CCF11EC57CDD\20\Enum.cs" initialLine="427" containingFunctionPresentation="method 'TryParse'">
+            <startOffsets>
+              <option value="18595" />
+            </startOffsets>
+            <endOffsets>
+              <option value="18657" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
