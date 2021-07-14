@@ -76,7 +76,6 @@
       <option value="$PROJECT_DIR$/MilitaryElite/Exceptions/InvalidCorpsException.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Exceptions/InvalidStateException.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Models/Soldier.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Models/LieutenantGeneral.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Models/Spy.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Models/SpecialisedSoldier.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Models/Engineer.cs" />
@@ -85,6 +84,7 @@
       <option value="$PROJECT_DIR$/MilitaryElite/Models/Mission.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Models/Private.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/StartUp.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/LieutenantGeneral.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uuKpgy0ICfp1KUavbqzbmtm8AD" />
@@ -226,7 +226,7 @@
       <workItem from="1626113714615" duration="5429000" />
       <workItem from="1626195129884" duration="9523000" />
       <workItem from="1626264661861" duration="3291000" />
-      <workItem from="1626268009478" duration="4887000" />
+      <workItem from="1626268009478" duration="5186000" />
     </task>
     <servers />
   </component>
