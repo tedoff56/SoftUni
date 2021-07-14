@@ -1,31 +1,34 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+
 using MilitaryElite.Contracts;
 
 namespace MilitaryElite.Models
 {
     public class LieutenantGeneral : Private, ILieutenantGeneral
     {
-        public LieutenantGeneral(
-            string id, 
-            string firstName, 
-            string lastName, 
-            decimal salary, 
-            ICollection<IPrivate> privates) 
+        private ICollection<ISoldier> _privates;
+        
+        public LieutenantGeneral(string id, string firstName, string lastName, decimal salary) 
             : base(id, firstName, lastName, salary)
         {
-            this.Privates = privates;
+            _privates = new List<ISoldier>();
         }
 
-        public ICollection<IPrivate> Privates { get; }
+        public IReadOnlyCollection<ISoldier> Privates => (IReadOnlyCollection<ISoldier>) _privates;
+        
+        public void AddPrivate(ISoldier @private)
+        {
+            _privates.Add(@private);
+        }
 
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-
+            
             sb.AppendLine(base.ToString());
             sb.AppendLine("Privates:");
-            foreach (var @private in Privates)
+            foreach (var @private in this.Privates)
             {
                 sb.AppendLine($"  {@private}");
             }

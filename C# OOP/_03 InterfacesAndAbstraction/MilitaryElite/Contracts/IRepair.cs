@@ -2,8 +2,8 @@
 {
     public interface IRepair
     {
-        public string PartName { get; }
+        string PartName { get; }
 
-        public int HoursWorked { get; }
+        int HoursWorked { get; }
     }
 }

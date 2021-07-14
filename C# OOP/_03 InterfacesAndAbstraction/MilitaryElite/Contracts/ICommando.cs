@@ -2,8 +2,10 @@
 
 namespace MilitaryElite.Contracts
 {
-    public interface ICommando
+    public interface ICommando : ISpecialisedSoldier
     {
-        public ICollection<IMission> Missions { get; }
+        IReadOnlyCollection<IMission> Missions { get; }
+
+        void AddMission(IMission mission);
     }
 }

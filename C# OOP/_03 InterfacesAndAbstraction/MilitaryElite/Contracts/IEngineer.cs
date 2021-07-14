@@ -2,8 +2,11 @@
 
 namespace MilitaryElite.Contracts
 {
-    public interface IEngineer
+    public interface IEngineer : ISpecialisedSoldier
     {
-        public ICollection<IRepair> Repairs { get; }
+        IReadOnlyCollection<IRepair> Repairs { get; }
+
+        void AddRepair(IRepair repair);
+        
     }
 }

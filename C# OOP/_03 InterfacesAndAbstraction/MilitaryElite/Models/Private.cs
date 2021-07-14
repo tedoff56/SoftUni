@@ -1,4 +1,5 @@
 ﻿using System;
+
 using MilitaryElite.Contracts;
 
 namespace MilitaryElite.Models

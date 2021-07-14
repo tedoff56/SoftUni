@@ -6,27 +6,28 @@ namespace MilitaryElite.Models
 {
     public class Commando : SpecialisedSoldier, ICommando
     {
-        public Commando(
-            string id, 
-            string firstName, 
-            string lastName, 
-            decimal salary, 
-            string corps,
-            ICollection<IMission> missions) 
+        private ICollection<IMission> _missions;
+        
+        public Commando(string id, string firstName, string lastName, decimal salary, string corps) 
             : base(id, firstName, lastName, salary, corps)
         {
-            this.Missions = missions;
+            _missions = new List<IMission>();
         }
+
+        public IReadOnlyCollection<IMission> Missions => (IReadOnlyCollection<IMission>) _missions;
         
-        public ICollection<IMission> Missions { get; }
+        public void AddMission(IMission mission)
+        {
+            _missions.Add(mission);
+        }
 
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine(base.ToString());
-            sb.AppendLine("Missions:");
-            foreach (var mission in Missions)
+            sb.AppendLine($"Missions:");
+            foreach (var mission in this.Missions)
             {
                 sb.AppendLine($"  {mission}");
             }

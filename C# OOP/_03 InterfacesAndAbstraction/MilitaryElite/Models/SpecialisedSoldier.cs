@@ -1,41 +1,41 @@
 ﻿using System;
+using System.Text;
+
 using MilitaryElite.Contracts;
+using MilitaryElite.Enumerations;
+using MilitaryElite.Exceptions;
 
 namespace MilitaryElite.Models
 {
     public abstract class SpecialisedSoldier : Private, ISpecialisedSoldier
     {
-        private string _corps;
-        
-        protected SpecialisedSoldier(
-            string id, 
-            string firstName, 
-            string lastName, 
-            decimal salary,
-            string corps) 
+        protected SpecialisedSoldier(string id, string firstName, string lastName, decimal salary, string corps) 
             : base(id, firstName, lastName, salary)
         {
-            this.Corps = corps;
+            this.Corps = CorpsTryParse(corps);
         }
 
-        public string Corps
+        public CorpsEnum Corps { get; private set; }
+
+        private CorpsEnum CorpsTryParse(string corpsText)
         {
-            get => _corps;
-            private set
+            bool isValid = Enum.TryParse(corpsText, out CorpsEnum corps);
+            if (!isValid)
             {
-                bool isValid = value == "Airforces" || value == "Marines";
-                if(!isValid)
-                {
-                    return;
-                }
-                
-                _corps = value;
+                throw new InvalidCorpsException();
             }
+
+            return corps;
         }
 
         public override string ToString()
         {
-            return $"{base.ToString()}{Environment.NewLine}Corps: {this.Corps}";
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(base.ToString());
+            sb.AppendLine($"Corps: {this.Corps.ToString()}");
+
+            return sb.ToString().TrimEnd();
         }
     }
 }

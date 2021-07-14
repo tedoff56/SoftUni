@@ -1,25 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
+
 using MilitaryElite.Contracts;
 
 namespace MilitaryElite.Models
 {
     public class Engineer : SpecialisedSoldier, IEngineer
     {
-        public Engineer(
-            string id, 
-            string firstName, 
-            string lastName, 
-            decimal salary, 
-            string corps,
-            ICollection<IRepair> repairs) 
+        private ICollection<IRepair> _repairs;
+        
+        public Engineer(string id, string firstName, string lastName, decimal salary, string corps) 
             : base(id, firstName, lastName, salary, corps)
         {
-            this.Repairs = repairs;
+            _repairs = new List<IRepair>();
         }
 
-        public ICollection<IRepair> Repairs { get; }
+        public IReadOnlyCollection<IRepair> Repairs => (IReadOnlyCollection<IRepair>) _repairs;
+        
+        public void AddRepair(IRepair repair)
+        {
+            _repairs.Add(repair);
+        }
 
         public override string ToString()
         {
@@ -27,7 +28,7 @@ namespace MilitaryElite.Models
 
             sb.AppendLine(base.ToString());
             sb.AppendLine("Repairs:");
-            foreach (var repair in Repairs)
+            foreach (var repair in this.Repairs)
             {
                 sb.AppendLine($"  {repair}");
             }

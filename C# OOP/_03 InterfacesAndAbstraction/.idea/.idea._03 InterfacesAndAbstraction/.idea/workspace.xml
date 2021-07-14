@@ -24,8 +24,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/38/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/A8/Number.Parsing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/8C/Int32.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Telephony/Models/StationaryPhone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/20/Enum.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Telephony/Models/StationaryPhone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Exceptions/InvalidUrlException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/49/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Telephony/Contracts/ICall.cs" root0="FORCE_HIGHLIGHTING" />
@@ -34,12 +34,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Telephony/Models/Phone.cs" />
-      <option value="$PROJECT_DIR$/Telephony/StartUp.cs" />
-      <option value="$PROJECT_DIR$/BorderControl/Program.cs" />
-      <option value="$PROJECT_DIR$/BorderControl/Interfaces/IRobot.cs" />
-      <option value="$PROJECT_DIR$/BorderControl/Interfaces/ICitizen.cs" />
-      <option value="$PROJECT_DIR$/BorderControl/Id.cs" />
       <option value="$PROJECT_DIR$/BorderControl/Soldier.cs" />
       <option value="$PROJECT_DIR$/BorderControl/ICheckable.cs" />
       <option value="$PROJECT_DIR$/BorderControl/Citizen.cs" />
@@ -62,28 +56,34 @@
       <option value="$PROJECT_DIR$/FoodShortage/Models/Rebel.cs" />
       <option value="$PROJECT_DIR$/FoodShortage/Interfaces/IBuyer.cs" />
       <option value="$PROJECT_DIR$/FoodShortage/StartUp.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Program.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IPrivate.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ISoldier.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ILieutenantGeneral.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Enumerators/Corps.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Enumerators/CorpsEnum.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IEngineer.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IRepair.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Enumerators/StateEnum.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ISpy.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Models/Soldier.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Models/Spy.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Models/Repair.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Models/Private.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Enumerations/MissionStateEnum.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Exceptions/InvalidMissionStateException.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Program.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ISoldier.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IPrivate.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ILieutenantGeneral.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Enumerations/CorpsEnum.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ISpecialisedSoldier.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IMission.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IRepair.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IEngineer.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ICommando.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Models/Commando.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Models/Engineer.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Enumerations/StateEnum.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/IMission.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Contracts/ISpy.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Exceptions/InvalidCorpsException.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Exceptions/InvalidStateException.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Soldier.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Models/LieutenantGeneral.cs" />
-      <option value="$PROJECT_DIR$/MilitaryElite/Models/Mission.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Spy.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/Models/SpecialisedSoldier.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Engineer.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Commando.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Repair.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Mission.cs" />
+      <option value="$PROJECT_DIR$/MilitaryElite/Models/Private.cs" />
       <option value="$PROJECT_DIR$/MilitaryElite/StartUp.cs" />
     </changedPaths>
   </component>
@@ -93,13 +93,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991798" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.300164" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.MilitaryElite">
@@ -224,7 +224,9 @@
       <workItem from="1625590426229" duration="4372000" />
       <workItem from="1625599305278" duration="5814000" />
       <workItem from="1626113714615" duration="5429000" />
-      <workItem from="1626195129884" duration="5281000" />
+      <workItem from="1626195129884" duration="9523000" />
+      <workItem from="1626264661861" duration="3291000" />
+      <workItem from="1626268009478" duration="4887000" />
     </task>
     <servers />
   </component>

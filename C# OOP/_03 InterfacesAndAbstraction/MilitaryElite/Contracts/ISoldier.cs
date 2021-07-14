@@ -2,10 +2,11 @@
 {
     public interface ISoldier
     {
-        public string Id { get; }
+        string Id { get; }
 
-        public string FirstName { get; }
+        string FirstName { get; }
 
-        public string LastName { get; }
+        string LastName { get; }
+
     }
 }

@@ -2,8 +2,10 @@
 
 namespace MilitaryElite.Contracts
 {
-    public interface ILieutenantGeneral
+    public interface ILieutenantGeneral : IPrivate
     {
-        public ICollection<IPrivate> Privates { get; }
+        IReadOnlyCollection<ISoldier> Privates { get; }
+        
+        void AddPrivate(ISoldier @private);
     }
 }
