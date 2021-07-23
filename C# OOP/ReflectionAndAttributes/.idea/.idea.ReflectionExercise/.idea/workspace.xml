@@ -14,6 +14,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2DDB40B0-7380-4610-8973-CCF11EC57CDD/2E/Object.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/CommandPattern/Core/Models.cs" />
@@ -21,8 +24,19 @@
       <option value="$PROJECT_DIR$/CommandPattern/Core/Models/HelloCommand.cs" />
       <option value="$PROJECT_DIR$/CommandPattern/Core/Models/CommandName.cs" />
       <option value="$PROJECT_DIR$/CommandPattern/Core/Models/ExitCommand.cs" />
-      <option value="$PROJECT_DIR$/CommandPattern/Core/Models/Engine.cs" />
       <option value="$PROJECT_DIR$/CommandPattern/Core/Models/CommandInterpreter.cs" />
+      <option value="$PROJECT_DIR$/CommandPattern/Core/Models/Engine.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/StartUp.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/Contracts/IValidationAttribute.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/Contracts.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/Contracts/IAttribute.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/Attributes.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/Attributes/MyValidationAttribute.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/MyValidationAttribute.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/Person.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/MyRequiredAttribute.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/MyRangeAttribute.cs" />
+      <option value="$PROJECT_DIR$/ValidationAttributes/Validator.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vipGu8ykbBPMOab75lemE91oAD" />
@@ -31,13 +45,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.CommandPattern">
+  <component name="RunManager" selected=".NET Project.ValidationAttributes">
     <configuration name="CommandPattern" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -83,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627054673274</updated>
-      <workItem from="1627054680269" duration="1706000" />
+      <workItem from="1627054680269" duration="4714000" />
     </task>
     <servers />
   </component>
