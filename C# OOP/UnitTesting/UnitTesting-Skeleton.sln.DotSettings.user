@@ -2,5 +2,19 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1be62a4c_002Db3cb_002D439b_002Da1af_002Df0524ef8ba03/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Ctor_Throws_Exception_If_Array_Size_Is_Not_16" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::5795F810-87D3-4FC9-89B3-61985EE6F92B::.NETCoreApp,Version=v3.1::Tests.DatabaseTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.Add_ThrowsExceptionIfTryToAddMoreThanAllowedPeople&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.Add_ThrowsExceptionIfUsernameAlreadyExists&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.Add_ThrowsExceptionIfIdAlreadyExists&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.Add_AddValidUsersToDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.Remove_ThrowsExceptionIfTryToRemoveFromEmptyDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.Remove_RemoveSuccessfullyElementFromDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.FindByUserName_ThrowsExceptionIfNameIsNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.FindByUserName_ThrowsExceptionIfNameIsEmpty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.FindByUsername_ThrowsExceptionIfUserNotFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.FindByUsername_SuccessfullyFoundUser&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.FindById_ThrowsExceptionIfIdIsNegativeNumber&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.FindById_ThrowsExceptionIfNoUserFoundWithProvidedId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests.FindById_SuccessfullyFoundPersonWithProvidedId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CA77E66-6639-40BB-95E7-672D3E22C7DC::.NETCoreApp,Version=v3.1::Tests.ExtendedDatabaseTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

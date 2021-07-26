@@ -1,0 +1,9 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\bin\Debug\netcoreapp3.1\DatabaseExtended.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\bin\Debug\netcoreapp3.1\DatabaseExtended.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\bin\Debug\netcoreapp3.1\DatabaseExtended.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\obj\Debug\netcoreapp3.1\DatabaseExtended.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\obj\Debug\netcoreapp3.1\DatabaseExtended.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\obj\Debug\netcoreapp3.1\DatabaseExtended.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\obj\Debug\netcoreapp3.1\DatabaseExtended.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\obj\Debug\netcoreapp3.1\DatabaseExtended.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\DatabaseExtended\obj\Debug\netcoreapp3.1\DatabaseExtended.pdb
