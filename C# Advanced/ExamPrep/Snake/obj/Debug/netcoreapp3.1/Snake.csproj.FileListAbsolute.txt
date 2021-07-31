@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\bin\Debug\netcoreapp3.1\Snake.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\bin\Debug\netcoreapp3.1\Snake.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\bin\Debug\netcoreapp3.1\Snake.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\bin\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\obj\Debug\netcoreapp3.1\Snake.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\obj\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Snake\obj\Debug\netcoreapp3.1\Snake.genruntimeconfig.cache
