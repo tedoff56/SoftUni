@@ -93,3 +93,5 @@ C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\FightingArena.Tests\o
 C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\FightingArena.Tests\obj\Debug\netcoreapp3.1\FightingArena.Tests.dll
 C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\FightingArena.Tests\obj\Debug\netcoreapp3.1\FightingArena.Tests.pdb
 C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\FightingArena.Tests\obj\Debug\netcoreapp3.1\FightingArena.Tests.genruntimeconfig.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\FightingArena.Tests\bin\Debug\netcoreapp3.1\FightingArena.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\UnitTesting\FightingArena.Tests\bin\Debug\netcoreapp3.1\FightingArena.pdb

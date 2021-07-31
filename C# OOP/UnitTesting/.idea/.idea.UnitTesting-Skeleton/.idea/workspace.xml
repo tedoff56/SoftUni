@@ -15,6 +15,8 @@
       <option value="$PROJECT_DIR$/Database.Tests/DatabaseTests.cs" />
       <option value="$PROJECT_DIR$/DatabaseExtended.Tests/ExtendedDatabase.Tests.cs" />
       <option value="$PROJECT_DIR$/CarManager.Tests/CarTests.cs" />
+      <option value="$PROJECT_DIR$/FightingArena.Tests/WarriorTests.cs" />
+      <option value="$PROJECT_DIR$/FightingArena.Tests/ArenaTests.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vrGLJ1YGkXBpXSAAuVsr5IryQo" />
@@ -38,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627312741380</updated>
-      <workItem from="1627312746647" duration="7256000" />
+      <workItem from="1627312746647" duration="11967000" />
     </task>
     <servers />
   </component>
