@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Garden
@@ -7,56 +8,67 @@ namespace Garden
     {
         static void Main()
         {
-            int[] dimensions = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse).ToArray();;
+            int[] gardenSizeData = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            int n = gardenSizeData[0];
+            int m = gardenSizeData[1];
+            
+            int[][] garden = new int[n][];
 
-            int n = dimensions[0];
-            int m = dimensions[1];
-
-            int[,] garden = new int[n, m];
-
-            string line = Console.ReadLine();
-            while (line != "Bloom Bloom Plow")
+            for (int row = 0; row < n; row++)
             {
-                int[] position = line.Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                    .Select(int.Parse).ToArray();
+                garden[row] = new int[m];
+            }
 
-                int row = position[0];
-                int col = position[1];
+            List<int[]> flowersCoordinates = new List<int[]>();
+            
+            while (true)
+            {
+                string command = Console.ReadLine();
+                if (command == "Bloom Bloom Plow")
+                {
+                    break;
+                }
+                
+                int[] sizeData = command.Split().Select(int.Parse).ToArray();
+                int row = sizeData[0];
+                int col = sizeData[1];
 
-                bool isValid = row >= 0 && row < n && col >= 0 && col < m;
-                if (!isValid)
+                if (IsOutside(row, col, garden))
                 {
                     Console.WriteLine("Invalid coordinates.");
                     continue;
                 }
                 
+                flowersCoordinates.Add(new[] {row, col});
+            }
+
+            foreach (var flowerCoordinate in flowersCoordinates)
+            {
+                int row = flowerCoordinate[0];
+                int col = flowerCoordinate[1];
+
                 for (int i = 0; i < garden.GetLength(0); i++)
                 {
-                    garden[i, col]++;
+                    garden[row][i]++;
+                    if (i == row)
+                    {
+                        continue;
+                    }
+                    garden[i][col]++;
                 }
                 
-                for (int j = 0; j < garden.GetLength(1); j++)
-                {
-                    garden[row, j]++;
-                }
-
-                garden[row, col]--;
-                
-                line = Console.ReadLine();
             }
 
-
-            for (int i = 0; i < garden.GetLength(0); i++)
+            foreach (var row in garden)
             {
-                for (int j = 0; j < garden.GetLength(1); j++)
-                {
-                    Console.Write(garden[i, j] + " ");
-                }
-
-                Console.WriteLine();
+                Console.WriteLine(string.Join(' ', row));
             }
+
         }
+
+        private static bool IsOutside(int row, int col, int[][] garden)
+            => row < 0 || row >= garden.GetLength(0) ||
+               col < 0 || col >= garden[row].Length;
 
     }
 }
