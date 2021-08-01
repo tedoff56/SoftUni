@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\bin\Debug\netcoreapp3.1\Bee.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\bin\Debug\netcoreapp3.1\Bee.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\bin\Debug\netcoreapp3.1\Bee.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\bin\Debug\netcoreapp3.1\Bee.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\bin\Debug\netcoreapp3.1\Bee.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\bin\Debug\netcoreapp3.1\Bee.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\obj\Debug\netcoreapp3.1\Bee.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\obj\Debug\netcoreapp3.1\Bee.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\obj\Debug\netcoreapp3.1\Bee.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\obj\Debug\netcoreapp3.1\Bee.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\obj\Debug\netcoreapp3.1\Bee.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\obj\Debug\netcoreapp3.1\Bee.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\Bee\obj\Debug\netcoreapp3.1\Bee.genruntimeconfig.cache
