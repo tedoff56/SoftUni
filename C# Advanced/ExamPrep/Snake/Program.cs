@@ -34,26 +34,11 @@ namespace Snake
             }
 
             bool isSnakeOutside = false;
-            while (foodQuantity < 10 && !isSnakeOutside)
+            while (foodQuantity < 10)
             {
                 
                 string direction = Console.ReadLine();
-
-                switch (direction)
-                {
-                    case "up":
-                        snakeRow--;
-                        break;
-                    case "down":
-                        snakeRow++;
-                        break;
-                    case "left":
-                        snakeCol--;
-                        break;
-                    case "right":
-                        snakeCol++;
-                        break;
-                }
+                Move(direction, ref snakeRow, ref snakeCol);
                 
                 if(IsSnakeOutside(snakeRow, snakeCol, territory))
                 {
@@ -86,12 +71,29 @@ namespace Snake
             }
 
             Console.WriteLine($"Food eaten: {foodQuantity}");
-
-
+            
             PrintTerritory(territory);
 
         }
 
+        private static void Move(string direction, ref int snakeRow, ref int snakeCol)
+        {
+            switch (direction)
+            {
+                case "up":
+                    snakeRow--;
+                    break;
+                case "down":
+                    snakeRow++;
+                    break;
+                case "left":
+                    snakeCol--;
+                    break;
+                case "right":
+                    snakeCol++;
+                    break;
+            }
+        }
         private static bool IsSnakeOutside(int snakeRow, int snakeCol, char[,] territory)
          => snakeRow < 0 || snakeRow >= territory.GetLength(0) ||
             snakeCol < 0 || snakeCol >= territory.GetLength(1);

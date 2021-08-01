@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\bin\Debug\netcoreapp3.1\FlowerWreaths.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\bin\Debug\netcoreapp3.1\FlowerWreaths.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\bin\Debug\netcoreapp3.1\FlowerWreaths.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\bin\Debug\netcoreapp3.1\FlowerWreaths.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\bin\Debug\netcoreapp3.1\FlowerWreaths.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\bin\Debug\netcoreapp3.1\FlowerWreaths.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\obj\Debug\netcoreapp3.1\FlowerWreaths.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\obj\Debug\netcoreapp3.1\FlowerWreaths.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\obj\Debug\netcoreapp3.1\FlowerWreaths.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\obj\Debug\netcoreapp3.1\FlowerWreaths.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\obj\Debug\netcoreapp3.1\FlowerWreaths.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\obj\Debug\netcoreapp3.1\FlowerWreaths.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\ExamPrep\FlowerWreaths\obj\Debug\netcoreapp3.1\FlowerWreaths.genruntimeconfig.cache
