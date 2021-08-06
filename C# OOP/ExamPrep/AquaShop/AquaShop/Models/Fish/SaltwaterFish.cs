@@ -2,19 +2,15 @@
 {
     public class SaltwaterFish : Fish
     {
-        private int _size = 5;
-        
         public SaltwaterFish(string name, string species, decimal price) 
             : base(name, species, price)
         {
-            
+            this.Size = 5;
         }
 
-        public override int Size => _size;
-        
         public override void Eat()
         {
-            _size += 2;
+            this.Size += 2;
         }
     }
 }

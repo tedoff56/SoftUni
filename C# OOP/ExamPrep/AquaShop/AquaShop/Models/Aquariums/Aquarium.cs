@@ -12,14 +12,18 @@ namespace AquaShop.Models.Aquariums
     public abstract class Aquarium : IAquarium
     {
         private string _name;
+        private ICollection<IDecoration> _decorations;
+        private ICollection<IFish> _fish;
         
         protected Aquarium(string name, int capacity)
         {
             this.Name = name;
             this.Capacity = capacity;
-            this.Decorations = new List<IDecoration>();
-            this.Fish = new List<IFish>();
+            
+            _decorations = new List<IDecoration>();
+            _fish = new List<IFish>();
         }
+        
         public string Name
         {
             get => _name;
@@ -33,14 +37,14 @@ namespace AquaShop.Models.Aquariums
                 _name = value;
             }
         }
-
+        
         public int Capacity { get; }
 
         public int Comfort => this.Decorations.Sum(d => d.Comfort);
-        
-        public ICollection<IDecoration> Decorations { get; }
-        
-        public ICollection<IFish> Fish { get; }
+
+        public ICollection<IDecoration> Decorations => _decorations;
+
+        public ICollection<IFish> Fish => _fish;
         
         public void AddFish(IFish fish)
         {
@@ -48,23 +52,23 @@ namespace AquaShop.Models.Aquariums
             {
                 throw new InvalidOperationException(ExceptionMessages.NotEnoughCapacity);
             }
-
-            this.Fish.Add(fish);
+            
+            _fish.Add(fish);
         }
 
         public bool RemoveFish(IFish fish)
         {
-            return this.Fish.Remove(fish);
+            return _fish.Remove(fish);
         }
 
         public void AddDecoration(IDecoration decoration)
         {
-            this.Decorations.Add(decoration);
+            _decorations.Add(decoration);
         }
 
         public void Feed()
         {
-            foreach (IFish fish in this.Fish)
+            foreach (IFish fish in _fish)
             {
                 fish.Eat();
             }
@@ -72,21 +76,20 @@ namespace AquaShop.Models.Aquariums
 
         public string GetInfo()
         {
-            
             StringBuilder sb = new StringBuilder();
-            
+
             sb.AppendLine($"{this.Name} ({this.GetType().Name}):");
-            if (this.Fish.Count == 0)
-            {
-                sb.AppendLine("none");
-            }
-            else
-            {
-                sb.AppendLine($"Fish: {string.Join(", ", this.Fish.ToString())}");
-            }
-            sb.AppendLine($"Decorations: {this.Decorations.Count}");
-            sb.AppendLine($"Comfort: {this.Comfort}");
             
+            string fish = this.Fish.Count == 0 
+                ? "none" 
+                : string.Join(", ", this.Fish.Select(f => f.Name));
+            
+            sb.AppendLine($"Fish: {fish}");
+
+            sb.AppendLine($"Decorations: {this.Decorations.Count}");
+
+            sb.AppendLine($"Comfort: {this.Comfort}");
+
             return sb.ToString().TrimEnd();
         }
     }

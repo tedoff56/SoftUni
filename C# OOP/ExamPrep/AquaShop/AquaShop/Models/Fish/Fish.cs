@@ -1,5 +1,4 @@
 ﻿using System;
-
 using AquaShop.Models.Fish.Contracts;
 using AquaShop.Utilities.Messages;
 
@@ -9,15 +8,16 @@ namespace AquaShop.Models.Fish
     {
         private string _name;
         private string _species;
+        private int _size = 0;
         private decimal _price;
-        
+
         protected Fish(string name, string species, decimal price)
         {
             this.Name = name;
             this.Species = species;
             this.Price = price;
         }
-        
+
         public string Name
         {
             get => _name;
@@ -25,13 +25,13 @@ namespace AquaShop.Models.Fish
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException(ExceptionMessages.InvalidFishName) ;
+                    throw new ArgumentException(ExceptionMessages.InvalidFishName);
                 }
 
                 _name = value;
             }
         }
-        
+
         public string Species
         {
             get => _species;
@@ -46,7 +46,11 @@ namespace AquaShop.Models.Fish
             }
         }
 
-        public abstract int Size { get; }
+        public int Size
+        {
+            get => _size;
+            protected set => _size = value;
+        }
 
         public decimal Price
         {
@@ -57,16 +61,11 @@ namespace AquaShop.Models.Fish
                 {
                     throw new ArgumentException(ExceptionMessages.InvalidFishPrice);
                 }
-                
+
                 _price = value;
             }
         }
 
         public abstract void Eat();
-
-        public override string ToString()
-        {
-            return this.Name;
-        }
     }
 }

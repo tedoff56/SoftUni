@@ -2,11 +2,8 @@
 {
     public class Plant : Decoration
     {
-        private const int DefaultComfort = 5;
-        private const decimal DefaultPrice = 10;
-        
         public Plant() 
-            : base(DefaultComfort, DefaultPrice)
+            : base(5, 10)
         {
             
         }
