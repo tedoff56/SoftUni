@@ -80,30 +80,34 @@ namespace AquaShop.Core
 
         public string AddFish(string aquariumName, string fishType, string fishName, string fishSpecies, decimal price)
         {
+
+            bool isFishTypeValid = fishType == nameof(FreshwaterFish) || fishType == nameof(SaltwaterFish);
+            
+            if (!isFishTypeValid)
+            {
+                throw new InvalidOperationException(ExceptionMessages.InvalidFishType);
+            }
+            
             IAquarium aquarium = this.aquariums.FirstOrDefault(a => a.Name == aquariumName);
             
-            string output = string.Empty;
-
             IFish fish = null;
             
             if (aquarium.GetType().Name == "FreshwaterAquarium" && fishType == "FreshwaterFish")
             {
                 fish = new FreshwaterFish(fishName, fishSpecies, price);
-                aquarium.AddFish(fish);
-                output = string.Format(OutputMessages.EntityAddedToAquarium, fishType, aquariumName);
             }
             else if (aquarium.GetType().Name == "SaltwaterAquarium" && fishType == "SaltwaterFish")
             {
                 fish = new SaltwaterFish(fishName, fishSpecies, price);
-                aquarium.AddFish(fish);
-                output = string.Format(OutputMessages.EntityAddedToAquarium, fishType, aquariumName);
             }
             else
             {
-                output =  OutputMessages.UnsuitableWater;
+                return OutputMessages.UnsuitableWater;
             }
-
-            return output;
+            
+            aquarium.AddFish(fish);
+            
+            return string.Format(OutputMessages.EntityAddedToAquarium, fishType, aquariumName);
         }
 
         public string FeedFish(string aquariumName)
@@ -135,7 +139,7 @@ namespace AquaShop.Core
                 sb.AppendLine(aquarium.GetInfo());
             }
 
-            return sb.ToString().TrimEnd();
+            return sb.ToString().Trim();
         }
     }
 }
