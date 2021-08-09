@@ -8,6 +8,7 @@ using EasterRaces.Models.Drivers.Contracts;
 using EasterRaces.Models.Drivers.Entities;
 using EasterRaces.Models.Races.Contracts;
 using EasterRaces.Models.Races.Entities;
+using EasterRaces.Repositories.Contracts;
 using EasterRaces.Repositories.Entities;
 using EasterRaces.Utilities.Messages;
 
@@ -15,9 +16,9 @@ namespace EasterRaces.Core.Entities
 {
     public class ChampionshipController : IChampionshipController
     {
-        private DriverRepository _drivers;
-        private CarRepository _cars;
-        private RaceRepository _races;
+        private readonly IRepository<IDriver> _drivers;
+        private readonly IRepository<ICar> _cars;
+        private readonly IRepository<IRace> _races;
         
         public ChampionshipController()
         {
@@ -96,7 +97,7 @@ namespace EasterRaces.Core.Entities
                 throw new InvalidOperationException(
                     string.Format(ExceptionMessages.DriverNotFound, driverName));
             }
-
+            
             race.AddDriver(driver);
 
             return string.Format(OutputMessages.DriverAdded, driverName, raceName);
@@ -118,7 +119,7 @@ namespace EasterRaces.Core.Entities
                 throw new InvalidOperationException(
                     string.Format(ExceptionMessages.CarNotFound, carModel));
             }
-
+            
             driver.AddCar(car);
             
             return string.Format(OutputMessages.CarAdded, driverName, carModel);
@@ -140,10 +141,12 @@ namespace EasterRaces.Core.Entities
                     string.Format(ExceptionMessages.RaceInvalid, raceName, 3));
             }
 
-            string[] winners = race.Drivers
+            string[] winners = _drivers.GetAll()
                 .OrderByDescending(d => d.Car.CalculateRacePoints(race.Laps))
                 .Select(d => d.Name).ToArray();
 
+            _races.Remove(race);
+            
             StringBuilder sb = new StringBuilder();
             
             sb.AppendLine(string.Format(OutputMessages.DriverFirstPosition, winners[0], raceName));

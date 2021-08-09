@@ -7,7 +7,7 @@ namespace EasterRaces.Repositories.Entities
 {
     public class CarRepository : IRepository<ICar>
     {
-        private ICollection<ICar> _cars;
+        private readonly ICollection<ICar> _cars;
 
         public CarRepository()
         {
@@ -21,5 +21,6 @@ namespace EasterRaces.Repositories.Entities
         public void Add(ICar model) => _cars.Add(model);
 
         public bool Remove(ICar model) => _cars.Remove(model);
+        
     }
 }

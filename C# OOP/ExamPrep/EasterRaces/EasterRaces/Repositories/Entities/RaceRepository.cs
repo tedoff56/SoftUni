@@ -7,7 +7,7 @@ namespace EasterRaces.Repositories.Entities
 {
     public class RaceRepository : IRepository<IRace>
     {
-        private ICollection<IRace> _races;
+        private readonly ICollection<IRace> _races;
 
         public RaceRepository()
         {

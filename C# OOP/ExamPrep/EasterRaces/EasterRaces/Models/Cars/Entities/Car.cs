@@ -8,8 +8,8 @@ namespace EasterRaces.Models.Cars.Entities
     {
         private string _model;
         private int _horsePower;
-        private int _minHorsePower;
-        private int _maxHorsePower;
+        private readonly int _minHorsePower;
+        private readonly int _maxHorsePower;
         
         protected Car(
             string model, 
@@ -46,7 +46,8 @@ namespace EasterRaces.Models.Cars.Entities
             {
                 if (value < _minHorsePower || value > _maxHorsePower)
                 {
-                    throw new ArgumentException(string.Format(ExceptionMessages.InvalidHorsePower, value));
+                    throw new ArgumentException(
+                        string.Format(ExceptionMessages.InvalidHorsePower, value));
                 }
 
                 _horsePower = value;

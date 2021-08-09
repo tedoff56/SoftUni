@@ -7,7 +7,7 @@ namespace EasterRaces.Repositories.Entities
 {
     public class DriverRepository : IRepository<IDriver>
     {
-        private ICollection<IDriver> _drivers;
+        private readonly ICollection<IDriver> _drivers;
 
         public DriverRepository()
         {

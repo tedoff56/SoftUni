@@ -44,7 +44,7 @@ namespace EasterRaces.Models.Drivers.Entities
         {
             if (car is null)
             {
-                throw new ArgumentNullException(ExceptionMessages.CarInvalid);
+                throw new ArgumentNullException(nameof(ICar), ExceptionMessages.CarInvalid);
             }
 
             Car = car;

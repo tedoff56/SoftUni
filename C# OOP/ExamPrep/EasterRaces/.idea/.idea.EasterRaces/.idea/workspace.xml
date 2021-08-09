@@ -21,14 +21,15 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/EasterRaces/Models/Cars/Entities/SportsCar.cs" />
       <option value="$PROJECT_DIR$/EasterRaces/Models/Cars/Entities/MuscleCar.cs" />
-      <option value="$PROJECT_DIR$/EasterRaces/Models/Cars/Entities/Car.cs" />
-      <option value="$PROJECT_DIR$/EasterRaces/Models/Drivers/Entities/Driver.cs" />
-      <option value="$PROJECT_DIR$/EasterRaces/Models/Races/Entities/Race.cs" />
       <option value="$PROJECT_DIR$/EasterRaces/Repositories/Entities/Repository.cs" />
-      <option value="$PROJECT_DIR$/EasterRaces/Repositories/Entities/CarRepository.cs" />
-      <option value="$PROJECT_DIR$/EasterRaces/Repositories/Entities/DriverRepository.cs" />
+      <option value="$PROJECT_DIR$/EasterRaces/Models/Drivers/Entities/Driver.cs" />
+      <option value="$PROJECT_DIR$/EasterRaces/Models/Cars/Entities/Car.cs" />
       <option value="$PROJECT_DIR$/EasterRaces/Repositories/Entities/RaceRepository.cs" />
+      <option value="$PROJECT_DIR$/EasterRaces/Repositories/Entities/DriverRepository.cs" />
+      <option value="$PROJECT_DIR$/EasterRaces/Repositories/Entities/CarRepository.cs" />
+      <option value="$PROJECT_DIR$/EasterRaces/Models/Races/Entities/Race.cs" />
       <option value="$PROJECT_DIR$/EasterRaces/StartUp.cs" />
+      <option value="$PROJECT_DIR$/EasterRaces/Utilities/Messages/ExceptionMessages.cs" />
       <option value="$PROJECT_DIR$/EasterRaces/Core/Entities/ChampionshipController.cs" />
     </changedPaths>
   </component>
@@ -74,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628523788032</updated>
-      <workItem from="1628523795527" duration="6833000" />
+      <workItem from="1628523795527" duration="7021000" />
+      <workItem from="1628533390933" duration="4879000" />
     </task>
     <servers />
   </component>
