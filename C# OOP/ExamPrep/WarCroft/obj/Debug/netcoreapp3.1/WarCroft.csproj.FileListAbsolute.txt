@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\ExamPrep\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.genruntimeconfig.cache
