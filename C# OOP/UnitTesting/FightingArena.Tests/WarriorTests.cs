@@ -1,148 +1,140 @@
 using System;
 using NUnit.Framework;
 
-namespace Tests
+namespace FightingArena.Tests
 {
     public class WarriorTests
     {
-        private const int MIN_ATTACK_HP = 30;
-        private Warrior warrior;
-
-        [SetUp]
+       [SetUp]
         public void Setup()
         {
-            warrior = new Warrior("Pesho", 5, 100);
-        }
-
-        [Test]
-        public void Ctor_ThrowsExceptionWithNullName()
-        {
-            Assert.Throws<ArgumentException>(() =>
-            {
-                warrior = new Warrior(null, 5, 100);
-            });
         }
         
         [Test]
-        public void Ctor_ThrowsExceptionWithEmptyName()
+        public void Warrior_Constructor()
         {
-            Assert.Throws<ArgumentException>(() =>
-            {
-                warrior = new Warrior("", 5, 100);
-            });
+            Warrior warrior = new Warrior("ABC", 25, 50);
+            var expectedName = "ABC";
+            var expectedDmg = 25;
+            var expectedHp = 50;
+            Assert.AreEqual(expectedName, warrior.Name);
+            Assert.AreEqual(expectedDmg, warrior.Damage);
+            Assert.AreEqual(expectedHp, warrior.HP);
+        }
+ 
+        [Test]
+        [TestCase("")]
+        [TestCase(" ")]
+        [TestCase("  ")]
+        [TestCase("   ")]
+        [TestCase(null)]
+        public void WarriorTest_ArguemtException_NameNullEmptyOrWhiteSpace(string name)
+        {
+            Assert.Throws<ArgumentException>
+                (() => new Warrior(name, 6, 6));
+        }
+ 
+        [Test]
+        [TestCase(-1)]
+        [TestCase(0)]
+        [TestCase(-11)]
+        [TestCase(-22)]
+        public void WarriorTest_ArguemtException_DamageZeroOrNegative(int damage)
+        {
+            Assert.Throws<ArgumentException>
+                (() => new Warrior("Bai Ivan", damage, 6));
+        }
+ 
+        [Test]
+        [TestCase(-1)]
+        [TestCase(-2)]
+        [TestCase(-11)]
+        [TestCase(-22)]
+        public void WarriorTest_ArguemtException_HpNegative(int hp)
+        {
+            Assert.Throws<ArgumentException>
+                (() => new Warrior("Bai Ivan", 11, hp));
+        }
+ 
+        [Test]
+        [TestCase(28)]
+        [TestCase(29)]
+        [TestCase(20)]
+        [TestCase(10)]
+        [TestCase(30)]
+        public void WarriorTest_ArguemtException_WarriorCantAttackWithLessThan30Hp(int hp)
+        {
+            Warrior attacker = new Warrior("Bai Ivan", 10, hp);
+            Warrior defender = new Warrior("Bai Pesho", 10, 40);
+ 
+            Assert.Throws<InvalidOperationException>
+                (() => attacker.Attack(defender));
+ 
+            Assert.Throws<InvalidOperationException>
+                (() => attacker.Attack(defender));
+        }
+ 
+        [Test]
+        [TestCase(28)]
+        [TestCase(29)]
+        [TestCase(20)]
+        [TestCase(10)]
+        [TestCase(30)]
+        public void WarriorTest_ArguemtException_WarriorCantBeAttackedWhenLessThan30Hp(int hp)
+        {
+            Warrior attacker = new Warrior("Bai Ivan", 10, 40);
+            Warrior defender = new Warrior("Bai Pesho", 10, hp);
+ 
+            Assert.Throws<InvalidOperationException>
+                (() => attacker.Attack(defender));
+        }
+ 
+        [Test]
+        [TestCase(58)]
+        [TestCase(59)]
+        [TestCase(50)]
+        [TestCase(41)]
+        public void WarriorTest_ArguemtException_AtackingStrongerOpponent(int dmg)
+        {
+            Warrior attacker = new Warrior("Bai Ivan", 10, 40);
+            Warrior defender = new Warrior("Bai Pesho", dmg, 40);
+ 
+            Assert.Throws<InvalidOperationException>
+                (() => attacker.Attack(defender));
+        }
+ 
+        [Test]
+        [TestCase(22, 40)]
+        [TestCase(49, 40)]
+        [TestCase(50, 40)]
+        public void WarriorTest_Atacks_Correctly(int dmg, int hp)
+        {
+            Warrior attacker = new Warrior("Bai Ivan", dmg, hp);
+            Warrior defender = new Warrior("Bai Pesho", 20, 50);
+ 
+            attacker.Attack(defender);
+ 
+            int expected = 50 - dmg;
+            int actual = defender.HP;
+ 
+            Assert.AreEqual(expected, actual);
         }
         
         [Test]
-        public void Ctor_ThrowsExceptionWithWhiteSpaceName()
+        [TestCase(51, 40)]
+        [TestCase(52, 40)]
+        [TestCase(120, 40)]
+        public void WarriorTest_Atacks_Correctly_WithMoreDamage(int dmg, int hp)
         {
-            Assert.Throws<ArgumentException>(() =>
-            {
-                warrior = new Warrior(" ", 5, 100);
-            });
+            Warrior attacker = new Warrior("Bai Ivan", dmg, hp);
+            Warrior defender = new Warrior("Bai Pesho", 20, 50);
+ 
+            attacker.Attack(defender);
+ 
+            int expected = 0;
+            int actual = defender.HP;
+ 
+            Assert.AreEqual(expected, actual);
         }
-        
-        [Test]
-        public void Ctor_ThrowsExceptionWithNegativeDamage()
-        {
-            Assert.Throws<ArgumentException>(() =>
-            {
-                warrior = new Warrior("Pesho", -1, 100);
-            });
-        }
-        
-        [Test]
-        public void Ctor_ThrowsExceptionWithZeroDamage()
-        {
-            Assert.Throws<ArgumentException>(() =>
-            {
-                warrior = new Warrior("Pesho", 0, 100);
-            });
-        }
-        
-        [Test]
-        public void Ctor_ThrowsExceptionWithNegativeHp()
-        {
-            Assert.Throws<ArgumentException>(() =>
-            {
-                warrior = new Warrior("Pesho", 5, -1);
-            });
-        }
-
-        [Test]
-        public void Ctor_SuccessfullyCreateWarrior()
-        {
-            string name = "Pesho";
-            int damage = 5;
-            int hp = 100;
-
-            warrior = new Warrior(name, damage, hp);
-            
-            Assert.That(warrior.Name, Is.EqualTo(name));
-            Assert.That(warrior.Damage, Is.EqualTo(damage));
-            Assert.That(warrior.HP, Is.EqualTo(hp));
-        }
-
-        [Test]
-        [TestCase(MIN_ATTACK_HP)]
-        [TestCase(MIN_ATTACK_HP - 1)]
-        public void Attack_ThrowsExceptionIfAttackerHpIsLowerThanAllowed(int minAttackHp)
-        {
-            Warrior attacker = new Warrior("Pesho", 5, minAttackHp);
-
-            Assert.Throws<InvalidOperationException>(() =>
-            {
-                attacker.Attack(warrior);
-            });
-        }
-
-        [Test]
-        [TestCase(MIN_ATTACK_HP)]
-        [TestCase(MIN_ATTACK_HP - 1)]
-        public void Attack_ThrowsExceptionIfEnemyHpIsLowerThanAllowed(int minAttackHp)
-        {
-            Warrior enemy = new Warrior("Ivan", 10, minAttackHp);
-
-            Assert.Throws<InvalidOperationException>(() =>
-            {
-                warrior.Attack(enemy);
-            });
-        }
-
-        [Test]
-        public void Attack_ThrowsExceptionIfAttackerHpIsLessThanEnemyDamage()
-        {
-            Warrior attacker = new Warrior("Pesho", 100, 5);
-            Warrior enemy = new Warrior("Ivan", 100, 100);
-
-            Assert.Throws<InvalidOperationException>(() =>
-            {
-                attacker.Attack(enemy);
-            });
-        }
-
-        [Test]
-        public void Attack_SetHpToZeroIfAttackerDamageIsMoreThanDefenderHp()
-        {
-            Warrior attacker = new Warrior("Pesho", 100, 100);
-            Warrior enemy = new Warrior("Ivan", 50, 80);
-            
-            attacker.Attack(enemy);
-            
-            Assert.That(enemy.HP, Is.EqualTo(0));
-        }
-        
-        [Test]
-        public void Attack_SuccessfullyAttackEnemy()
-        {
-            Warrior attacker = new Warrior("Pesho", 50, 100);
-            Warrior enemy = new Warrior("Ivan", 60, 100);
-
-            attacker.Attack(enemy);
-            
-            Assert.That(attacker.HP, Is.EqualTo(40));
-            Assert.That(enemy.HP, Is.EqualTo(50));
-        }
-
-
     }
 }
