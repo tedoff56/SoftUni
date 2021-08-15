@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\bin\Debug\netcoreapp3.0\Robots.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\bin\Debug\netcoreapp3.0\Robots.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\bin\Debug\netcoreapp3.0\Robots.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\bin\Debug\netcoreapp3.0\Robots.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\bin\Debug\netcoreapp3.0\Robots.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\bin\Debug\netcoreapp3.0\Robots.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\obj\Debug\netcoreapp3.0\Robots.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\obj\Debug\netcoreapp3.0\Robots.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\obj\Debug\netcoreapp3.0\Robots.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\obj\Debug\netcoreapp3.0\Robots.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\obj\Debug\netcoreapp3.0\Robots.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\obj\Debug\netcoreapp3.0\Robots.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# OOP\FinalExam\RobotsTests\Robots\obj\Debug\netcoreapp3.0\Robots.genruntimeconfig.cache
