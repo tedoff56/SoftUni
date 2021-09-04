@@ -1,0 +1,13 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\bin\Debug\netcoreapp3.1\BirthdayCelebration.exe
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\bin\Debug\netcoreapp3.1\BirthdayCelebration.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\bin\Debug\netcoreapp3.1\BirthdayCelebration.runtimeconfig.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\bin\Debug\netcoreapp3.1\BirthdayCelebration.runtimeconfig.dev.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\bin\Debug\netcoreapp3.1\BirthdayCelebration.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\bin\Debug\netcoreapp3.1\BirthdayCelebration.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\obj\Debug\netcoreapp3.1\BirthdayCelebration.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\obj\Debug\netcoreapp3.1\BirthdayCelebration.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\obj\Debug\netcoreapp3.1\BirthdayCelebration.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\obj\Debug\netcoreapp3.1\BirthdayCelebration.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\obj\Debug\netcoreapp3.1\BirthdayCelebration.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\obj\Debug\netcoreapp3.1\BirthdayCelebration.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# Advanced\Exam\BirthdayCelebration\obj\Debug\netcoreapp3.1\BirthdayCelebration.genruntimeconfig.cache
