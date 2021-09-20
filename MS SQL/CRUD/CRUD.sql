@@ -51,7 +51,7 @@ ORDER BY [Salary] DESC
 ORDER BY [Salary] DESC, [FirstName] ASC, [LastName] DESC, [MiddleName] ASC 
 
 
-CREATE VIEW [V_EmployeesSalariesy] AS (
+CREATE VIEW [V_EmployeesSalaries] AS (
      SELECT [FirstName], [LastName], [Salary] 
        FROM [Employees])
 
@@ -63,3 +63,22 @@ SELECT CONCAT([FirstName], ' ', ISNULL([MiddleName], ''), ' ', [LastName]) AS [F
   FROM [Employees])
 
 SELECT * FROM [V_EmployeeNameJobTitle]
+
+SELECT DISTINCT [JobTitle] 
+  FROM [Employees]
+
+  SELECT TOP (10) * 
+    FROM [Projects]
+ORDER BY [StartDate] ASC, [Name] ASC
+
+  SELECT TOP (7) [FirstName], [LastName], [HireDate] 
+    FROM [Employees]
+ORDER BY [HireDate] DESC
+
+
+ UPDATE [Employees]
+    SET [Salary] = [Salary] * 1.12
+  WHERE [DepartmentID] IN (1, 2, 4, 11)
+
+ SELECT [Salary] 
+   FROM [Employees]
