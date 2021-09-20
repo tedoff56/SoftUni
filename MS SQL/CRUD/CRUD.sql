@@ -1,0 +1,31 @@
+USE [SoftUni]
+
+SELECT * 
+  FROM [Departments]
+
+SELECT [Name] 
+  FROM [Departments]
+
+SELECT [FirstName], [LastName], [Salary] 
+ FROM  [Employees]
+
+SELECT [FirstName], [MiddleName], [LastName] 
+  FROM [Employees]
+
+SELECT CONCAT([FirstName], '.', [LastName], '@', 'softuni.bg') AS [Full Email Address] 
+  FROM [Employees]
+
+SELECT DISTINCT [Salary] 
+  FROM [Employees]
+
+SELECT * FROM [Employees]
+WHERE [JobTitle] = 'Sales Representative'
+
+SELECT [FirstName], [LastName], [JobTitle] 
+  FROM [Employees]
+ WHERE [Salary] BETWEEN 20000 AND 30000
+
+SELECT CONCAT([FirstName], ' ', [MiddleName], ' ', [LastName]) AS [Full Name] 
+  FROM [Employees]
+ WHERE [Salary] IN (25000, 14000, 12500, 23600)
+
