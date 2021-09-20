@@ -82,3 +82,29 @@ ORDER BY [HireDate] DESC
 
  SELECT [Salary] 
    FROM [Employees]
+
+USE [Geography]
+
+  SELECT [PeakName] 
+    FROM [Peaks]
+ORDER BY [PeakName]
+
+  SELECT TOP (30) [CountryName], [Population] 
+    FROM [Countries]
+   WHERE [ContinentCode] = 'EU'
+ORDER BY [Population] DESC
+
+  SELECT [CountryName], 
+	     [CountryCode], 
+	     CASE
+			WHEN [CurrencyCode] = 'EUR' THEN 'Euro'
+			ELSE 'Not Euro'
+	     END AS [Currency]
+    FROM [Countries]
+ORDER BY [CountryName] ASC
+
+USE [Diablo]
+
+  SELECT [Name] FROM [Characters]
+ORDER BY [Name] ASC
+
