@@ -2,6 +2,7 @@ CREATE DATABASE [TableRelations]
 
 USE [TableRelations]
 
+--1
 CREATE TABLE [Passports](
 	[PassportID] INT IDENTITY(101, 1) PRIMARY KEY,
 	[PassportNumber] CHAR(8) NOT NULL
@@ -27,6 +28,7 @@ INSERT INTO [Persons]([FirstName], [Salary], [PassportID])
 		('Yana', 60200.00, 101)
 
 
+--2
 CREATE TABLE [Manufacturers](
 	[ManufacturerID] INT IDENTITY PRIMARY KEY,
 	[Name] VARCHAR(50) UNIQUE NOT NULL,
@@ -51,3 +53,39 @@ INSERT INTO [Models]([Name], [ManufacturerID]) VALUES
 	('Model X', 2),
 	('Model 3', 2),
 	('Nova', 3)
+
+--3
+
+CREATE TABLE [Students](
+	[StudentID] INT IDENTITY PRIMARY KEY,
+	[Name] NVARCHAR(80) NOT NULL
+)
+
+CREATE TABLE [Exams](
+	[ExamID] INT IDENTITY(101, 1) PRIMARY KEY,
+	[Name] NVARCHAR(80) NOT NULL
+)
+
+CREATE TABLE [StudentsExams](
+	[StudentID] INT FOREIGN KEY REFERENCES [Students]([StudentID]) NOT NULL,
+	[ExamID] INT FOREIGN KEY REFERENCES [Exams]([ExamID]) NOT NULL
+	PRIMARY KEY([StudentID], [ExamID])
+)
+
+INSERT INTO [Students]([Name]) VALUES
+	('Mila'),
+	('Toni'),
+	('Ron')
+
+INSERT INTO [Exams]([Name]) VALUES
+	('SpringMVC'),
+	('Neo4j'),
+	('Oracle 11g')
+
+INSERT INTO [StudentsExams]([StudentID], [ExamID]) VALUES
+	(1, 101),
+	(1, 102),
+	(2, 101),
+	(3, 103),
+	(2, 102),
+	(2, 103)
