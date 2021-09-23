@@ -89,3 +89,19 @@ INSERT INTO [StudentsExams]([StudentID], [ExamID]) VALUES
 	(3, 103),
 	(2, 102),
 	(2, 103)
+
+--4
+
+CREATE TABLE [Teachers](
+	[TeacherID] INT IDENTITY(101, 1) PRIMARY KEY,
+	[Name] NVARCHAR(80) NOT NULL,
+	[ManagerID] INT FOREIGN KEY REFERENCES [Teachers]([TeacherID])
+)
+
+INSERT INTO [Teachers]([Name], [ManagerID]) VALUES
+	('John', NULL),
+	('Maya', 106),
+	('Silvia', 106),
+	('Ted', 105),
+	('Mark', 101),
+	('Greta', 101)
