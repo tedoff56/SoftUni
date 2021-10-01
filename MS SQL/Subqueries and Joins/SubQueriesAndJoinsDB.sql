@@ -118,3 +118,85 @@ INNER JOIN [Employees] AS m
  LEFT JOIN [Departments] AS d
 	    ON e.[DepartmentID] = d.[DepartmentID]
   ORDER BY e.[EmployeeID]
+
+ --11. Min Average Salary
+	 SELECT MIN([LowestSalary]) FROM 
+	 (
+	 SELECT AVG(e.[Salary]) AS LowestSalary 
+	   FROM [Employees] AS e
+  LEFT JOIN [Departments] AS d
+		 ON e.[DepartmentID] = d.[DepartmentID]
+   GROUP BY e.[DepartmentID]
+     ) AS Salaries
+
+
+--12. Highest Peaks in Bulgaria
+USE [Geography]
+
+   SELECT c.[CountryCode],
+		  m.[MountainRange],
+		  p.[PeakName],
+		  p.[Elevation]
+     FROM [Countries] AS c
+LEFT JOIN [MountainsCountries] as mc
+	   ON c.[CountryCode] = mc.[CountryCode]
+LEFT JOIN [Mountains] AS m
+	   ON mc.[MountainId] = m.[Id]
+LEFT JOIN [Peaks] AS p
+	   ON mc.[MountainId] = p.[MountainId]
+	WHERE c.[CountryCode] = 'BG' AND p.[Elevation] > 2835
+ ORDER BY p.[Elevation] DESC
+
+--13. Count Mountain Ranges
+   SELECT c.[CountryCode], 
+		  COUNT(m.[MountainRange]) AS [MountainRanges]
+     FROM [Countries] AS c
+LEFT JOIN [MountainsCountries] AS mc
+	   ON c.[CountryCode] = mc.[CountryCode]
+LEFT JOIN [Mountains] AS m
+	   ON mc.[MountainId] = m.[Id]
+    WHERE c.[CountryCode] IN ('BG', 'RU', 'US')
+ GROUP BY c.[CountryCode]
+
+ --14. Countries with Rivers
+   SELECT TOP (5)
+		  c.[CountryName],
+		  r.[RiverName]
+     FROM [Countries] AS c
+LEFT JOIN [CountriesRivers] AS cr
+	   ON c.[CountryCode] = cr.[CountryCode]
+LEFT JOIN [Rivers] AS r
+	   ON cr.[RiverId] = r.[Id]
+    WHERE c.[ContinentCode] = 'AF'
+ ORDER BY c.[CountryName]
+
+ --16. Countries Without Any Mountains
+	SELECT COUNT(c.[CountryCode])
+	  FROM [Countries] AS c
+ LEFT JOIN [MountainsCountries] AS mc
+	    ON c.[CountryCode] = mc.[CountryCode]
+	 WHERE mc.[MountainId] IS NULL
+
+
+ --17. Highest Peak and Longest River by Country
+SELECT TOP (5)
+	   [CountryName],	
+	   [HighestPeakElevation],
+	   [LongestRiverLength]
+  FROM (
+	SELECT c.[CountryName],
+		   MAX(p.[Elevation]) AS [HighestPeakElevation],
+		   MAX(r.[Length]) AS [LongestRiverLength]
+	  FROM [Countries] AS c
+ LEFT JOIN [MountainsCountries] AS mc
+		ON c.[CountryCode] = mc.[CountryCode]
+ LEFT JOIN [Peaks] AS p
+		ON mc.[MountainId] = p.[MountainId]
+ LEFT JOIN [CountriesRivers] AS cr
+		ON c.[CountryCode] = cr.[CountryCode]
+ LEFT JOIN [Rivers] AS r
+		ON cr.[RiverId] = r.[Id]
+  GROUP BY c.[CountryName]
+	  ) AS [HighestPeakLongestRiver]
+  ORDER BY [HighestPeakElevation] DESC, [LongestRiverLength] DESC, [CountryName]
+
