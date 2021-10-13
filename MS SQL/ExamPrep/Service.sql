@@ -1,0 +1,53 @@
+CREATE DATABASE [Service]
+
+USE [Service]
+
+CREATE TABLE [Users](
+	[Id] INT IDENTITY UNIQUE,
+	[Username] VARCHAR(30) UNIQUE NOT NULL,
+	[Password] NVARCHAR(50) NOT NULL,
+	[Name] VARCHAR(50),
+	[Birthdate] DATETIME2,
+	[Age] INT,
+	[Email] VARCHAR(50) NOT NULL,
+	CHECK([Age] BETWEEN 14 AND 100)
+)
+
+CREATE TABLE [Departments](
+	[Id] INT IDENTITY UNIQUE,
+	[Name] VARCHAR(50) NOT NULL
+)
+
+CREATE TABLE [Employees](
+	[Id] INT IDENTITY UNIQUE,
+	[FirstName] VARCHAR(25),
+	[LastName] VARCHAR(25),
+	[Birthdate] DATETIME2,
+	[Age] INT,
+	[DepartmentId] INT FOREIGN KEY REFERENCES [Departments]([Id]),
+	CHECK([Age] BETWEEN 18 AND 110)
+)
+
+CREATE TABLE [Categories](
+	[Id] INT IDENTITY UNIQUE,
+	[Name] VARCHAR(50) NOT NULL,
+	[DepartmentId] INT FOREIGN KEY REFERENCES [Departments]([Id]),
+)
+
+CREATE TABLE [Status](
+	[Id] INT IDENTITY UNIQUE,
+	[Label] VARCHAR(30) NOT NULL
+)
+
+CREATE TABLE [Reports](
+	[Id] INT IDENTITY UNIQUE,
+	[CategoryId] INT FOREIGN KEY REFERENCES [Categories]([Id]),
+	[StatusId] INT FOREIGN KEY REFERENCES [Status]([Id]),
+	[OpenDate] DATETIME2 NOT NULL,
+	[CloseDate] DATETIME2,
+	[Description] VARCHAR(200) NOT NULL,
+	[UserId] INT FOREIGN KEY REFERENCES [Users]([Id]),
+	[EmployeeId] INT FOREIGN KEY REFERENCES [Employees]([Id])
+)
+
+
