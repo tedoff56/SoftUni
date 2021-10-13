@@ -74,7 +74,7 @@ UPDATE [Reports]
 DELETE FROM [Reports]
 WHERE [StatusId] = 4
 
---5.	Unassigned Reports???
+--5.	Unassigned Reports
    SELECT [Description], 
           FORMAT([OpenDate], 'dd-MM-yyyy') AS [OpenDate]
      FROM [Reports] AS r
@@ -115,4 +115,16 @@ LEFT JOIN [Categories] AS c
      WHERE FORMAT(r.[OpenDate], 'dd-MM') = FORMAT(u.[Birthdate], 'dd-MM')
   ORDER BY u.[Username], c.[Name]
 
- --9.	Users per Employee 
+ --9.	Users per Employee ??
+ SELECT [FullName], 
+        COUNT([UserId]) AS [UsersCount] 
+		FROM(
+ SELECT CONCAT(e.[FirstName], ' ', e.[LastName]) AS [FullName],
+        r.[UserId],
+		r.[EmployeeId]
+FROM [Employees] AS e
+LEFT JOIN [Reports] AS r
+ON e.[Id] = r.[EmployeeId]
+) AS [FullNameSub]
+GROUP BY [EmployeeId], [FullName]
+ORDER BY [UsersCount] DESC, [FullName]
