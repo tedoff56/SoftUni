@@ -128,3 +128,24 @@ ON e.[Id] = r.[EmployeeId]
 ) AS [FullNameSub]
 GROUP BY [EmployeeId], [FullName]
 ORDER BY [UsersCount] DESC, [FullName]
+
+--10.	Full Info
+SELECT ISNULL(e.[FirstName] + ' ' + e.[LastName], 'None') AS [Employee],
+	   ISNULL(d.[Name], 'None') AS [Department],
+	   ISNULL(c.[Name], 'None') AS [Category],
+	   r.[Description],
+	   FORMAT(r.[OpenDate], 'dd.MM.yyyy') AS [OpenDate],
+	   s.[Label] AS [Status],
+	   u.[Name] AS [User]
+FROM [Reports] AS r
+LEFT JOIN [Users] AS u
+ON r.[UserId] = u.[Id]
+LEFT JOIN [Employees] AS e
+ON r.[EmployeeId] = e.[Id]
+LEFT JOIN [Departments] AS d
+ON e.[DepartmentId] = d.[Id]
+LEFT JOIN [Categories] as c
+ON r.[CategoryId] = c.[Id]
+LEFT JOIN [Status] AS s
+ON r.[StatusId] = s.[Id]
+ORDER BY [FirstName] DESC, [LastName] DESC, [Department], [Category], [Description], [OpenDate], [Status], [User]
