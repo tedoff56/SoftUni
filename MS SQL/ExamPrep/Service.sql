@@ -149,3 +149,18 @@ ON r.[CategoryId] = c.[Id]
 LEFT JOIN [Status] AS s
 ON r.[StatusId] = s.[Id]
 ORDER BY [FirstName] DESC, [LastName] DESC, [Department], [Category], [Description], [OpenDate], [Status], [User]
+
+--11.	Hours to Complete
+GO
+
+CREATE FUNCTION udf_HoursToComplete(@StartDate DATETIME, @EndDate DATETIME)
+RETURNS INT AS 
+BEGIN
+	IF (@StartDate IS NULL OR @EndDate IS NULL)
+		RETURN 0
+	DECLARE @differenceInHours INT
+	SET @differenceInHours = DATEDIFF (HOUR, @StartDate, @EndDate)
+	RETURN @differenceInHours
+END
+
+GO
