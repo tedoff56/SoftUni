@@ -164,3 +164,23 @@ BEGIN
 END
 
 GO
+
+--12.	Assign Employee
+CREATE OR ALTER PROC usp_AssignEmployeeToReport(@EmployeeId INT, @ReportId INT) 
+AS
+BEGIN
+DECLARE @EmployeeDepId INT = (SELECT [DepartmentId] FROM [Employees]
+							 WHERE [Id] = @EmployeeId)
+DECLARE @ReportDepId INT = (SELECT c.[DepartmentId] FROM [Reports] AS r
+							JOIN [Categories] AS c
+							ON r.[CategoryId] =	c.[Id]
+							WHERE r.[Id] = @ReportId)
+IF(@EmployeeDepId <> @ReportDepId)
+	THROW 50000, 'Employee doesn''t belong to the appropriate department!', 1
+UPDATE [Reports]
+SET [EmployeeId] = @EmployeeId
+WHERE [Id] = @ReportId
+END
+
+EXEC usp_AssignEmployeeToReport 17, 2
+
