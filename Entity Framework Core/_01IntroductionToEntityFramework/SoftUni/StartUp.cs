@@ -14,7 +14,50 @@ namespace SoftUni
         {
             SoftUniContext db = new SoftUniContext();
 
-            Console.WriteLine(GetLatestProjects(db));
+            Console.WriteLine(IncreaseSalaries(db));
+        }
+
+        public static string GetEmployeesByFirstNameStartingWithSa(SoftUniContext context)
+        
+        public static string IncreaseSalaries(SoftUniContext context)
+        {
+            string[] departments = new[]
+            {
+                "Engineering", 
+                "Tool Design", 
+                "Marketing", 
+                "Information Services"
+            };
+            
+            var employees = context.Employees
+                .Where(e =>departments.Contains(e.Department.Name));
+
+            foreach (var employee in employees)
+            {
+                employee.Salary *= 1.12M;
+            }
+
+            context.SaveChanges();
+
+            var result = employees
+                .Select(e => new
+                {
+                    e.FirstName,
+                    e.LastName,
+                    e.Salary
+                })
+                .OrderBy(e => e.FirstName)
+                .ThenBy(e => e.LastName)
+                .ToList();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var employee in result)
+            {
+                sb.AppendLine($"{employee.FirstName} {employee.LastName} (${employee.Salary:F2})");
+            }
+
+            return sb.ToString().TrimEnd();
         }
 
         public static string GetLatestProjects(SoftUniContext context)
