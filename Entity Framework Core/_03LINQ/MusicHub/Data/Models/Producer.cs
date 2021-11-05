@@ -21,7 +21,7 @@ namespace MusicHub.Data.Models
 
         public string PhoneNumber { get; set; }
 
-        public ICollection<Album> Albums { get; set; }
+        public virtual ICollection<Album> Albums { get; set; }
         
         
     }

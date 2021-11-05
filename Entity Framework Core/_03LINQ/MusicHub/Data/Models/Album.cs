@@ -22,14 +22,14 @@ namespace MusicHub.Data.Models
 
         public DateTime ReleaseDate { get; set; }
 
-        public decimal? Price 
+        public decimal Price 
             => this.Songs.Sum(s => s.Price);
 
         [ForeignKey(nameof(Producer))]
         public int? ProducerId { get; set; }
-        public Producer Producer { get; set; }
+        public virtual Producer Producer { get; set; }
         
-        public ICollection<Song> Songs { get; set; }
+        public virtual ICollection<Song> Songs { get; set; }
         
         
     }

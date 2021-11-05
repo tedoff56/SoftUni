@@ -24,19 +24,19 @@ namespace MusicHub.Data.Models
 
         public DateTime CreatedOn { get; set; }
 
-        public GenresEnum Genre { get; set; }
+        public Genre Genre { get; set; }
 
         [ForeignKey(nameof(Album))]
         public int? AlbumId { get; set; }
-        public Album Album { get; set; }
+        public virtual Album Album { get; set; }
         
         [ForeignKey(nameof(Writer))]
         public int WriterId { get; set; }
-        public Writer Writer { get; set; }
+        public virtual Writer Writer { get; set; }
         
         public decimal Price { get; set; }
 
-        public ICollection<SongPerformer> SongPerformers { get; set; }
+        public virtual ICollection<SongPerformer> SongPerformers { get; set; }
 
 
     }
