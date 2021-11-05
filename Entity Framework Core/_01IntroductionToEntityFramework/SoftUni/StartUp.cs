@@ -14,11 +14,54 @@ namespace SoftUni
         {
             SoftUniContext db = new SoftUniContext();
 
-            Console.WriteLine(IncreaseSalaries(db));
+            Console.WriteLine(DeleteProjectById(db));
+        }
+
+        public static string DeleteProjectById(SoftUniContext context)
+        {
+            Project projectToDelete = context.Projects.Find(2);
+
+            context.EmployeesProjects.
+            
+            context.Projects.Remove(projectToDelete);
+
+            context.SaveChanges();
+
+            StringBuilder sb = new StringBuilder();
+            
+            var projectsNames = context.Projects
+                .Take(10)
+                .Select(p => p.Name)
+                .ToList();
+
+            projectsNames.ForEach(pn => sb.AppendLine(pn));
+
+            return sb.ToString().TrimEnd();
         }
 
         public static string GetEmployeesByFirstNameStartingWithSa(SoftUniContext context)
-        
+        {
+            var employees = context.Employees
+                .Where(e => e.FirstName.Substring(0, 2).ToLower() == "sa")
+                .Select(e => new
+                {
+                    e.FirstName,
+                    e.LastName,
+                    e.JobTitle,
+                    e.Salary
+                })
+                .OrderBy(e => e.FirstName)
+                .ThenBy(e => e.LastName)
+                .ToList();
+
+            StringBuilder sb = new StringBuilder();
+            
+            employees.ForEach(e 
+                => sb.AppendLine($"{e.FirstName} {e.LastName} - {e.JobTitle} - (${e.Salary:F2})"));
+
+            return sb.ToString().TrimEnd();
+        }
+
         public static string IncreaseSalaries(SoftUniContext context)
         {
             string[] departments = new[]

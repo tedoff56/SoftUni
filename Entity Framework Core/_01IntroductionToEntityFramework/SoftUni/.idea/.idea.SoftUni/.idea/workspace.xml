@@ -16,6 +16,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Data/SoftUniContext.cs" />
+      <option value="$PROJECT_DIR$/Models/EmployeeProject.cs" />
       <option value="$PROJECT_DIR$/StartUp.cs" />
     </changedPaths>
   </component>
@@ -63,7 +64,9 @@
       <updated>1635528764727</updated>
       <workItem from="1635528768586" duration="2635000" />
       <workItem from="1635572533753" duration="7296000" />
-      <workItem from="1635666980086" duration="2487000" />
+      <workItem from="1635666980086" duration="3634000" />
+      <workItem from="1635697383717" duration="2861000" />
+      <workItem from="1635924605441" duration="84000" />
     </task>
     <servers />
   </component>
