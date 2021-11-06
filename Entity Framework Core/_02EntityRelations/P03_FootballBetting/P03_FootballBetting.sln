@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_FootballBetting", "P03_FootballBetting\P03_FootballBetting.csproj", "{EDE52447-5A3C-443B-A643-C929BF951918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_FootballBetting.Data", "P03_FootballBetting.Data\P03_FootballBetting.Data.csproj", "{88867960-CECA-4E41-A39E-42016FC717B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_FootballBetting.Data.Models", "P03_FootballBetting.Data.Models\P03_FootballBetting.Data.Models.csproj", "{EB1EE9C4-A593-4C2D-92FE-933F24872B7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE52447-5A3C-443B-A643-C929BF951918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE52447-5A3C-443B-A643-C929BF951918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE52447-5A3C-443B-A643-C929BF951918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE52447-5A3C-443B-A643-C929BF951918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88867960-CECA-4E41-A39E-42016FC717B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88867960-CECA-4E41-A39E-42016FC717B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88867960-CECA-4E41-A39E-42016FC717B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88867960-CECA-4E41-A39E-42016FC717B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1EE9C4-A593-4C2D-92FE-933F24872B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1EE9C4-A593-4C2D-92FE-933F24872B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1EE9C4-A593-4C2D-92FE-933F24872B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1EE9C4-A593-4C2D-92FE-933F24872B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -9,26 +9,26 @@ namespace P01_StudentSystem.Data.Models
     {
         public Student()
         {
-            this.StudentCourses = new HashSet<StudentCourse>();
-            this.Homeworks = new HashSet<Homework>();
+            this.CourseEnrollments = new HashSet<StudentCourse>();
+            this.HomeworkSubmissions = new HashSet<Homework>();
         }
         
         [Key]
-        public int StudentIt { get; set; }
+        public int StudentId { get; set; }
 
         [Required]
-        [StringLength(100)]
+        [MaxLength(100)]
         public string Name { get; set; }
-        
+
         [Column(TypeName = "CHAR(10)")]
         public string PhoneNumber { get; set; }
 
-        [Required]
         public DateTime RegisteredOn { get; set; }
 
-        public DateTime Birthday { get; set; }
-        
-        public virtual ICollection<StudentCourse> StudentCourses { get; set; }
-        public virtual ICollection<Homework> Homeworks { get; set; }
+        public DateTime? Birthday { get; set; }
+
+        public virtual ICollection<StudentCourse> CourseEnrollments { get; set; }
+
+        public virtual ICollection<Homework> HomeworkSubmissions { get; set; }
     }
 }

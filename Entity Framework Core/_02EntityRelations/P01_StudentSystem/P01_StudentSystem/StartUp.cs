@@ -1,19 +1,12 @@
-﻿using System;
-using P01_StudentSystem.Data;
+﻿using P01_StudentSystem.Data;
 
 namespace P01_StudentSystem
 {
-    public class StartUp
+    class StartUp
     {
         static void Main(string[] args)
         {
-            StudentSystemContext dbContext = new StudentSystemContext();
-
-            dbContext.Database.EnsureCreated();
-
-            Console.WriteLine("Created!!!");
-
-            dbContext.Database.EnsureDeleted();
+            
         }
     }
 }

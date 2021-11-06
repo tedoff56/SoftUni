@@ -4,8 +4,6 @@ using System.Text;
 
 namespace MusicHub
 {
-    using System;
-
     using Data;
     using Initializer;
 
