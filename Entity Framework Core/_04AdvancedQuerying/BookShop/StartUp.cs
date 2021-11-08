@@ -20,7 +20,50 @@ namespace BookShop
             using var db = new BookShopContext();
 
 
-            Console.WriteLine(CountBooks(db, 12));
+            Console.WriteLine(GetTotalProfitByCategory(db));
+        }
+
+        public static string GetTotalProfitByCategory(BookShopContext context)
+        {
+            var result = context.Categories
+                .Select(c => new
+                {
+                    c.Name,
+                    TotalProfit = c.CategoryBooks.Select(cb => cb.Book.Copies * cb.Book.Price).Sum()
+                })
+                .OrderByDescending(c => c.TotalProfit)
+                .ThenBy(c => c.Name).ToArray();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var catBook in result)
+            {
+                sb.AppendLine($"{catBook.Name} ${catBook.TotalProfit:F2}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string CountCopiesByAuthor(BookShopContext context)
+        {
+            var result = context.Authors
+                .Select(a => new
+                {
+                    FullName = a.FirstName + " " + a.LastName,
+                    BooksCount = a.Books.Sum(b => b.Copies)
+                })
+                .OrderByDescending(b => b.BooksCount)
+                .ToArray();
+
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var author in result)
+            {
+                sb.AppendLine($"{author.FullName} - {author.BooksCount}");
+            }
+
+            return sb.ToString().TrimEnd();
         }
 
         public static int CountBooks(BookShopContext context, int lengthCheck)
