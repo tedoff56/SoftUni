@@ -20,7 +20,16 @@ namespace BookShop
             using var db = new BookShopContext();
 
 
-            Console.WriteLine(GetBooksByAuthor(db, "R"));
+            Console.WriteLine(CountBooks(db, 12));
+        }
+
+        public static int CountBooks(BookShopContext context, int lengthCheck)
+        {
+            int numberOfBooks = context.Books
+                .Where(b => b.Title.Length > lengthCheck)
+                .Count();
+
+            return numberOfBooks;
         }
 
         public static string GetBooksByAuthor(BookShopContext context, string input)
