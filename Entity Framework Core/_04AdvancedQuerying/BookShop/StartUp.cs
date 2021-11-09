@@ -20,7 +20,33 @@ namespace BookShop
             using var db = new BookShopContext();
 
 
-            Console.WriteLine(GetTotalProfitByCategory(db));
+            Console.WriteLine(GetMostRecentBooks(db));
+        }
+
+        public static string GetMostRecentBooks(BookShopContext context)
+        {
+            var result = context.Categories
+                .Select(c => new
+                {
+                    c.Name,
+                    BookTitle = c.CategoryBooks.Select(cb => cb.Book.Title).Single(),
+                    ReleaseDate = c.CategoryBooks.Select(cb => cb.Book.ReleaseDate).Single(),
+                })
+                .OrderByDescending(c => c.ReleaseDate)
+                .OrderBy(c => c.Name)
+                .Take(3);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var res in result)
+            {
+                sb
+                    .AppendLine($"--{res.Name}")
+                    .AppendLine($"{res.BookTitle}")
+                    .AppendLine($"{res.ReleaseDate.Value.Year}");
+            }
+
+            return sb.ToString().TrimEnd();
         }
 
         public static string GetTotalProfitByCategory(BookShopContext context)
