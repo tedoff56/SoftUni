@@ -20,7 +20,32 @@ namespace BookShop
             using var db = new BookShopContext();
 
 
-            Console.WriteLine(GetMostRecentBooks(db));
+            Console.WriteLine(RemoveBooks(db));
+        }
+
+        public static int RemoveBooks(BookShopContext context)
+        {
+            var booksToRemove = context.Books
+                .Where(b => b.Copies < 4200);
+
+            int numberOfDeletedBooks = booksToRemove.Count();
+            
+            context.RemoveRange(booksToRemove);
+
+            context.SaveChanges();
+            
+            return numberOfDeletedBooks;
+        }
+
+        public static void IncreasePrices(BookShopContext context)
+        {
+            var result = context.Books
+                .Where(b => b.ReleaseDate.HasValue && b.ReleaseDate.Value.Year < 2010);
+
+            foreach (var book in result)
+            {
+                book.Price += 5;
+            }
         }
 
         public static string GetMostRecentBooks(BookShopContext context)
