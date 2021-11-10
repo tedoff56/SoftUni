@@ -20,30 +20,32 @@ namespace BookShop
             using var db = new BookShopContext();
 
 
-            Console.WriteLine(GetAuthorNamesEndingIn(db, "e"));
+            Console.WriteLine(GetMostRecentBooks(db));
         }
 
         public static string GetMostRecentBooks(BookShopContext context)
         {
             var result = context.Categories
+                .OrderBy(c => c.Name)
                 .Select(c => new
                 {
                     c.Name,
-                    BookTitle = c.CategoryBooks.Select(cb => cb.Book.Title).Single(),
-                    ReleaseDate = c.CategoryBooks.Select(cb => cb.Book.ReleaseDate).Single(),
+                    MostRecentBooks = c.CategoryBooks
+                        .Select(cb => cb.Book)
+                        .OrderByDescending(cb => cb.ReleaseDate)
+                        .Take(3)
                 })
-                .OrderByDescending(c => c.ReleaseDate)
-                .OrderBy(c => c.Name)
-                .Take(3);
+                .ToArray();
 
             StringBuilder sb = new StringBuilder();
 
             foreach (var res in result)
             {
-                sb
-                    .AppendLine($"--{res.Name}")
-                    .AppendLine($"{res.BookTitle}")
-                    .AppendLine($"{res.ReleaseDate.Value.Year}");
+                sb.AppendLine($"--{res.Name}");
+                foreach (var book in res.MostRecentBooks)
+                {
+                    sb.AppendLine($"{book.Title} ({book.ReleaseDate.Value.Year})");
+                }
             }
 
             return sb.ToString().TrimEnd();
@@ -140,8 +142,7 @@ namespace BookShop
 
             return sb.ToString().TrimEnd();
         }
-
-        //TODO: check for last test errors
+        
         public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
         {
             var result = context
@@ -165,13 +166,15 @@ namespace BookShop
         public static string GetBooksReleasedBefore(BookShopContext context, string date)
         {
             var result = context.Books
-                .Where(b => b.ReleaseDate.Value < DateTime.Parse(date))
-                .OrderByDescending(b => b.ReleaseDate)
+                .ToArray()
+                .Where(b => b.ReleaseDate != null 
+                            && DateTime.Compare(b.ReleaseDate.Value, DateTime.Parse(date)) < 0)
+                .OrderByDescending(b => b.ReleaseDate.Value)
                 .Select(b => new
                 {
                     b.Title,
-                    EditionType = b.EditionType.ToString(),
-                    Price = '$' + b.Price.ToString("F2")
+                    b.EditionType,
+                    b.Price
                 })
                 .ToArray();
 
@@ -179,7 +182,7 @@ namespace BookShop
 
             foreach (var book in result)
             {
-                sb.AppendLine($"{book.Title} - {book.EditionType} - {book.Price}");
+                sb.AppendLine($"{book.Title} - {book.EditionType.ToString()} - ${book.Price:F2}");
             }
 
             return sb.ToString().TrimEnd();
