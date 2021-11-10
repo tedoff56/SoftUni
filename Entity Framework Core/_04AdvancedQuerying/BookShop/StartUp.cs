@@ -20,7 +20,7 @@ namespace BookShop
             using var db = new BookShopContext();
 
 
-            Console.WriteLine(GetMostRecentBooks(db));
+            Console.WriteLine(GetAuthorNamesEndingIn(db, "e"));
         }
 
         public static string GetMostRecentBooks(BookShopContext context)
@@ -146,9 +146,9 @@ namespace BookShop
         {
             var result = context
                 .Authors
-                .Where(a => a.FirstName.EndsWith(input))
-                .OrderBy(a => a.FirstName)
-                .Select(a => $"{a.FirstName} {a.LastName}")
+                .Where(a => a.FirstName.ToLower().EndsWith(input.ToLower()))
+                .Select(a => a.FirstName + " " + a.LastName)
+                .OrderBy(a => a)
                 .ToArray();
 
             StringBuilder sb = new StringBuilder();
