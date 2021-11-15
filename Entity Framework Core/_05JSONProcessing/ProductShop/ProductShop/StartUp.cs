@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using AutoMapper;
 using AutoMapper.Configuration;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using ProductShop.Data;
@@ -30,7 +31,46 @@ namespace ProductShop
             Console.WriteLine(ImportProducts(db, jsonResultProducts));
             Console.WriteLine(ImportCategories(db, jsonResultCategories));
             Console.WriteLine(ImportCategoryProducts(db, jsonResultCategoryProducts));
-            Console.WriteLine(GetProductsInRange(db));
+            //Console.WriteLine(GetProductsInRange(db));
+            Console.WriteLine(GetSoldProducts(db));
+        }
+
+        public static string GetSoldProducts(ProductShopContext context)
+        {
+            var result = context
+                .Users
+                .Include(u => u.ProductsSold)
+                .Where(u => u.ProductsSold.Any(p => p.Buyer != null))
+                .OrderBy(u => u.LastName)
+                .ThenBy(u => u.FirstName)
+                .Select(u => new
+                {
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    SoldProducts = u.ProductsSold
+                        .Select(p => new
+                        {
+                            Name = p.Name,
+                            Price = p.Price,
+                            BuyerFirstName = p.Buyer.FirstName,
+                            BuyerLastName = p.Buyer.LastName
+                        })
+                        .ToList()
+                })
+                .ToList();
+
+            var jsonSettings = new JsonSerializerSettings()
+            {
+                Formatting = Formatting.Indented,
+                ContractResolver = new DefaultContractResolver()
+                {
+                    NamingStrategy = new CamelCaseNamingStrategy()
+                }
+            };
+            
+            string jsonResult = JsonConvert.SerializeObject(result, jsonSettings);
+
+            return jsonResult;
         }
 
         public static string GetProductsInRange(ProductShopContext context)
