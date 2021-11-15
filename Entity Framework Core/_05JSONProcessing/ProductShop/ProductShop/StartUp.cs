@@ -5,6 +5,7 @@ using System.Linq;
 using AutoMapper;
 using AutoMapper.Configuration;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using ProductShop.Data;
 using ProductShop.Models;
 using ProductShop.Models.DTOs;
@@ -29,6 +30,31 @@ namespace ProductShop
             Console.WriteLine(ImportProducts(db, jsonResultProducts));
             Console.WriteLine(ImportCategories(db, jsonResultCategories));
             Console.WriteLine(ImportCategoryProducts(db, jsonResultCategoryProducts));
+            Console.WriteLine(GetProductsInRange(db));
+        }
+
+        public static string GetProductsInRange(ProductShopContext context)
+        {
+            var result = context
+                .Products
+                .Where(p => p.Price >= 500 && p.Price <= 1000)
+                .OrderBy(p => p.Price)
+                .Select(p => new
+                {
+                    p.Name,
+                    p.Price,
+                    Seller = p.Seller.FirstName + " " + p.Seller.LastName
+                })
+                .ToList();
+
+            JsonSerializerSettings settings = new JsonSerializerSettings()
+            {
+                Formatting = Formatting.Indented,
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            };
+            string jsonResult = JsonConvert.SerializeObject(result, settings);
+
+            return jsonResult;
         }
 
         public static string ImportCategoryProducts(ProductShopContext context, string inputJson)
