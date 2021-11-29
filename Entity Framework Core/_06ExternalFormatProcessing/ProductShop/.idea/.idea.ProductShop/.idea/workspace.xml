@@ -7,21 +7,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d5c49f5-aea8-4664-9a32-dd22da8ad57a" name="Default Changelist" comment="" />
+    <list default="true" id="44706f50-a8e4-4d82-9541-fae156e4e8ca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/97681FBF-C625-485F-9A40-0D4AD12F41B6/113/XmlSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/ProductShop/Models/Product.cs" />
       <option value="$PROJECT_DIR$/ProductShop/Data/ProductShopContext.cs" />
-      <option value="$PROJECT_DIR$/ProductShop/Models/DTOs/UserDto'.cs" />
+      <option value="$PROJECT_DIR$/ProductShop/Dtos/Import/UserDto.cs" />
+      <option value="$PROJECT_DIR$/ProductShop/Dtos/Import/ImportUserDto.cs" />
+      <option value="$PROJECT_DIR$/ProductShop/Datasets/users.xml" />
       <option value="$PROJECT_DIR$/ProductShop/StartUp.cs" />
     </changedPaths>
   </component>
-  <component name="ProjectId" id="20uaoXQe3FoZ9Mhg2yUUvSolbRk" />
+  <component name="ProjectId" id="2159TNccUKIRNR2vFm62Eu0XIyN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -58,17 +62,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d5c49f5-aea8-4664-9a32-dd22da8ad57a" name="Default Changelist" comment="" />
-      <created>1636897105883</created>
+      <changelist id="44706f50-a8e4-4d82-9541-fae156e4e8ca" name="Default Changelist" comment="" />
+      <created>1637220090709</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1636897105883</updated>
-      <workItem from="1636897115114" duration="372000" />
-      <workItem from="1636897526039" duration="95000" />
-      <workItem from="1636897638577" duration="1157000" />
-      <workItem from="1636959773032" duration="7336000" />
-      <workItem from="1636967390181" duration="87000" />
-      <workItem from="1636967497094" duration="1465000" />
+      <updated>1637220090709</updated>
+      <workItem from="1637220095223" duration="46000" />
+      <workItem from="1637220157679" duration="22000" />
+      <workItem from="1637220238275" duration="239000" />
+      <workItem from="1637220557688" duration="3053000" />
     </task>
     <servers />
   </component>

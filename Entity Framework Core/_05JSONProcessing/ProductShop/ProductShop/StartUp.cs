@@ -32,7 +32,71 @@ namespace ProductShop
             Console.WriteLine(ImportCategories(db, jsonResultCategories));
             Console.WriteLine(ImportCategoryProducts(db, jsonResultCategoryProducts));
             //Console.WriteLine(GetProductsInRange(db));
-            Console.WriteLine(GetSoldProducts(db));
+            //Console.WriteLine(GetSoldProducts(db));
+            //Console.WriteLine(GetCategoriesByProductsCount(db));
+            Console.WriteLine(GetUsersWithProducts(db));
+        }
+
+        public static string GetUsersWithProducts(ProductShopContext context)
+        {
+            var users = context
+                .Users
+                .Where(u => u.ProductsSold.Any(ps => ps.Buyer != null))
+                .OrderByDescending(u => u.ProductsSold.Count)
+                .Select(u => new
+                {
+                    u.FirstName,
+                    u.LastName,
+                    u.Age,
+                    SoldProducts = u.ProductsSold.Select(ps => new
+                    {
+                        ps.Name,
+                        ps.Price
+                    })
+                        .ToList()
+                })
+                .ToList();
+
+            var jsonSettings = new JsonSerializerSettings()
+            {
+                Formatting = Formatting.Indented,
+                ContractResolver = new DefaultContractResolver()
+                {
+                    NamingStrategy = new CamelCaseNamingStrategy()
+                }
+            };
+
+            string jsonResult = JsonConvert.SerializeObject(users, jsonSettings);
+
+            return jsonResult;
+        }
+
+        public static string GetCategoriesByProductsCount(ProductShopContext context)
+        {
+            var result = context
+                .Categories
+                .OrderByDescending(c => c.CategoryProducts.Count)
+                .Select(c => new
+                {
+                    Category = c.Name,
+                    ProductsCount = c.CategoryProducts.Count,
+                    AveragePrice = c.CategoryProducts.Average(cp => cp.Product.Price).ToString("F2"),
+                    TotalRevenue = c.CategoryProducts.Sum(cp => cp.Product.Price).ToString("F2")
+                })
+                .ToList();
+
+            JsonSerializerSettings jsonSettings = new JsonSerializerSettings()
+            {
+                Formatting = Formatting.Indented,
+                ContractResolver = new DefaultContractResolver()
+                {
+                    NamingStrategy = new CamelCaseNamingStrategy()
+                }
+            };
+
+            string jsonResult = JsonConvert.SerializeObject(result, jsonSettings);
+
+            return jsonResult;
         }
 
         public static string GetSoldProducts(ProductShopContext context)
