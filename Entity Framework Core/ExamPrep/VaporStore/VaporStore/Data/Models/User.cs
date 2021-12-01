@@ -24,7 +24,7 @@ namespace VaporStore.Data.Models
         [Required]
         public string Email { get; set; }
 
-        [MaxLength(UserConstants.USER_AGE_MAX_VALUE)]
+        [Range(UserConstants.USER_AGE_MIN_VALUE, UserConstants.USER_AGE_MAX_VALUE)]
         public int Age { get; set; }
 
         public ICollection<Card> Cards { get; set; }

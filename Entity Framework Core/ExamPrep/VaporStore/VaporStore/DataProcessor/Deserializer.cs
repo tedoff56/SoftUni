@@ -1,8 +1,10 @@
 ﻿using System.Globalization;
 using System.Linq;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using VaporStore.Data.Models;
+using VaporStore.Data.Models.Enums;
 using VaporStore.DataProcessor.Dto.Import;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
@@ -94,7 +96,44 @@ namespace VaporStore.DataProcessor
 
 		public static string ImportUsers(VaporStoreDbContext context, string jsonString)
 		{
-			throw new NotImplementedException();
+			UserImportDto[] usersDtos = JsonConvert.DeserializeObject<UserImportDto[]>(jsonString);
+
+			StringBuilder sb = new StringBuilder();
+
+			List<User> usersDb = new List<User>();
+			
+			
+			foreach (var user in usersDtos)
+			{
+
+				if (!IsValid(user))
+				{
+					sb.AppendLine("Invalid Data");
+					continue;
+				}
+				User userDb = new User()
+				{
+					FullName = user.FullName,
+					Username = user.Username,
+					Email = user.Email,
+					Age = user.Age,
+					Cards = user.Cards.Select(c => new Card()
+					{
+						Number = c.Number,
+						Cvc = c.Cvc,
+						Type = c.Type.Value
+					}).ToList()
+				};
+				
+				
+				usersDb.Add(userDb);
+				sb.AppendLine($"Imported {userDb.Username} with {userDb.Cards.Count} cards");
+			}
+			
+			context.AddRange(usersDb);
+			context.SaveChanges();
+			
+			return sb.ToString().TrimEnd();
 		}
 
 		public static string ImportPurchases(VaporStoreDbContext context, string xmlString)

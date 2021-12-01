@@ -14,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6467837a7fba4b4aafa2c69eba6e9eb4857788/329/FileStream.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/044d66256aae4f779c19f1241515e0c6b3988/32/JsonSerializer.Read.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6467837a7fba4b4aafa2c69eba6e9eb4857788/38/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -63,7 +64,7 @@
       <workItem from="1638169176817" duration="48000" />
       <workItem from="1638169467156" duration="197000" />
       <workItem from="1638169700154" duration="5961000" />
-      <workItem from="1638342377010" duration="3520000" />
+      <workItem from="1638342377010" duration="8873000" />
     </task>
     <servers />
   </component>
