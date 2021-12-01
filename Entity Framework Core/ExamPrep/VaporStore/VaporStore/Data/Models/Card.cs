@@ -8,6 +8,10 @@ namespace VaporStore.Data.Models
 {
     public class Card
     {
+        public Card()
+        {
+            this.Purchases = new HashSet<Purchase>();
+        }
         [Key]
         public int Id { get; set; }
 
@@ -23,10 +27,9 @@ namespace VaporStore.Data.Models
 
         [ForeignKey(nameof(User))]
         public int UserId { get; set; }
-        [Required]
-        public virtual User User { get; set; }
+        public User User { get; set; }
 
-        public virtual ICollection<Purchase> Purchases { get; set; }
+        public ICollection<Purchase> Purchases { get; set; }
         
     }
 }

@@ -6,6 +6,11 @@ namespace VaporStore.Data.Models
 {
     public class User
     {
+        public User()
+        {
+            this.Cards = new HashSet<Card>();
+        }
+        
         [Key]
         public int Id { get; set; }
 
@@ -22,7 +27,7 @@ namespace VaporStore.Data.Models
         [MaxLength(UserConstants.USER_AGE_MAX_VALUE)]
         public int Age { get; set; }
 
-        public virtual ICollection<Card> Cards { get; set; }
+        public ICollection<Card> Cards { get; set; }
         
         
     }

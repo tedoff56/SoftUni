@@ -7,6 +7,11 @@ namespace VaporStore.Data.Models
 {
     public class Game
     {
+        public Game()
+        {
+            this.Purchases = new HashSet<Purchase>();
+            this.GameTags = new HashSet<GameTag>();
+        }
         
         [Key]
         public int Id { get; set; }
@@ -21,15 +26,13 @@ namespace VaporStore.Data.Models
         [ForeignKey(nameof(Developer))]
         public int DeveloperId { get; set; }
         
-        [Required]
-        public virtual Developer Developer { get; set; }
+        public Developer Developer { get; set; }
 
         [ForeignKey(nameof(Genre))]
         public int GenreId { get; set; }
-        [Required]
-        public virtual Genre Genre { get; set; }
+        public Genre Genre { get; set; }
 
-        public virtual ICollection<Purchase> Purchases { get; set; }
-        public virtual ICollection<GameTag> GameTags { get; set; }
+        public ICollection<Purchase> Purchases { get; set; }
+        public ICollection<GameTag> GameTags { get; set; }
     }
 }

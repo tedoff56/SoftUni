@@ -19,13 +19,11 @@ namespace VaporStore.Data.Models
 
         [ForeignKey(nameof(Card))]
         public int CardId { get; set; }
-        [Required]
-        public virtual Card Card { get; set; }
+        public Card Card { get; set; }
 
         [ForeignKey(nameof(Game))]
         public int GameId { get; set; }
-        [Required]
-        public virtual Game Game { get; set; }
+        public Game Game { get; set; }
         
         
     }
