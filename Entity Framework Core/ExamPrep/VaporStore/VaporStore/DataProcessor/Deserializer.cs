@@ -24,63 +24,40 @@ namespace VaporStore.DataProcessor
 			StringBuilder sb = new StringBuilder();
 
 			List<Game> gamesDb = new List<Game>();
-
-			List<Developer> devs = new List<Developer>();
-			List<Genre> genres = new List<Genre>();
-			List<Tag> tags = new List<Tag>();
 			
 			foreach (var gameDto in games)
 			{
-				if (!IsValid(gameDto))
+				if (!IsValid(gameDto) || !gameDto.Tags.All(IsValid))
 				{
 					sb.AppendLine("Invalid Data");
 					continue;
 				}
 				
-				if (!DateTime.TryParse(
-					gameDto.ReleaseDate,
-					CultureInfo.InvariantCulture,
-					DateTimeStyles.None,
-					out DateTime dateTimeResult))
-				{
-					sb.AppendLine("Invalid Data");
-					continue;
-				}
 				
 				Game game = new Game()
 				{
 					Name = gameDto.Name,
 					Price = gameDto.Price,
-					ReleaseDate = dateTimeResult
+					ReleaseDate = gameDto.ReleaseDate.Value,
 				};
-
-				Developer developer = devs.FirstOrDefault(d => d.Name == gameDto.Developer);
-				if(developer is null)
-				{
-					developer = new Developer() { Name = gameDto.Developer };
-					devs.Add(developer);
-				}
-				game.Developer = developer;
 				
-				Genre genre = genres.FirstOrDefault(g => g.Name == gameDto.Genre);
-				if (genre is null)
-				{
-					genre = new Genre() { Name = gameDto.Genre };
-					genres.Add(genre);
-				}
-				game.Genre = genre;
+				Developer developer = context.Developers.FirstOrDefault(d => d.Name == gameDto.Developer);
+				game.Developer = developer ?? new Developer() { Name = gameDto.Developer };
+
+
+				Genre genre = context.Genres.FirstOrDefault(g => g.Name == gameDto.Genre);
+				game.Genre = genre ?? new Genre() { Name = gameDto.Genre };
 
 
 				foreach (var tagDto in gameDto.Tags)
 				{
-					Tag tag = tags.FirstOrDefault(t => t.Name == tagDto);
-					if (tag is null)
+					Tag dbTag = context.Tags.FirstOrDefault(t => t.Name == tagDto) 
+					            ?? new Tag(){Name = tagDto};
+					
+					game.GameTags.Add(new GameTag()
 					{
-						tag = new Tag() { Name = tagDto };
-						tags.Add(tag);
-					}
-
-					game.GameTags.Add(new GameTag(){Tag = tag});
+						Tag = dbTag
+					});
 				}
 				
 				gamesDb.Add(game);
