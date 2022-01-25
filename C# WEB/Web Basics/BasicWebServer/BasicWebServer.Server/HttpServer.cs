@@ -19,6 +19,24 @@ namespace BasicWebServer.Server
             serverListener = new TcpListener(ipAddress, port);
         }
 
+        private string ReadRequest(NetworkStream networkStream)
+        {
+            int bufferLength = 1024;
+            byte[] buffer = new byte[bufferLength];
+
+            var requestBuilder = new StringBuilder();
+
+            do
+            {
+                var bytesRead = networkStream.Read(buffer, 0, bufferLength);
+
+                requestBuilder.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
+            } 
+            while (networkStream.DataAvailable);
+
+            return requestBuilder.ToString();
+        }
+
         public void Start()
         {
             serverListener.Start();
@@ -32,6 +50,9 @@ namespace BasicWebServer.Server
 
                 var networkStream = connection.GetStream();
 
+                var requestString = ReadRequest(networkStream);
+                Console.WriteLine(requestString);
+                
                 WriteResponse(networkStream, "My first http server");
 
                 connection.Close();
