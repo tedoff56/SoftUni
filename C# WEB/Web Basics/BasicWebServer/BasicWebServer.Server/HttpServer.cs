@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using BasicWebServer.Server.HTTP;
 
 namespace BasicWebServer.Server
 {
@@ -73,8 +74,8 @@ namespace BasicWebServer.Server
             int contentLength = Encoding.UTF8.GetByteCount(content);
             
             string response = $@"HTTP/1.1 200 OK
-Content-Type: text/plain; charset: UTF-8
-Content-Length: {contentLength}
+{Header.ContentType}: text/plain; charset: UTF-8
+{Header.ContentLength}: {contentLength}
 
 {content}";
             

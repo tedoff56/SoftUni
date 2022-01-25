@@ -10,8 +10,8 @@ namespace BasicWebServer.Server.HTTP
             StatusCode = statusCode;
             
             Headers = new HeaderCollection();
-            Headers.Add("Server", "My Web Server");
-            Headers.Add("Date", $"{DateTime.UtcNow:R}");
+            Headers.Add(Header.Server, "My Web Server");
+            Headers.Add(Header.Date, $"{DateTime.UtcNow:R}");
         }
         
         public StatusCode StatusCode { get; init; }
