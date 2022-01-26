@@ -86,6 +86,11 @@ namespace BasicWebServer.Server
                 var request = Request.Parse(requestString);
 
                 var response = this.routingTable.MatchRequest(request);
+
+                if (response.PreRenderAction != null)
+                {
+                    response.PreRenderAction(request, response);
+                }
                 
                 WriteResponse(networkStream, response);
 

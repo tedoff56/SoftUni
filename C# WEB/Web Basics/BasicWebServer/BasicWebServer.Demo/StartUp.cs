@@ -19,7 +19,7 @@ namespace BasicWebServer.Demo
             => new HttpServer(r => r
                 .MapGet("/", new TextResponse("Hello from the server"))
                 .MapGet("/HTML", new HtmlResponse(htmlFormString))
-                .MapPost("/HTML", new TextResponse(""))
+                .MapPost("/HTML", new TextResponse("", StartUp.AddFormDataAction))
                 .MapGet("/Redirect", new RedirectResponse("https://abv.bg/")))
                 .Start();
     }
