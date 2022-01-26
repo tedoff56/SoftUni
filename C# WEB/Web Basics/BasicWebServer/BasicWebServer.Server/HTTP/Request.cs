@@ -19,7 +19,7 @@ namespace BasicWebServer.Server.HTTP
 
         public string Body { get; private set; }
 
-        public Request Parse(string request)
+        public static Request Parse(string request)
         {
             var lines = request.Split(Environment.NewLine);
 
@@ -31,7 +31,7 @@ namespace BasicWebServer.Server.HTTP
             
             var headers = ParseHeaders(lines.Skip(1));
             
-            var bodyLines = lines.Skip(this.Headers.Count + 2).ToArray();
+            var bodyLines = lines.Skip(headers.Count + 2).ToArray();
             var body = string.Join(Environment.NewLine, bodyLines);
 
             return new Request()
@@ -43,7 +43,7 @@ namespace BasicWebServer.Server.HTTP
             };
         }
 
-        private HeaderCollection ParseHeaders(IEnumerable<string> headerLines)
+        private static HeaderCollection ParseHeaders(IEnumerable<string> headerLines)
         {
             var headerCollection = new HeaderCollection();
             
@@ -54,7 +54,7 @@ namespace BasicWebServer.Server.HTTP
                     break;
                 }
                 
-                var headerInfo = line.Split(":");
+                var headerInfo = line.Split(":", 2);
 
                 if (headerInfo.Length != 2)
                 {
@@ -70,7 +70,7 @@ namespace BasicWebServer.Server.HTTP
             return headerCollection;
         }
 
-        private Method ParseMethod(string method)
+        private static Method ParseMethod(string method)
         {
             try
             {

@@ -20,6 +20,17 @@ namespace BasicWebServer.Server.HTTP
             
             headers.Add(name, header);
         }
+        
+        public bool Remove(string name)
+        {
+            if (headers.ContainsKey(name))
+            {
+                headers.Remove(name);
+                return true;
+            }
+
+            return false;
+        }
 
         public IEnumerator<Header> GetEnumerator()
         {
