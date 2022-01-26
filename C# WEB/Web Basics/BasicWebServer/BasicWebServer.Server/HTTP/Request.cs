@@ -34,6 +34,7 @@ namespace BasicWebServer.Server.HTTP
             
             var headers = ParseHeaders(lines.Skip(1));
             
+            
             var bodyLines = lines.Skip(headers.Count + 2).ToArray();
             var body = string.Join(Environment.NewLine, bodyLines);
 
@@ -69,7 +70,8 @@ namespace BasicWebServer.Server.HTTP
 
         private static Dictionary<string, string> ParseFormData(string bodyLines)
         {
-            return HttpUtility.UrlDecode(bodyLines)
+            return HttpUtility
+                .UrlDecode(bodyLines)
                 .Split('&')
                 .Select(p => p.Split('='))
                 .Where(p => p.Length == 2)

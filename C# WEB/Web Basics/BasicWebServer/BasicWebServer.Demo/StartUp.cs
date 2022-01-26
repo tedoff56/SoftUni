@@ -18,9 +18,20 @@ namespace BasicWebServer.Demo
         static void Main(string[] args)
             => new HttpServer(r => r
                 .MapGet("/", new TextResponse("Hello from the server"))
+                .MapGet("/Redirect", new RedirectResponse("https://abv.bg/"))
                 .MapGet("/HTML", new HtmlResponse(htmlFormString))
-                .MapPost("/HTML", new TextResponse("", StartUp.AddFormDataAction))
-                .MapGet("/Redirect", new RedirectResponse("https://abv.bg/")))
+                .MapPost("/HTML", new TextResponse("", AddFormDataAction)))
                 .Start();
+
+        private static void AddFormDataAction(Request request, Response response)
+        {
+            response.Body = "";
+
+            foreach (var (key, value) in request.Form)
+            {
+                response.Body += $"{key} - {value}";
+                response.Body += Environment.NewLine;
+            }
+        }
     }
 }
