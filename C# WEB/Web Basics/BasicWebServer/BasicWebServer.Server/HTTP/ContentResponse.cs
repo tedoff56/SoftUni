@@ -21,8 +21,6 @@ namespace BasicWebServer.Server.HTTP
         {
             if (this.Body != null)
             {
-                this.Headers.Remove(Header.ContentLength);
-                
                 int contentLength = Encoding.UTF8.GetByteCount(this.Body);
                 
                 this.Headers.Add(Header.ContentLength, contentLength.ToString());

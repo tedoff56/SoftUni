@@ -13,24 +13,15 @@ namespace BasicWebServer.Server.HTTP
         }
 
         public int Count => headers.Count;
-        
-        public void Add(string name, string value)
-        {
-            var header = new Header(name, value);
-            
-            headers.Add(name, header);
-        }
-        
-        public bool Remove(string name)
-        {
-            if (headers.ContainsKey(name))
-            {
-                headers.Remove(name);
-                return true;
-            }
 
-            return false;
-        }
+        public void Add(string name, string value)
+            => this.headers[name] = new Header(name, value);
+
+        public bool Contains(string name)
+            => headers.ContainsKey(name);
+
+        public string this[string name] 
+            => this.headers[name].Value;
 
         public IEnumerator<Header> GetEnumerator()
         {
