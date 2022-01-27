@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using BasicWebServer.Server;
 using BasicWebServer.Server.HTTP;
 using BasicWebServer.Server.Responses;
@@ -15,8 +16,8 @@ namespace BasicWebServer.Demo
             </form>";
             
             
-        static void Main(string[] args)
-            => new HttpServer(r => r
+        static async Task Main(string[] args)
+            => await new HttpServer(r => r
                 .MapGet("/", new TextResponse("Hello from the server"))
                 .MapGet("/Redirect", new RedirectResponse("https://abv.bg/"))
                 .MapGet("/HTML", new HtmlResponse(htmlFormString))
