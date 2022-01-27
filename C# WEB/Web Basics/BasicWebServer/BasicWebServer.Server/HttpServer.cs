@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading.Tasks;
 using BasicWebServer.Server.HTTP;
 using BasicWebServer.Server.Routing;
 
@@ -40,7 +41,7 @@ namespace BasicWebServer.Server
             
         }
 
-        private string ReadRequest(NetworkStream networkStream)
+        private async Task<string> ReadRequest(NetworkStream networkStream)
         {
             int bufferLength = 1024;
             byte[] buffer = new byte[bufferLength];
@@ -51,7 +52,7 @@ namespace BasicWebServer.Server
 
             do
             {
-                var bytesRead = networkStream.Read(buffer, 0, bufferLength);
+                var bytesRead = await networkStream.ReadAsync(buffer, 0, bufferLength);
 
                 totalBytes += bytesRead;
 
@@ -67,7 +68,7 @@ namespace BasicWebServer.Server
             return requestBuilder.ToString();
         }
 
-        public void Start()
+        public async Task Start()
         {
             serverListener.Start();
             
@@ -76,33 +77,37 @@ namespace BasicWebServer.Server
             
             while (true)
             {
-                var connection = serverListener.AcceptTcpClient();
+                var connection = await serverListener.AcceptTcpClientAsync();
 
-                var networkStream = connection.GetStream();
-
-                var requestString = ReadRequest(networkStream);
-                Console.WriteLine(requestString);
-
-                var request = Request.Parse(requestString);
-
-                var response = this.routingTable.MatchRequest(request);
-
-                if (response.PreRenderAction != null)
+                _ = Task.Run(async () =>
                 {
-                    response.PreRenderAction(request, response);
-                }
-                
-                WriteResponse(networkStream, response);
+                    var networkStream = connection.GetStream();
 
-                connection.Close();
+                    var requestString = await ReadRequest(networkStream);
+                    Console.WriteLine(requestString);
+
+                    var request = Request.Parse(requestString);
+
+                    var response = this.routingTable.MatchRequest(request);
+
+                    if (response.PreRenderAction != null)
+                    {
+                        response.PreRenderAction(request, response);
+                    }
+                
+                    await WriteResponse(networkStream, response);
+
+                    connection.Close();
+                });
+
             }
         }
 
-        public void WriteResponse(NetworkStream networkStream, Response response)
+        public async Task WriteResponse(NetworkStream networkStream, Response response)
         {
             byte[] responseBytes = Encoding.UTF8.GetBytes(response.ToString());
 
-            networkStream.Write(responseBytes);
+            await networkStream.WriteAsync(responseBytes);
         }
     }
 }
