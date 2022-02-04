@@ -10,6 +10,7 @@ namespace BasicWebServer.Server.HTTP
         public Request()
         {
             Headers = new HeaderCollection();
+            Cookies = new CookieCollection();
         }
         
         public Method Method { get; private set; }
@@ -17,6 +18,8 @@ namespace BasicWebServer.Server.HTTP
         public string Url { get; set; }
 
         public HeaderCollection Headers { get; private set; }
+
+        public CookieCollection Cookies { get; private set; }
 
         public string Body { get; private set; }
 
@@ -33,7 +36,8 @@ namespace BasicWebServer.Server.HTTP
             var url = firstLine[1];
             
             var headers = ParseHeaders(lines.Skip(1));
-            
+
+            var cookies = ParseCookies(headers);
             
             var bodyLines = lines.Skip(headers.Count + 2).ToArray();
             var body = string.Join(Environment.NewLine, bodyLines);
@@ -50,6 +54,29 @@ namespace BasicWebServer.Server.HTTP
             };
         }
 
+        private static CookieCollection ParseCookies(HeaderCollection headers)
+        {
+            var cookieCollection = new CookieCollection();
+
+            if (headers.Contains(Header.Cookie))
+            {
+                var cookieHeader = headers[Header.Cookie];
+
+                var allCookies = cookieHeader
+                    .Split(';', StringSplitOptions.RemoveEmptyEntries);
+
+                foreach (var cookie in allCookies)
+                {
+                    var cookieParts = cookie
+                        .Split('=', StringSplitOptions.RemoveEmptyEntries);
+                    
+                    cookieCollection.Add(cookieParts[0].Trim(), cookieParts[1].Trim());
+                }
+            }
+
+            return cookieCollection;
+        }
+        
         private static Dictionary<string, string> ParseForm(HeaderCollection headers, string body)
         {
             var formCollection = new Dictionary<string, string>();
