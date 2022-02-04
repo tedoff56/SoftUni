@@ -11,6 +11,8 @@ namespace BasicWebServer.Server.HTTP
             StatusCode = statusCode;
             
             Headers = new HeaderCollection();
+            Cookies = new CookieCollection();
+            
             Headers.Add(Header.Server, "My Web Server");
             Headers.Add(Header.Date, $"{DateTime.UtcNow:R}");
         }
@@ -18,6 +20,8 @@ namespace BasicWebServer.Server.HTTP
         public StatusCode StatusCode { get; init; }
 
         public HeaderCollection Headers { get; }
+
+        public CookieCollection Cookies { get; set; }
 
         public string Body { get; set; }
 
@@ -34,6 +38,10 @@ namespace BasicWebServer.Server.HTTP
                 result.AppendLine(header.ToString());
             }
 
+            foreach (var cookie in Cookies)
+            {
+                result.AppendLine($"{Header.SetCookie}: {cookie}");
+            }
             result.AppendLine();
 
             if (!string.IsNullOrWhiteSpace(this.Body))

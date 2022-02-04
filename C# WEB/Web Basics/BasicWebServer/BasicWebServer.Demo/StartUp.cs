@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using BasicWebServer.Server;
 using BasicWebServer.Server.HTTP;
 using BasicWebServer.Server.Responses;
@@ -37,7 +40,8 @@ namespace BasicWebServer.Demo
                     .MapGet("/HTML", new HtmlResponse(HtmlFormString))
                     .MapPost("/HTML", new TextResponse("", AddFormDataAction))
                     .MapGet("/Content", new HtmlResponse(DownloadForm))
-                    .MapPost("/Content", new TextFileResponse(FileName)))
+                    .MapPost("/Content", new TextFileResponse(FileName))
+                    .MapGet("/Cookies", new HtmlResponse("", AddCookiesAction)))
                 .Start();
 
             Console.ReadLine();
@@ -69,8 +73,31 @@ namespace BasicWebServer.Demo
 
                 return html.Substring(0, 2000);
             }
-        } 
-        
+        }
+
+        private static void AddCookiesAction(Request request, Response response)
+        {
+            var bodyText = new StringBuilder();
+            
+            if (!request.Cookies.Any())
+            {
+                response.Cookies.Add("MyCookie", "Value");
+                response.Cookies.Add("MyCookie2", "Value2");
+                
+                bodyText.AppendLine("Cookies set!");
+                
+                return;
+            }
+
+            bodyText.AppendLine("<h1>Cookies</h1>");
+            foreach (var cookie in request.Cookies)
+            {
+                bodyText.AppendLine($"{HttpUtility.HtmlEncode(cookie.Name)}={HttpUtility.HtmlEncode(cookie.Value)}");
+            }
+            
+            
+        }
+
         private static void AddFormDataAction(Request request, Response response)
         {
             response.Body = "";
