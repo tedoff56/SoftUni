@@ -77,25 +77,31 @@ namespace BasicWebServer.Demo
 
         private static void AddCookiesAction(Request request, Response response)
         {
-            var bodyText = new StringBuilder();
+            var bodyText = "";
+
+            var requestHasCookies = request.Cookies.Any();
             
-            if (!request.Cookies.Any())
+            if (requestHasCookies)
+            {
+                var cookieText = new StringBuilder();
+
+                cookieText.AppendLine("<h1>Cookies</h1>");
+                foreach (var cookie in request.Cookies)
+                {
+                    cookieText
+                        .AppendLine($"{HttpUtility.HtmlEncode(cookie.Name)}={HttpUtility.HtmlEncode(cookie.Value)}");
+                }
+
+                bodyText = cookieText.ToString();
+            }
+            else
             {
                 response.Cookies.Add("MyCookie", "Value");
                 response.Cookies.Add("MyCookie2", "Value2");
-                
-                bodyText.AppendLine("Cookies set!");
-                
-                return;
+                bodyText = "Cookies set!";
             }
 
-            bodyText.AppendLine("<h1>Cookies</h1>");
-            foreach (var cookie in request.Cookies)
-            {
-                bodyText.AppendLine($"{HttpUtility.HtmlEncode(cookie.Name)}={HttpUtility.HtmlEncode(cookie.Value)}");
-            }
-            
-            
+            response.Body = bodyText;
         }
 
         private static void AddFormDataAction(Request request, Response response)

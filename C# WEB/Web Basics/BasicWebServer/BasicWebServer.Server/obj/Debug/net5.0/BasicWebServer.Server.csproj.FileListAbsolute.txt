@@ -1,0 +1,12 @@
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.deps.json
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\bin\Debug\net5.0\ref\BasicWebServer.Server.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\bin\Debug\net5.0\BasicWebServer.Server.pdb
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.csproj.AssemblyReference.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.AssemblyInfoInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.AssemblyInfo.cs
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.csproj.CoreCompileInputs.cache
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\obj\Debug\net5.0\ref\BasicWebServer.Server.dll
+C:\Users\tedof\Documents\GitHub\SoftUni\C# WEB\Web Basics\BasicWebServer\BasicWebServer.Server\obj\Debug\net5.0\BasicWebServer.Server.pdb
