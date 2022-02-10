@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Text;
 using System.Web;
+using BasicWebServer.Demo.Models;
 using BasicWebServer.Server.Controllers;
 using BasicWebServer.Server.HTTP;
 
@@ -36,7 +37,16 @@ namespace BasicWebServer.Demo.Controllers
                 formData += Environment.NewLine;
             }
 
-            return Text(formData);
+            var name = this.Request.Form["Name"];
+            var age = this.Request.Form["Age"];
+
+            var model = new FormViewModel()
+            {
+                Name = name,
+                Age = int.Parse(age)
+            };
+
+            return View(model);
         }
 
         public Response Content() => View();
