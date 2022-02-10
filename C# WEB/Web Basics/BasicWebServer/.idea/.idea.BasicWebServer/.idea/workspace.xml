@@ -15,8 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BasicWebServer.Demo/StartUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicWebServer.Demo/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5ac825d9b90941fdb9944668c27eacb7188788/53/HttpClientHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b2d717660f894e6f9c2758ed36ea376d75f78/20/Socket.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicWebServer.Demo/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b70165f6fb3f48c38d4dfa84509d2ab582eb78/41A/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5ac825d9b90941fdb9944668c27eacb7188788/52/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicWebServer/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -88,7 +91,7 @@
       <workItem from="1643278909992" duration="3428000" />
       <workItem from="1643979956415" duration="6298000" />
       <workItem from="1644049422640" duration="5904000" />
-      <workItem from="1644490747930" duration="7757000" />
+      <workItem from="1644490747930" duration="8963000" />
     </task>
     <servers />
   </component>

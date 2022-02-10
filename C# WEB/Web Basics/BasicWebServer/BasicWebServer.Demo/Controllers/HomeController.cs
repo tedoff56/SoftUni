@@ -12,21 +12,8 @@ namespace BasicWebServer.Demo.Controllers
 {
     public class HomeController : Controller
     {
-        private const string HtmlFormString = @"
-            <form action='/HTML' method='POST'>
-                Name: <input type='text' name='Name'/>
-                Age: <input type='number' name='Age'/>
-                <input type='submit' value='Save'/>
-            </form>";
-        
-        private const string DownloadForm = @"
-            <form action='/Content' method='POST'>
-               <input type='submit' value ='Download Sites Content' /> 
-            </form>";
-        
         private const string FileName = "text.txt";
         
-
         public HomeController(Request request) 
             : base(request)
         {
@@ -37,7 +24,7 @@ namespace BasicWebServer.Demo.Controllers
         
         public Response Redirect() => Redirect("https://abv.bg/");
         
-        public Response Html() => Html(HtmlFormString);
+        public Response Html() => View();
 
         public Response HtmlFormPost()
         {
@@ -52,7 +39,7 @@ namespace BasicWebServer.Demo.Controllers
             return Text(formData);
         }
 
-        public Response Content() => Html(DownloadForm);
+        public Response Content() => View();
 
         public Response DownloadContent()
         {
