@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C#" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.BasicWebServer.Demo">
@@ -87,7 +87,8 @@
       <workItem from="1643267992577" duration="1723000" />
       <workItem from="1643278909992" duration="3428000" />
       <workItem from="1643979956415" duration="6298000" />
-      <workItem from="1644049422640" duration="5122000" />
+      <workItem from="1644049422640" duration="5904000" />
+      <workItem from="1644490747930" duration="983000" />
     </task>
     <servers />
   </component>
