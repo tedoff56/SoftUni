@@ -2,9 +2,7 @@ function getPreviousDay(...dateData){
 
     let date = new Date(dateData)
 
-    let year = date.getUTCFullYear();
-    let month = date.getUTCMonth() + 1;
-    let day = date.getUTCDate();
+    let [year, month, day] = [date.getUTCFullYear(), date.getUTCMonth() + 1, date.getUTCDate()]
 
     return `${year}-${month}-${day}`;
 }
