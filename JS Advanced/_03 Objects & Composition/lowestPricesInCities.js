@@ -6,9 +6,9 @@ function lowestPrice(input){
 
         productPrice = Number(productPrice);
 
-        let town = result.find(r => r.productName === productName);
+        let product = result.find(r => r.productName === productName);
 
-        if(town === undefined){
+        if(product === undefined){
             result.push({productName, productPrice, townName})
             continue;
         }
