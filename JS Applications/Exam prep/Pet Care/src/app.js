@@ -14,6 +14,7 @@ page('/', homeView);
 page('/home', homeView);
 page('/dashboard', dashboardView);
 page('/details/:id', detailsView)
+// page('/edit/:id', editView)
 page('/login', loginView);
 page('/register', registerView);
 

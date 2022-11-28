@@ -12,3 +12,7 @@ export async function getAllPets(){
 export async function getPetById(id){
     return get(endpoints.getById + id);
 }
+
+export async function deletePetById(id){
+    return del(endpoints.getById + id);
+}

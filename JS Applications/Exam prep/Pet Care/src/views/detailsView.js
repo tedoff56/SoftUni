@@ -1,7 +1,7 @@
 import { html, nothing } from '../lib.js';
-import { getPetById } from '../api/data.js';
+import { getPetById, deletePetById } from '../api/data.js';
 
-const detailsTemplate = (pet, hasUser, isCreator) => html`
+const detailsTemplate = (pet, hasUser, isCreator, onDelete) => html`
         <section id="detailsPage">
             <div class="details">
                 <div class="animalPic">
@@ -20,8 +20,8 @@ const detailsTemplate = (pet, hasUser, isCreator) => html`
                         <div class="actionBtn">
                             ${isCreator
                                 ? html`
-                                    <a href="#" class="edit">Edit</a>
-                                    <a href="#" class="remove">Delete</a>`
+                                    <a href="/edit/${pet._id}" class="edit">Edit</a>
+                                    <a @click=${onDelete} href="javascript:void(0)" class="remove">Delete</a>`
                                 : html`
                                     <a href="#" class="donate">Donate</a>`}
                         </div>`
@@ -33,9 +33,19 @@ const detailsTemplate = (pet, hasUser, isCreator) => html`
 
 export async function detailsView(ctx){
     
-    const data = await getPetById(ctx.params.id);
+    const pet = await getPetById(ctx.params.id);
     const user = ctx.user;
-    const isCreator = Boolean(user) && (data._ownerId === user._id);
+    const isCreator = Boolean(user) && (pet._ownerId === user._id);
 
-    ctx.render(detailsTemplate(data, Boolean(user), isCreator))
+
+    ctx.render(detailsTemplate(pet, Boolean(user), isCreator, onDelete))
+
+    async function onDelete(){
+        const choice = confirm('Are you sure?');
+        if(choice){
+            await deletePetById(pet._id);
+            ctx.page.redirect('/');
+        }
+
+    }
 }
