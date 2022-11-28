@@ -1,7 +1,6 @@
 import { register } from "../api/user.js";
 import { html } from "../lib.js";
 import { createSubmitHandler } from '../util.js';
-import { updateNav } from "./nav.js";
 
 
 const registerTemplate = (onSubmit) => html`
@@ -37,11 +36,11 @@ export function registerView(ctx){
         }
 
         if(data.password != data['conf-pass']){
-            return alert('Passwords dont match')
+            return alert('Passwords don\'t match')
         }
 
         await register(data.email, data.password)
-        updateNav();
+        ctx.updateNav();
         ctx.page.redirect('/');
     }
 }

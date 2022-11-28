@@ -4,19 +4,23 @@ import { homeView } from './views/homeView.js';
 import { loginView } from './views/loginView.js';
 import { updateNav } from './views/nav.js';
 import { registerView } from './views/registerView.js';
+import { catalogView } from './views/catalogView.js';
+import { detailsView } from './views/detailsView.js';
+import { editView } from './views/editView.js';
+import { createView } from './views/createView.js';
 
 const main = document.getElementById('main-content');
 
 page(decorateContext);
 page('/', homeView);
 page('/home', homeView);
-page('/catalog', () => console.log('catalog'));
+page('/catalog', catalogView);
 page('/search', () => console.log('search'));
 page('/login', loginView);
 page('/register', registerView);
-page('/create', () => console.log('create'));
-page('/detail/:id', () => console.log('detail'));
-page('/edit/:id', () => console.log('edit'));
+page('/create', createView);
+page('/details/:id', detailsView);
+page('/edit/:id', editView);
 
 updateNav();
 page.start();
