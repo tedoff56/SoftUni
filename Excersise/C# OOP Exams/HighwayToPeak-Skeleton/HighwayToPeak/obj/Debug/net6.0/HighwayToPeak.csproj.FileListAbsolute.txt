@@ -1,0 +1,15 @@
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\bin\Debug\net6.0\HighwayToPeak.exe
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\bin\Debug\net6.0\HighwayToPeak.deps.json
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\bin\Debug\net6.0\HighwayToPeak.runtimeconfig.json
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\bin\Debug\net6.0\HighwayToPeak.dll
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\bin\Debug\net6.0\HighwayToPeak.pdb
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\HighwayToPeak.csproj.AssemblyReference.cache
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\HighwayToPeak.GeneratedMSBuildEditorConfig.editorconfig
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\HighwayToPeak.AssemblyInfoInputs.cache
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\HighwayToPeak.AssemblyInfo.cs
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\HighwayToPeak.csproj.CoreCompileInputs.cache
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\HighwayToPeak.dll
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\refint\HighwayToPeak.dll
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\HighwayToPeak.pdb
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\HighwayToPeak.genruntimeconfig.cache
+F:\Development\SoftUni\Excersise\C# OOP Exams\HighwayToPeak-Skeleton\HighwayToPeak\obj\Debug\net6.0\ref\HighwayToPeak.dll
